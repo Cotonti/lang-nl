@@ -187,7 +187,7 @@ $L['cfg_body_mail'] = array('E-mail titel', 'Opties: {SITE_TITLE}, {SITE_DESCRIP
  */
 
 $L['cfg_disablereg'] = array('Deactiveer registratie proces', 'Mogelijkheid voor registratie uitschakelen');
-$L['cfg_disablewhosonline'] = array('Deactiveer 'Wie is online'', 'Automatisch gedeactiveerd wanneer shield actief is');
+$L['cfg_disablewhosonline'] = array('Deactiveer Wie is online', 'Automatisch gedeactiveerd wanneer shield actief is');
 $L['cfg_forcerememberme'] = array('Forceer &quot;onthoud mij&quot;', 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen');
 $L['cfg_maxusersperpage'] = array('Maximale aantal regels in ledenlijst', '');
 $L['cfg_regnoactivation'] = array('Skip e-mail check voor nieuwe leden', '\'Nee\' aanbevolen wegens beveiligings redenen');
