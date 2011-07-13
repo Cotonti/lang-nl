@@ -17,7 +17,7 @@ defined('COT_CODE') or die('Wrong URL.');
  */
 
 $L['cfg_enable_ratings'] = array('Activeer beoordelingen');
-$L['cfg_ratings_allowchange'] = array('Sta toe beoordelingen te wijzigen?', 'Indien geactiveerd, gebruikers kunnen beoordelingen wijzigen.');
+$L['cfg_ratings_allowchange'] = array('Sta toe beoordelingen te wijzigen?', 'Indien geactiveerd kunnen gebruikers beoordelingen wijzigen.');
 
 $L['info_desc'] = '1-click ster beoordelingen met jQuery.';
 

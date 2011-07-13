@@ -379,9 +379,9 @@ $L['adm_clocks'] = 'Klokken';
 $L['adm_time1'] = '#1: Raw server time';
 $L['adm_time2'] = '#2: GMT time van de server';
 $L['adm_time3'] = '#3: GMT time + server afwijking (Cotonti referentie)';
-$L['adm_time4'] = '#4: Uw lokale tijdzone, aangepast via uw profiel';
+$L['adm_time4'] = '#4: Jouw lokale tijdzone, aangepast via je profiel';
 $L['adm_help_versions'] = 'Stel de server tijdzone in zodat klok #3 correct is<br />
-Klok #4 is afhankelijk van de tijdzone in uw profiel.<br />
+Klok #4 is afhankelijk van de tijdzone in je profiel.<br />
 Klok #1 en #2 worden niet gebruikt door Cotonti.';
 
 /**

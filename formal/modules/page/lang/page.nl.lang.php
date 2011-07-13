@@ -85,7 +85,7 @@ $L['page_filesizehint'] = '(Grootte van het bestand)';
 $L['page_filehitcount'] = 'Download hits';
 $L['page_filehitcounthint'] = '(Aantal hits voor download)';
 
-$L['page_formhint'] = 'Zodra uw inzending klaar is zal de pagina in een validatie lijst gezet worden. Een administrator zal de inzending controleren en publiceren wanneer de inhoud gecontroleerd is. Zorg dat u alle vereiste velden ingevuld heeft om een langere wachttijd te voorkomen.';
+$L['page_formhint'] = 'Zodra uw inzending klaar is zal de pagina in een validatie lijst gezet worden. Een administrator zal de inzending controleren en publiceren wanneer de inhoud goedgekeurd is. Zorg dat u alle vereiste velden ingevuld heeft om een langere wachttijd te voorkomen.';
 
 $L['page_pageid'] = 'Pagina ID';
 $L['page_deletepage'] = 'Pagina verwijderen?';

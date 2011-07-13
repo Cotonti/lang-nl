@@ -56,7 +56,7 @@ $themelang['index']['Recentcomments'] = 'Recente <strong>reacties</strong>';
 $themelang['list']['sort'] = 'Sorteer op';
 $themelang['list']['asc'] = 'Oplopend';
 $themelang['list']['desc'] = 'Aflopend';
-$themelang['list']['bread'] = 'U bent hier';
+$themelang['list']['bread'] = 'Je bent hier';
 $themelang['list']['none'] = 'Er zijn hier nog geen items';
 $themelang['list']['rss'] = 'Abonneer via RSS';
 $themelang['list']['all'] = 'Alle items';
@@ -101,7 +101,7 @@ $themelang['users']['login'] = 'Login op uw account';
 /**
  * users.auth.tpl
  */
-$themelang['usersauth']['already'] = 'U bent al ingelogd!';
+$themelang['usersauth']['already'] = 'Je bent al ingelogd!';
 $themelang['usersauth']['goto'] = 'Ga naar uw account';
 $themelang['usersauth']['Maintenancereason'] = 'Reden';
 
@@ -137,6 +137,6 @@ $themelang['usersregister']['Generalhint'] = 'Alle velden zijn verplicht';
 $themelang['usersregister']['Usernamehint'] = 'Gebruikersnaam moet minimaal uit 2 karakters bestaan.';
 
 
-$themelang['search']['Generalhint'] = 'U kunt specifieker zoeken doormiddel van het selecteren van de gewenste categorieën en zoekopties. U kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'
+$themelang['search']['Generalhint'] = 'Je kan specifieker zoeken doormiddel van het selecteren van de gewenste categorieën en zoekopties. Je kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'
 
 ?>

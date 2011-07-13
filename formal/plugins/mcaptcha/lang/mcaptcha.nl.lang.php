@@ -8,7 +8,7 @@
 
 defined('COT_CODE') or die('Wrong URL');
 
-$L['info_desc'] = 'Wiskundig CAPTCHA. Beveiligd uw website tegen spambots met een simpele rekenkundige taken. JavaScript vereist.';
+$L['info_desc'] = 'Wiskundig CAPTCHA. Beveiligd uw website tegen spambots met simpele rekenkundige taken. JavaScript vereist.';
 
 $L['mcaptcha_error'] = '- Maximaal aantal pogigingen bereikt, probeer het later opnieuw.';
 $L['captcha_verification_failed'] = '- CAPTCHA code incorrect.';

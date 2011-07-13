@@ -47,6 +47,6 @@ $Ls['contact_headercontact'] = array('berichten', 'bericht');
 $L['contact_entrytooshort'] = '- Bericht is te kort';
 $L['contact_noname'] = '- Vul een naam in';
 $L['contact_emailnotvalid'] = '- E-mail adres is niet correct';
-$L['contact_message_sent'] = 'Uw bericht is succesvol verzonden!';
+$L['contact_message_sent'] = 'Je bericht is succesvol verzonden!';
 
 ?>

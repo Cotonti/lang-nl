@@ -47,8 +47,8 @@ $L['plu_votespolls'] = 'Stemmen voor de polls';
 $L['plu_pfsspace'] = 'Totaal aantal bestanden (PFS)';
 $L['plu_pfssize'] = 'PFS totale grootte';
 
-$L['plu_contributions'] = 'Uw contributie';
-$L['plu_notloggedin'] = 'Niet beschikbaar, u bent niet ingelogd';
+$L['plu_contributions'] = 'Jouw contributie';
+$L['plu_notloggedin'] = 'Niet beschikbaar, je bent niet ingelogd';
 
 $L['plu_membersbycountry'] = 'Geregistreerde gebruikers per land';
 $L['plu_flag'] = 'Vlag';

@@ -17,7 +17,7 @@ defined('COT_CODE') or die('Wrong URL.');
  */
 
 $L['cfg_enable_ratings'] = array('Activeer beoordelingen');
-$L['cfg_ratings_allowchange'] = array('Sta toe beoordelingen te wijzigen?', 'Indien geactiveerd, gebruikers kunnen beoordelingen wijzigen.');
+$L['cfg_ratings_allowchange'] = array('Sta toe beoordelingen te wijzigen?', 'Indien geactiveerd kunnen gebruikers beoordelingen wijzigen.');
 
 $L['info_desc'] = '1-click ster beoordelingen met jQuery.';
 
@@ -43,7 +43,7 @@ $L['rat_choice5'] = 'Uitstekend';
 $L['rat_votecasted'] = 'Stem is succesvol ontvangen!';
 $L['rat_since'] = 'sinds';
 $L['rat_notyetrated'] = 'Nog niet beoordeeld';
-$L['rat_alreadyvoted'] = 'U heeft al gestemd op dit item.';
+$L['rat_alreadyvoted'] = 'Je heeft al gestemd op dit item.';
 $L['rat_registeredonly'] = 'Alleen geregistreerde gebruikers kunnen beoordelingen plaatsen.';
 
 ?>

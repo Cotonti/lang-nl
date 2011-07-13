@@ -45,14 +45,14 @@ $L['comm_on_page'] = 'op pagina';
 
 $L['com_closed'] = 'Nieuwe reacties toevoegen is uitgeschakeld voor dit item.';
 $L['com_commentadded'] = 'Nieuwe reactie is toegevoegd.';
-$L['com_commenttoolong'] = 'Uw reactie is te lang.';
-$L['com_commenttooshort'] = 'Uw reactie is te kort.';
+$L['com_commenttoolong'] = 'Je reactie is te lang.';
+$L['com_commenttooshort'] = 'Je reactie is te kort.';
 $L['com_nocommentsyet'] = 'Nog geen reacties op dit item.';
-$L['com_authortooshort'] = 'Uw naam is te kort.';
+$L['com_authortooshort'] = 'Je naam is te kort.';
 $L['com_regonly'] = 'Alleen geregistreerde gebruikers kunnen reacties plaatsen.';
 
 $L['plu_comgup'] = ' links';
-$L['com_edithint'] = 'Uw reactie is aan te passen voor {$time}';
+$L['com_edithint'] = 'Je reactie is aan te passen voor {$time}';
 
 $L['plu_comlive'] = 'Nieuwe reacties op onze website';
 $L['plu_comlive1'] = 'Reactie aangepast op de website';
