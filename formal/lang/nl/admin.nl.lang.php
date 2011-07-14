@@ -211,9 +211,9 @@ $L['cfg_markup'] = array('Activeer markup', 'Activeert HTML/BBcode of andere par
  */
 
 $L['ext_already_installed'] = 'Deze extensie is al geinstalleerd: {$name}';
-$L['ext_auth_installed'] = 'Installed authorization defaults';
-$L['ext_auth_locks_updated'] = 'Updated authorization locks';
-$L['ext_auth_uninstalled'] = 'Removed authorization options';
+$L['ext_auth_installed'] = 'Standaard autorisatie waardes geinstalleerd';
+$L['ext_auth_locks_updated'] = 'Autorisatie locks bijgewerkt';
+$L['ext_auth_uninstalled'] = 'Autorisatie opties verwijderd';
 $L['ext_bindings_installed'] = 'Geinstalleerde {$cnt} hook bindings';
 $L['ext_bindings_uninstalled'] = 'Verwijderde {$cnt} hook bindings';
 $L['ext_config_error'] = 'Installatie configuratie mislukt';
@@ -224,16 +224,16 @@ $L['ext_config_struct_error'] = 'Installatie configuratie structuur mislukt';
 $L['ext_config_struct_installed'] = 'Configuratie structuur geinstalleerd';
 $L['ext_config_struct_updated'] = 'Configuratie structuur bijgewerkt';
 $L['ext_dependency_error'] = '{$dep_type} &quot;{$dep_name}&quot; vereist door {$type} &quot;{$name}&quot; is niet geinstalleerd en/of niet geselecteerd voor installatie';
-$L['ext_executed_php'] = 'Executed PHP handler part: {$ret}';
-$L['ext_executed_sql'] = 'Executed SQL handler part: {$ret}';
-$L['ext_installing'] = 'Installing {$type} &quot;{$name}&quot;';
+$L['ext_executed_php'] = 'PHP handler part: {$ret} uitgevoerd';
+$L['ext_executed_sql'] = 'SQL handler part: {$ret} uitgevoerd';
+$L['ext_installing'] = '{$type} &quot;{$name}&quot; wordt geinstalleerd..';
 $L['ext_invalid_format'] = 'Dit is geen geldige Cotonti >= 0.9 extensie. Neem contact op met de developer';
 $L['ext_old_format'] = 'Dit is een oude Genoa/Seditio plugin. De plugin functioneert misschien niet volledig.';
 $L['ext_patch_applied'] = 'Patch uitgevoerd {$f}: {$msg}';
 $L['ext_patch_error'] = 'Fout bij uitvoeren patch {$f}: {$msg}';
 $L['ext_setup_not_found'] = 'Installatie bestand niet gevonden: {$path}';
 $L['ext_uninstall_confirm'] = 'Wilt u de extensie deinstalleren? Data van de extensie wordt verwijderd.<br/><a href="{$url}">Ja, deinstalleer en verwijder data.</a>';
-$L['ext_uninstalling'] = '{$type} &quot;{$name}&quot; wordt gedeïnstalleerd';
+$L['ext_uninstalling'] = '{$type} &quot;{$name}&quot; wordt gedeÃ¯nstalleerd';
 $L['ext_up2date'] = '{$type} &quot;{$name}&quot; is up to date';
 $L['ext_update_error'] = 'Bijwerken {$type} &quot;{$name}&quot; mislukt';
 $L['ext_updated'] = '{$type} &quot;{$name}&quot; is bijgewerkt naar versie {$ver}';
