@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for Cleaner Plugin (cleaner.nl.lang.php)
+ * Dutch formal Language File for Cleaner Plugin (cleaner.nl.lang.php)
  *
  * @package cleaner
  * @version 0.7.0

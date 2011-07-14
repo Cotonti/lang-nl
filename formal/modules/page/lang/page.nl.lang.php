@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for the Page Module (page.nl.lang.php)
+ * Dutch formal Language File for the Page Module (page.nl.lang.php)
  *
  * @package page
  * @version 0.7.0
@@ -75,7 +75,7 @@ $L['page_notavailable'] = 'Deze pagina wordt gepubliceerd in ';
 $L['page_textmissing'] = 'Pagina tekst mag niet leeg zijn';
 $L['page_titletooshort'] = 'De titel is te kort';
 $L['page_validation'] = 'In de wacht voor validatie';
-$L['page_validation_desc'] = 'De pagina is nog niet gevalideerd door een administrator';
+$L['page_validation_desc'] = 'Uw pagina is nog niet gevalideerd door een administrator';
 
 $L['page_file'] = 'Bestands download';
 $L['page_filehint'] = '(Stel &quot;Ja&quot; in om de download module te activeren, en vul de velden in)';
@@ -85,7 +85,7 @@ $L['page_filesizehint'] = '(Grootte van het bestand)';
 $L['page_filehitcount'] = 'Download hits';
 $L['page_filehitcounthint'] = '(Aantal hits voor download)';
 
-$L['page_formhint'] = 'Zodra je inzending klaar is zal de pagina in een validatie lijst gezet worden. Een administrator zal de inzending controleren en publiceren wanneer de inhoud goedgekeurd is. Zorg dat je alle vereiste velden ingevuld hebt om een langere wachttijd te voorkomen.';
+$L['page_formhint'] = 'Zodra uw inzending klaar is zal de pagina in een validatie lijst gezet worden. Een administrator zal de inzending controleren en publiceren wanneer de inhoud goedgekeurd is. Zorg dat u alle vereiste velden ingevuld heeft om een langere wachttijd te voorkomen.';
 
 $L['page_pageid'] = 'Pagina ID';
 $L['page_deletepage'] = 'Pagina verwijderen?';

@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for URL management tool (urleditor.nl.lang.php)
+ * Dutch formal Language File for URL management tool (urleditor.nl.lang.php)
  *
  * @package urleditor
  * @version 0.7.0
@@ -14,16 +14,16 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['adm_urls'] = 'URLs';
 $L['adm_urls_area'] = 'Area';
 $L['adm_urls_custom_htaccess'] = 'Aangepaste .htaccess regels';
-$L['adm_urls_error_dat'] = 'Fout: datas/urltrans.dat is niet schrijfbaar! Creëer het bestand en zet CHMOD op 666.';
+$L['adm_urls_error_dat'] = 'Fout: datas/urltrans.dat is niet schrijfbaar! Creër het bestand en zet CHMOD op 666.';
 $L['adm_urls_format'] = 'Format';
 $L['adm_urls_htaccess'] = '.htaccess overschrijven?';
 $L['adm_urls_new'] = 'Nieuwe regel';
 $L['adm_urls_parameters'] = 'Parameters';
 $L['adm_urls_rules'] = 'URL transformatie regels';
 $L['adm_urls_save'] = 'Opslaan';
-$L['adm_urls_your'] = 'Jouw';
+$L['adm_urls_your'] = 'Uw';
 $L['adm_urls_callbacks'] = 'regel bevat callbacks';
-$L['adm_urls_errors'] = 'Je zal rewrite opties zelf moeten toevoegen.';
+$L['adm_urls_errors'] = 'U zal rewrite opties zelf moeten toevoegen.';
 $L['adm_help_urls'] = 'On this page you can customize your URLs using simple URL Transformation Rules. Please make sure the rules are correct and there are no duplicates. Do not use spaces, tabs and other special characters in the rules. Sections and parameters are explained below.
 <ol>
 <li><strong>Area</strong> is script name the rule belongs to. The metasymbol (*) stands for &quot;any script&quot;.</li>
