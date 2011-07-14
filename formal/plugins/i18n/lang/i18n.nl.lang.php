@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for Content Internationalization Plugin (i18n.lang.php)
+ * Dutch formal Language File for Content Internationalization Plugin (i18n.nl.lang.php)
  *
  * @package i18n
  * @version 0.7.0

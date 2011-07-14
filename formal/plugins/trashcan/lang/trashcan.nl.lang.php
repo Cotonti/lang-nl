@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for Trashcan (trashcan.nl.lang.php)
+ * Dutch formal Language File for Trashcan (trashcan.nl.lang.php)
  *
  * @package Trashcan
  * @version 0.9.0

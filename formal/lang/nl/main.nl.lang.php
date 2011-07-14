@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File (main.nl.lang.php)
+ * Dutch formal Language File
  *
  * @package Cotonti
  * @version 0.9.0
@@ -64,7 +64,7 @@ $L['Core'] = 'Core';
 $L['Count'] = 'Count';
 $L['Country'] = 'Land';
 $L['Create'] = 'Aanmaken';
-$L['Crumbs'] = 'Je bent hier';
+$L['Crumbs'] = 'U bent hier';
 $L['Custom'] = 'Aangepast';
 $L['Database'] = 'Database';
 $L['Date'] = 'Datum';
@@ -265,7 +265,7 @@ $L['Sections'] = 'Secties';
 $L['Security'] = 'Beveiliging';
 $L['Sender'] = 'Afzender';
 $L['Senders'] = 'Afzenders';
-$L['Session_expired'] = 'Je sessie is afgelopen. Probeer opnieuw.';
+$L['Session_expired'] = 'Uw sessie is afgelopen. Probeer opnieuw.';
 $L['Set'] = 'Zet';
 $L['Settings'] = 'Instellingen';
 $L['Setup'] = 'Installatie';
@@ -453,8 +453,8 @@ $L['Gender_U'] = 'Onbekend';
  * Common Entries
  */
 
-$L['com_themefail'] = 'Waarschuwing - laden van thema is mislukt. Controleer je profiel.';
-$L['com_schemefail'] = 'Waarschuwing - laden van kleurenschema voor het thema is mislukt. Controleer je profiel.';
+$L['com_themefail'] = 'Waarschuwing - laden van thema is mislukt. Controleer uw profiel.';
+$L['com_schemefail'] = 'Waarschuwing - laden van kleurenschema voor het thema is mislukt. Controleer uw profiel.';
 
 /**
  * Header
@@ -465,14 +465,14 @@ $L['hea_valqueues'] = 'In validatie: ';
 $L['hea_viewsite'] = 'Bekijk website';
 $L['hea_welcome'] = 'Welkom';
 $L['hea_youareloggedas'] = 'Ingelogd als';
-$L['hea_youarenotlogged'] = 'Je bent niet ingelogd';
+$L['hea_youarenotlogged'] = 'U bent niet ingelogd';
 
 /**
  * Footer
  */
 
 $L['foo_poweredby'] = 'Powered by';
-$L['foo_created'] = 'Pagina gecreeÃ«rd in';
+$L['foo_created'] = 'Pagina gecreeërd in';
 $L['foo_sqlqueries'] = 'SQL queries';
 $L['foo_sqltotal'] = 'SQL totale tijd';
 $L['foo_sqlaverage'] = 'Gemiddelde SQL tijd';

@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for the Forums Module (forums.nl.lang.php)
+ * Dutch formal Language File for the Forums Module (forums.nl.lang.php)
  *
  * @package forums
  * @version 0.9.0

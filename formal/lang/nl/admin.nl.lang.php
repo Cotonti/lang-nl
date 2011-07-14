@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Dutch Language File for the Admin Module (admin.nl.lang.php)
+ * Dutch formal Language File for the Admin Module (admin.nl.lang.php)
  *
  * @package Cotonti
  * @version 0.9.0
@@ -72,7 +72,7 @@ $L['core_plug'] = &$L['Plugins'];
 $L['core_pm'] = &$L['Privéberichten'];
 $L['core_polls'] = &$L['Polls'];
 $L['core_rss'] = &$L['RSS_Feeds'];
-$L['core_structure'] = &$L['categorieën'];
+$L['core_structure'] = &$L['Categorieën'];
 $L['core_theme'] = &$L['Thema\'s'];
 $L['core_time'] = 'Tijd en datum';
 $L['core_title'] = 'Titels en meta\'s';
@@ -204,16 +204,16 @@ $L['cfg_usertextmax'] = array('Maximale lengte voor gebruikers handtekening', ''
  */
 $L['cfg_css'] = array('Activeer module/plugin CSS');
 $L['cfg_editor'] = array('Rich text editor', '');
-$L['cfg_markup'] = array('Activeer markup', 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op het systeem');
+$L['cfg_markup'] = array('Activeer markup', 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op uw systeem');
 
 /**
  * Extension management
  */
 
 $L['ext_already_installed'] = 'Deze extensie is al geinstalleerd: {$name}';
-$L['ext_auth_installed'] = 'Standaard autorisatie waardes geinstalleerd';
-$L['ext_auth_locks_updated'] = 'Autorisatie locks bijgewerkt';
-$L['ext_auth_uninstalled'] = 'Autorisatie opties verwijderd';
+$L['ext_auth_installed'] = 'Installed authorization defaults';
+$L['ext_auth_locks_updated'] = 'Updated authorization locks';
+$L['ext_auth_uninstalled'] = 'Removed authorization options';
 $L['ext_bindings_installed'] = 'Geinstalleerde {$cnt} hook bindings';
 $L['ext_bindings_uninstalled'] = 'Verwijderde {$cnt} hook bindings';
 $L['ext_config_error'] = 'Installatie configuratie mislukt';
@@ -232,8 +232,8 @@ $L['ext_old_format'] = 'Dit is een oude Genoa/Seditio plugin. De plugin function
 $L['ext_patch_applied'] = 'Patch uitgevoerd {$f}: {$msg}';
 $L['ext_patch_error'] = 'Fout bij uitvoeren patch {$f}: {$msg}';
 $L['ext_setup_not_found'] = 'Installatie bestand niet gevonden: {$path}';
-$L['ext_uninstall_confirm'] = 'Wil je de extensie deinstalleren? Data van de extensie wordt verwijderd.<br/><a href="{$url}">Ja, deinstalleer en verwijder data.</a>';
-$L['ext_uninstalling'] = '{$type} &quot;{$name}&quot; wordt gedeïnstalleerd';
+$L['ext_uninstall_confirm'] = 'Wilt u de extensie deinstalleren? Data van de extensie wordt verwijderd.<br/><a href="{$url}">Ja, deinstalleer en verwijder data.</a>';
+$L['ext_uninstalling'] = '{$type} &quot;{$name}&quot; wordt gede�nstalleerd';
 $L['ext_up2date'] = '{$type} &quot;{$name}&quot; is up to date';
 $L['ext_update_error'] = 'Bijwerken {$type} &quot;{$name}&quot; mislukt';
 $L['ext_updated'] = '{$type} &quot;{$name}&quot; is bijgewerkt naar versie {$ver}';
@@ -299,9 +299,9 @@ forums.posts.tpl: {FORUMS_POSTS_ROW_USERXXXXX}, {FORUMS_POSTS_ROW_USERXXXXX_TITL
  */
 
 $L['adm_defauth_guests'] = 'Standaard rechten voor gasten';
-$L['adm_deflock_guests'] = 'Lock mask voor gasten';
+$L['adm_deflock_guests'] = 'Lock mask for the guests';
 $L['adm_defauth_members'] = 'Standaard rechten voor leden';
-$L['adm_deflock_members'] = 'Lock mask voor leden';
+$L['adm_deflock_members'] = 'Lock mask for the members';
 
 $L['adm_present'] = 'Aanwezig';
 $L['adm_missing'] = 'Afwezig';
@@ -379,9 +379,9 @@ $L['adm_clocks'] = 'Klokken';
 $L['adm_time1'] = '#1: Raw server time';
 $L['adm_time2'] = '#2: GMT time van de server';
 $L['adm_time3'] = '#3: GMT time + server afwijking (Cotonti referentie)';
-$L['adm_time4'] = '#4: Jouw lokale tijdzone, aangepast via je profiel';
+$L['adm_time4'] = '#4: Uw lokale tijdzone, aangepast via uw profiel';
 $L['adm_help_versions'] = 'Stel de server tijdzone in zodat klok #3 correct is<br />
-Klok #4 is afhankelijk van de tijdzone in je profiel.<br />
+Klok #4 is afhankelijk van de tijdzone in uw profiel.<br />
 Klok #1 en #2 worden niet gebruikt door Cotonti.';
 
 /**

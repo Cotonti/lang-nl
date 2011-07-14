@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch Language File for News Plugin (news.nl.lang.php)
+ * Dutch formal Language File for News Plugin (news.nl.lang.php)
  *
  * @package news
  * @version 0.7.0
