@@ -238,7 +238,7 @@ $L['Rated'] = 'Rated';
 $L['Rating'] = 'Rating';
 $L['Ratings'] = 'Ratings';
 $L['Read'] = 'Lees';
-$L['ReadMore'] = 'Meer..';
+$L['ReadMore'] = 'Lees meer..';
 $L['Reason'] = 'Reden';
 $L['Recipient'] = 'Ontvanger';
 $L['Recipients'] = 'Ontvangers';
@@ -472,7 +472,7 @@ $L['hea_youarenotlogged'] = 'U bent niet ingelogd';
  */
 
 $L['foo_poweredby'] = 'Powered by';
-$L['foo_created'] = 'Pagina gecreeërd in';
+$L['foo_created'] = 'Pagina gecreÃ«erd in';
 $L['foo_sqlqueries'] = 'SQL queries';
 $L['foo_sqltotal'] = 'SQL totale tijd';
 $L['foo_sqlaverage'] = 'Gemiddelde SQL tijd';
@@ -494,6 +494,6 @@ $L['pagenav_prev'] = '&lt;';
 $L['pagenav_next'] = '&gt;';
 $L['pagenav_last'] = '&gt;&gt;';
 
-$L['ajaxSenderror'] = 'The server encountered an internal error or misconfiguration and was unable to complete your request. Please contact the administrator and inform them of the time the error occurred, and anything you might have done that may have caused the error.';
+$L['ajaxSenderror'] = 'Er heeft zich een fout voor gedaan bij het verwerken van uw aanvraag. Neem contact op met de administrator.';
 
 ?>

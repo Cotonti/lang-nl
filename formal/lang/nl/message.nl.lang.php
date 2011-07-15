@@ -71,24 +71,24 @@ $L['msg300_body'] = 'Het item is succesvol ingestuurd. Het item zal na goedkeuri
  * Client Error Messages
  */
 
-$L['msg400_title'] = '400 - Bad File';
-$L['msg400_body'] = 'Your browser (or proxy) sent a request that this server could not understand.';
+$L['msg400_title'] = '400 - Foute aanvraag';
+$L['msg400_body'] = 'Uw browser heeft een verzoek gestuurd die de server niet kan verwerken.';
 
-$L['msg401_title'] = '401 - Authorization Required';
-$L['msg401_body'] = 'This server could not verify that you are authorized to access the specified URL <br />You either supplied the wrong credentials (e.g., bad password), or your browser doesn\'t understand how to supply the credentials required.';
+$L['msg401_title'] = '401 -  Onvoldoende toegangsrechten';
+$L['msg401_body'] = 'U heeft onvoldoende rechten om deze pagina te bekijken.';
 
-$L['msg403_title'] = '403 - Forbidden';
-$L['msg403_body'] = 'You don\'t have permission to access the requested directory or URL that you requested.<br />Please inform the administrator of the referring page, if you think this was a mistake.';
+$L['msg403_title'] = '403 - Verboden';
+$L['msg403_body'] = 'U heeft onvoldoende rechten om deze pagina te bekijken. Informeer de administrator als u denkt dat dit incorrect is.';
 
-$L['msg404_title'] = '404 - Not Found';
-$L['msg404_body'] = 'The requested object or URL was not found on this server. <br />The link you followed is either outdated, inaccurate, or the server has been instructed not to let you access the page.';
+$L['msg404_title'] = '404 - Niet gevonden';
+$L['msg404_body'] = 'De pagina kon niet worden gevonden.';
 
 /**
  * Server Error Messages
  */
 
-$L['msg500_title'] = '500 Internal Server Error';
-$L['msg500_body'] = 'The server encountered an internal error or misconfiguration and was unable to complete your request. <br />Please contact the administrator and inform them of the time the error occurred, and anything you might have done that may have caused the error.';
+$L['msg500_title'] = '500 Interne server fout';
+$L['msg500_body'] = 'Er heeft zich een fout voor gedaan bij het verwerken van uw aanvraag. Neem contact op met de administrator.';
 
 /**
  * Forum Messages
