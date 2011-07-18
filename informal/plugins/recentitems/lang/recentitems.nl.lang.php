@@ -26,8 +26,8 @@ $L['cfg_newadditional'] = array('Additionele modules in standalone module');
 $L['cfg_itemsperpage'] = array('Elementen per pagina in standalone module');
 $L['cfg_rightscan'] = array('Activeer prescanning categorie rechten');
 $L['cfg_recentpagestitle'] = array('Recente pagina\'s titel lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld.');
-$L['cfg_recentpagestext'] = array('Recent pages text lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
-$L['cfg_recentforumstitle'] = array('Recent forums title lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
+$L['cfg_recentpagestext'] = array('Recente pagina\'s text lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
+$L['cfg_recentforumstitle'] = array('Recente forums title lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
 $L['cfg_newpagestext'] = array('Nieuwe pagina\'s tekst lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
 
 $L['info_desc'] = 'Geef recente site toevoegingen weer (pagina\'s, onderwerpen) op index.';
