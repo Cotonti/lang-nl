@@ -16,6 +16,7 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['cfg_cats'] = array('Hoofd categorieën waar i18n op toegepast moet worden', 'Categorie codes scheiden met komma');
 $L['cfg_locales'] = array('Lijst van site talen', 'Elke taal op een nieuwe regel. format: locale_code|Locale title');
 $L['cfg_omitmain'] = array('Laat taal parameters weg indien URLS naar hoofdtaal wijzen.');
+$L['cfg_rewrite'] = array('Activeer URL overschrijving voor taal parameters', 'Vereist handmatige .htaccess update');
 
 $L['info_desc'] = 'Website content (pagina\'s, categorieën, tags, etc..) kan vertaald en gepresenteerd worden in meerdere talen wanneer de plugin geactiveerd is.';
 
