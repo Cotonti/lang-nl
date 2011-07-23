@@ -31,7 +31,7 @@ $L['adm_pm_totalsent'] = 'Totaal aantal verzonden priv&eacute;berichten';
  * Main
  */
 
-$L['pmsend_title'] = 'Stuur nieuwe privébericht';
+$L['pmsend_title'] = 'Stuur nieuw privébericht';
 $L['pmsend_subtitle'] = 'Nieuw privébericht formulier';
 
 $L['pm_bodytoolong'] = 'Inhoud van het privébericht is te lang, '.$cfg['pm']['pm_maxsize'].' is het maximale aantal karakters';
