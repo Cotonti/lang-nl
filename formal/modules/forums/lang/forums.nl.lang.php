@@ -36,7 +36,7 @@ $L['cfg_allowpolls'] = array('Activeer polls');
 $L['cfg_countposts'] = array('Tel berichten');
 $L['cfg_autoprune'] = array('Auto-trim onderwerpen na * dagen');
 $L['cfg_defstate'] = array('Standaard toestand');
-$L['cfg_defstate_params'] = array('Gevouwen', 'Uitgevouwen');
+$L['cfg_defstate_params'] = array('Ingevouwen', 'Uitgevouwen');
 
 $L['info_desc'] = 'Cotonti Bulletin Board Module: secties, subsecties, onderwerpen, berichten. Simpel forum voor community websites.';
 
