@@ -3,7 +3,7 @@
  * Dutch formal Language File for BBcode management (bbcode.nl.lang.php)
  *
  * @package bbcode
- * @version 0.7.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD

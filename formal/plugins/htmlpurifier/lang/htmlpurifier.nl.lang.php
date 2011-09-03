@@ -3,7 +3,7 @@
  * Dutch formal language file for HTML Purifier plugin (htmlpurifier.nl.lang.php)
  *
  * @package htmlpurifier
- * @version 0.7.0
+ * @version 0.9.4
  * @author Trustmaster
  * @copyright Copyright (c) Cotonti Team 2010-2011
  * @license BSD
