@@ -68,7 +68,7 @@ $L['forums_privatetopic'] = 'Dit onderwerp is privé, alleen moderators en de st
 
 $L['forums_searchinforums'] = 'Zoek in forums';
 $L['forums_markasread'] = 'Markeer alle berichten als gelezen';
-$L['forums_foldall'] = 'Vouw alles';
+$L['forums_foldall'] = 'Vouw alles in';
 $L['forums_unfoldall'] = 'Vouw alles uit';
 $L['forums_viewers'] = 'Kijkers';
 
