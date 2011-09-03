@@ -36,4 +36,3 @@ $L['i18n_translate'] = 'Vertaal';
 $L['i18n_translation'] = 'Vertaling';
 
 ?>
-

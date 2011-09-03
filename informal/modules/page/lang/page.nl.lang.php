@@ -71,6 +71,9 @@ $L['page_edittitle'] = 'Pagina eigenschappen';
 $L['page_editsubtitle'] = 'Bewerk de vereiste velden';
 
 $L['page_catmissing'] = 'De categorie code is niet ingevuld';
+$L['page_confirm_delete'] = 'Weet je zeker dat je deze pagina wilt verwijderen?';
+$L['page_confirm_validate'] = 'Wil je deze pagina valideren?';
+$L['page_confirm_unvalidate'] = 'Weet je zeker dat je deze pagina wilt terug zetten in de validatie rij?';
 $L['page_notavailable'] = 'Deze pagina wordt gepubliceerd in ';
 $L['page_textmissing'] = 'Pagina tekst mag niet leeg zijn';
 $L['page_titletooshort'] = 'De titel is te kort';

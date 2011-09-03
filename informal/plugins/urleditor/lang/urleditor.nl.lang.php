@@ -3,7 +3,7 @@
  * Dutch Language File for URL management tool (urleditor.nl.lang.php)
  *
  * @package urleditor
- * @version 0.7.0
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD
@@ -43,6 +43,9 @@ You can change rule order by simply dragging the rows and dropping them at desir
 <li><strong>Save</strong> button will save rules and apply changes immediately. It will also apply changes on your .htaccess (if writable) and provide you with .htaccess/IsapiRewrite4.ini/nginx.conf (depending on your server type).</li>
 </ol>';
 
-$L['info_desc'] = 'Met deze plugin kan je custom rules maken voor URL transformatie in het administratie paneel.';
+$L['cfg_preset'] = 'URL Preset';
+$L['cfg_preset_params'] = array('Handy', 'Genoa/Seditio compatibel', 'Aangepast urltrans.dat', 'Gedeactiveerd');
+
+$L['info_desc'] = 'Met deze plugin kan je aangepaste regels maken voor URL transformatie in het administratie paneel.';
 
 ?>

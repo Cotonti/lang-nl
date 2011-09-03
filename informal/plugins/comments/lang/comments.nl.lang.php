@@ -39,6 +39,7 @@ $L['info_desc'] = 'Reactie systeem voor Cotonti met API en integratie in pagina\
 
 $L['comments_comment'] = 'Reactie';
 $L['comments_comments'] = 'Reacties';
+$L['comments_confirm_delete'] = 'Weet je zeker dat je deze reactie wilt verwijderen?';
 $L['Newcomment'] = 'Nieuwe reactie';
 
 $L['comm_on_page'] = 'op pagina';

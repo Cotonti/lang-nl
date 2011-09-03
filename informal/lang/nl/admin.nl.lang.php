@@ -16,12 +16,15 @@ defined('COT_CODE') or die('Wrong URL.');
  * Common words
  */
 
-$L['Extension'] = 'Extensie';
-$L['Extensions'] = 'Extensies';
+$L['Extension'] = 'Extension';
+$L['Extensions'] = 'Extensions';
+$L['Structure'] = 'Structuur';
 
 /**
  * Home Section
  */
+ 
+$L['home_installable_error'] = 'Verwijder install.php tot de volgende update of zorg ervoor dat install.php niet schrijfbaar is';
 
 $L['home_newusers'] = 'Nieuwe leden';
 $L['home_newpages'] = 'Nieuwe pagina\'s';
@@ -51,8 +54,8 @@ $L['home_ql_b3_1'] = 'Basis configuratie';
 $L['home_ql_b3_2'] = 'Extra velden voor leden';
 $L['home_ql_b3_4'] = 'Gebruikersrechten';
 
-$L['home_rev_title'] = 'Revisie';
-$L['home_rev'] = 'r';
+
+
 $L['home_update_notice'] = 'Update beschikbaar';
 $L['home_update_revision'] = 'Huidige versie: <span style="color:#C00;font-weight:bold;">%1$s(r%2$s)</span><br />Nieuwe versie: <span style="color:#4E9A06;font-weight:bold;">%3$s(r%4$s)</span>'; // %1/%2 Huidige versie/revisie %3/%4 Laatste versie/revisie
 
@@ -72,13 +75,23 @@ $L['core_plug'] = &$L['Plugins'];
 $L['core_pm'] = &$L['Privéberichten'];
 $L['core_polls'] = &$L['Polls'];
 $L['core_rss'] = &$L['RSS_Feeds'];
-$L['core_structure'] = &$L['categorieën'];
+$L['core_structure'] = &$L['Categorieën'];
 $L['core_theme'] = &$L['Thema\'s'];
 $L['core_time'] = 'Tijd en datum';
 $L['core_title'] = 'Titels en meta\'s';
 $L['core_users'] = &$L['Gebruikers'];
-
 $L['cfg_struct_defaults'] = 'Structuur standaard';
+
+/**
+ * Shortcuts
+ */
+$L['short_admin'] = 'Admin';
+$L['short_config'] = 'Config';
+$L['short_delete'] = 'Delete';
+$L['short_open'] = 'Open';
+$L['short_options'] = 'Options';
+$L['short_rights'] = 'Rights';
+$L['short_struct'] = 'Struct';
 
 /**
  * Config Section
@@ -175,6 +188,7 @@ $L['cfg_showsqlstats'] = array('Laat SQL queries statistieken zien', '(gebruikt 
 
 $L['cfg_maintitle'] = array('Site titel', 'Hoofd titel voor de website, verplicht');
 $L['cfg_subtitle'] = array('Beschrijving', 'Optioneel, wordt na de titel geplaatst');
+
 $L['cfg_title_header'] = array('Header titel', 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}');
 $L['cfg_title_header_index'] = array('Header Index titel', 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}');
 $L['cfg_title_users_details'] = array('Gebruiker details titel', 'Opties: {USER}, {NAME}');
@@ -186,17 +200,18 @@ $L['cfg_body_mail'] = array('E-mail titel', 'Opties: {SITE_TITLE}, {SITE_DESCRIP
  * Users Subsection
  */
 
-$L['cfg_disablereg'] = array('Deactiveer registratie proces', 'Mogelijkheid voor registratie uitschakelen');
 $L['cfg_disablewhosonline'] = array('Deactiveer Wie is online', 'Automatisch gedeactiveerd wanneer shield actief is');
+
+
 $L['cfg_forcerememberme'] = array('Forceer &quot;onthoud mij&quot;', 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen');
-$L['cfg_maxusersperpage'] = array('Maximale aantal regels in ledenlijst', '');
-$L['cfg_regnoactivation'] = array('Skip e-mail check voor nieuwe leden', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_regrequireadmin'] = array('Administratoren moeten nieuwe gebruikers valideren', '');
-$L['cfg_timedout'] = array('Inactiviteit in seconden', 'De gebruiker is afwezig na deze pauze');
-$L['cfg_user_email_noprotection'] = array('Schakel wachtwoord beveiliging uit bij e-mail wijziging', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_useremailchange'] = array('Sta gebruikers toe wachtwoord te wijzigen', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_usertextimg'] = array('Sta plaatjes en HTML toe in gebruikers handtekening', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_usertextmax'] = array('Maximale lengte voor gebruikers handtekening', '');
+$L['cfg_timedout'] = array('Idle vertraging, in seconden', 'De gebruiker is afwezig na deze vertraging');
+$L['cfg_usertextimg'] = array('Sta afbeeldingen en HTML toe in handtekeningen', '\'Nee\' aanbevolen om veiligheidsredenen');
+
+
+
+
+
+
 
 /**
  * Config Section
@@ -233,6 +248,7 @@ $L['ext_patch_applied'] = 'Patch uitgevoerd {$f}: {$msg}';
 $L['ext_patch_error'] = 'Fout bij uitvoeren patch {$f}: {$msg}';
 $L['ext_setup_not_found'] = 'Installatie bestand niet gevonden: {$path}';
 $L['ext_uninstall_confirm'] = 'Wil je de extensie deinstalleren? Data van de extensie wordt verwijderd.<br/><a href="{$url}">Ja, deinstalleer en verwijder data.</a>';
+
 $L['ext_uninstalling'] = '{$type} &quot;{$name}&quot; wordt gedeïnstalleerd';
 $L['ext_up2date'] = '{$type} &quot;{$name}&quot; is up to date';
 $L['ext_update_error'] = 'Bijwerken {$type} &quot;{$name}&quot; mislukt';
@@ -259,6 +275,7 @@ $L['adm_help_structure'] = 'De pagina\'s die behoren tot de categorie &quot;syst
 
 $L['adm_extrafields_desc'] = 'Voeg toe/bewerk extra velden';
 $L['adm_extrafields_all'] = 'Geef alle database tabellen weer';
+$L['adm_extrafields_table'] = 'Tabel';
 
 $L['adm_help_structure_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
 <b>Nieuwe tags in tpl bestanden:</b><br /><br />
@@ -314,6 +331,7 @@ $L['adm_notinstalled'] = 'Niet geinstalleerd';
 
 $L['adm_plugsetup'] = 'Plugin installatie';
 $L['adm_override_guests'] = 'Systeem overschrijven, gasten en inactieve leden niet toegestaan';
+
 $L['adm_override_banned'] = 'Systeem overschrijven, gebanned';
 $L['adm_override_admins'] = 'System overschrijven, administratoren';
 
@@ -324,8 +342,10 @@ $L['adm_opt_pauseall'] = 'Pauzeer alles';
 $L['adm_opt_pauseall_explain'] = 'Pauzeer alle delen van de extensie';
 $L['adm_opt_update'] = 'Bijwerken';
 $L['adm_opt_update_explain'] = 'Werkt de extensie bij wanneer de extensie bestanden op de server bijgewerkt zijn';
+
 $L['adm_opt_uninstall'] = 'Deinstalleren';
 $L['adm_opt_uninstall_explain'] = 'Deinstalleer de extensie volledig. Extensie bestanden zelf worden niet verwijderd';
+
 $L['adm_opt_unpause'] = 'Pauze opheffen';
 $L['adm_opt_unpauseall'] = 'Pauze opheffen voor alle delen';
 $L['adm_opt_unpauseall_explain'] = 'Pauze opheffen voor alle delen van de extensie';
@@ -347,6 +367,7 @@ $L['adm_delcacheitem'] = 'Cache item verwijderd';
 $L['adm_internalcache'] = 'Interne cache';
 $L['adm_purgeall_done'] = 'Cache volledig geleegd';
 $L['adm_diskcache'] = 'Disk cache';
+$L['adm_cache_showall'] = 'Alles weergeven';
 
 /**
  * Other Section
@@ -356,7 +377,7 @@ $L['adm_diskcache'] = 'Disk cache';
 $L['adm_log'] = 'Systeem log';
 $L['adm_infos'] = 'Informatie';
 $L['adm_versiondclocks'] = 'Versie en klokken';
-$L['adm_checkcorethemes'] = 'Check core files and themes';
+$L['adm_checkcorethemes'] = 'Check core files en thema\'s';
 $L['adm_checkcorenow'] = 'Controleer core bestanden nu!';
 $L['adm_checkingcore'] = 'Core bestanden worden gecheckt..';
 $L['adm_checkthemes'] = 'Controleer of alle bestanden aanwezig zijn in thema\'s';
@@ -383,6 +404,8 @@ $L['adm_time4'] = '#4: Jouw lokale tijdzone, aangepast via je profiel';
 $L['adm_help_versions'] = 'Stel de server tijdzone in zodat klok #3 correct is<br />
 Klok #4 is afhankelijk van de tijdzone in je profiel.<br />
 Klok #1 en #2 worden niet gebruikt door Cotonti.';
+
+
 
 /**
  * Common Entries

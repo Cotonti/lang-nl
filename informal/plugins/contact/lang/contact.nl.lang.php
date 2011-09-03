@@ -1,8 +1,7 @@
 <?php
 
 /**
- * Dutch Language File for Comments Plugin (contact.nl.lang.php)
- *
+ * Dutch Language File for Contact Plugin (contact.nl.lang.php)
  * @version 2.00
  * @author Cotonti Team
  * @copyright (c) 2008-2011 Cotonti Team
@@ -26,8 +25,11 @@ $L['info_desc'] = 'Contact e-mail formulier voor reacties van bezoekers';
 
 $L['contact_view'] = 'Bekijk bericht';
 $L['contact_markread'] = 'Markeer als gelezen';
+$L['contact_read'] = 'Gelezen';
 $L['contact_markunread'] = 'Markeer als ongelezen';
+$L['contact_unread'] = 'Ongelezen';
 $L['contact_new'] = 'Nieuwe bericht';
+$L['contact_shortnew'] = 'nieuw';
 $L['contact_sent'] = 'Laatste reactie';
 $L['contact_nosubject'] = 'Geen onderwerp';
 
