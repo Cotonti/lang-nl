@@ -18,11 +18,13 @@ defined('COT_CODE') or die('Wrong URL.');
 
 $L['Extension'] = 'Extensie';
 $L['Extensions'] = 'Extensies';
+$L['Structure'] = 'Structuur';
 
 /**
  * Home Section
  */
-
+ 
+$L['home_installable_error'] = 'Verwijder install.php tot de volgende update of zorg ervoor dat install.php niet schrijfbaar is';
 $L['home_newusers'] = 'Nieuwe leden';
 $L['home_newpages'] = 'Nieuwe pagina\'s';
 $L['home_newtopics'] = 'Nieuwe onderwerpen';
@@ -51,8 +53,8 @@ $L['home_ql_b3_1'] = 'Basis configuratie';
 $L['home_ql_b3_2'] = 'Extra velden voor leden';
 $L['home_ql_b3_4'] = 'Gebruikersrechten';
 
-$L['home_rev_title'] = 'Revisie';
-$L['home_rev'] = 'r';
+
+
 $L['home_update_notice'] = 'Update beschikbaar';
 $L['home_update_revision'] = 'Huidige versie: <span style="color:#C00;font-weight:bold;">%1$s(r%2$s)</span><br />Nieuwe versie: <span style="color:#4E9A06;font-weight:bold;">%3$s(r%4$s)</span>'; // %1/%2 Huidige versie/revisie %3/%4 Laatste versie/revisie
 
@@ -77,8 +79,18 @@ $L['core_theme'] = &$L['Thema\'s'];
 $L['core_time'] = 'Tijd en datum';
 $L['core_title'] = 'Titels en meta\'s';
 $L['core_users'] = &$L['Gebruikers'];
-
 $L['cfg_struct_defaults'] = 'Structuur standaard';
+
+/**
+ * Shortcuts
+ */
+$L['short_admin'] = 'Admin';
+$L['short_config'] = 'Config';
+$L['short_delete'] = 'Delete';
+$L['short_open'] = 'Open';
+$L['short_options'] = 'Options';
+$L['short_rights'] = 'Rights';
+$L['short_struct'] = 'Struct';
 
 /**
  * Config Section
@@ -186,17 +198,17 @@ $L['cfg_body_mail'] = array('E-mail titel', 'Opties: {SITE_TITLE}, {SITE_DESCRIP
  * Users Subsection
  */
 
-$L['cfg_disablereg'] = array('Deactiveer registratie proces', 'Mogelijkheid voor registratie uitschakelen');
-$L['cfg_disablewhosonline'] = array('Deactiveer Wie is online', 'Automatisch gedeactiveerd wanneer shield actief is');
+
+ $L['cfg_disablewhosonline'] = array('Deactiveer Wie is online', 'Automatisch gedeactiveerd wanneer shield actief is');
 $L['cfg_forcerememberme'] = array('Forceer &quot;onthoud mij&quot;', 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen');
-$L['cfg_maxusersperpage'] = array('Maximale aantal regels in ledenlijst', '');
-$L['cfg_regnoactivation'] = array('Skip e-mail check voor nieuwe leden', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_regrequireadmin'] = array('Administratoren moeten nieuwe gebruikers valideren', '');
+
+
+
 $L['cfg_timedout'] = array('Inactiviteit in seconden', 'De gebruiker is afwezig na deze pauze');
-$L['cfg_user_email_noprotection'] = array('Schakel wachtwoord beveiliging uit bij e-mail wijziging', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_useremailchange'] = array('Sta gebruikers toe wachtwoord te wijzigen', '\'Nee\' aanbevolen wegens beveiligings redenen');
+
+
 $L['cfg_usertextimg'] = array('Sta plaatjes en HTML toe in gebruikers handtekening', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_usertextmax'] = array('Maximale lengte voor gebruikers handtekening', '');
+
 
 /**
  * Config Section
@@ -259,6 +271,7 @@ $L['adm_help_structure'] = 'De pagina\'s die behoren tot de categorie &quot;syst
 
 $L['adm_extrafields_desc'] = 'Voeg toe/bewerk extra velden';
 $L['adm_extrafields_all'] = 'Geef alle database tabellen weer';
+$L['adm_extrafields_table'] = 'Tabel';
 
 $L['adm_help_structure_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
 <b>Nieuwe tags in tpl bestanden:</b><br /><br />
@@ -299,9 +312,9 @@ forums.posts.tpl: {FORUMS_POSTS_ROW_USERXXXXX}, {FORUMS_POSTS_ROW_USERXXXXX_TITL
  */
 
 $L['adm_defauth_guests'] = 'Standaard rechten voor gasten';
-$L['adm_deflock_guests'] = 'Lock mask for the guests';
+$L['adm_deflock_guests'] = 'Lock mask voor gasten';
 $L['adm_defauth_members'] = 'Standaard rechten voor leden';
-$L['adm_deflock_members'] = 'Lock mask for the members';
+$L['adm_deflock_members'] = 'Lock mask voor leden';
 
 $L['adm_present'] = 'Aanwezig';
 $L['adm_missing'] = 'Afwezig';
@@ -347,6 +360,7 @@ $L['adm_delcacheitem'] = 'Cache item verwijderd';
 $L['adm_internalcache'] = 'Interne cache';
 $L['adm_purgeall_done'] = 'Cache volledig geleegd';
 $L['adm_diskcache'] = 'Disk cache';
+$L['adm_cache_showall'] = 'Alles weergeven';
 
 /**
  * Other Section
@@ -356,7 +370,7 @@ $L['adm_diskcache'] = 'Disk cache';
 $L['adm_log'] = 'Systeem log';
 $L['adm_infos'] = 'Informatie';
 $L['adm_versiondclocks'] = 'Versie en klokken';
-$L['adm_checkcorethemes'] = 'Check core files and themes';
+$L['adm_checkcorethemes'] = 'Check core files and thema\'s';
 $L['adm_checkcorenow'] = 'Controleer core bestanden nu!';
 $L['adm_checkingcore'] = 'Core bestanden worden gecheckt..';
 $L['adm_checkthemes'] = 'Controleer of alle bestanden aanwezig zijn in thema\'s';

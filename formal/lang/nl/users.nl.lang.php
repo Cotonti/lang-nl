@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Dutch Language File for the Users Module (users.nl.lang.php)
+ * Dutch formal Language File for the Users Module (users.nl.lang.php)
  *
  * @package Cotonti
  * @version 0.9.0

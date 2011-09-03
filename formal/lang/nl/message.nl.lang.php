@@ -122,6 +122,9 @@ $L['msg915_body'] = 'Minstens 1 veld is niet ingevuld.';
 $L['msg916_title'] = 'Database bijgewerkt';
 $L['msg916_body'] = 'Datebase is succesvol bijgewerkt.<br />Aangepast: $num';
 
+$L['msg920_title'] = 'Bevestiging vereist';
+$L['msg920_body'] = 'Weet u zeker dat u deze actie wilt uitvoeren?';
+
 $L['msg930_title'] = 'Toegang geweigerd';
 $L['msg930_body'] = 'U heeft onvoldoende rechten.';
 

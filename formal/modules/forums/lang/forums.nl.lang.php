@@ -3,7 +3,7 @@
  * Dutch formal Language File for the Forums Module (forums.nl.lang.php)
  *
  * @package forums
- * @version 0.9.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD
@@ -68,8 +68,8 @@ $L['forums_privatetopic'] = 'Dit onderwerp is privé, alleen moderators en de st
 
 $L['forums_searchinforums'] = 'Zoek in forums';
 $L['forums_markasread'] = 'Markeer alle berichten als gelezen';
-$L['forums_foldall'] = 'Invouwen';
-$L['forums_unfoldall'] = 'Uitvouwen';
+$L['forums_foldall'] = 'Vouw alles';
+$L['forums_unfoldall'] = 'Vouw alles uit';
 $L['forums_viewers'] = 'Kijkers';
 
 $L['forums_nonewposts'] = 'Geen nieuwe berichten';
@@ -96,6 +96,9 @@ $L['forums_explainannounce'] = 'Markeer onderwerp als aankondiging';
 $L['forums_explainprivate'] = 'Markeer onderwerp als privé (Toegang alleen voor moderator(s) en onderwerp starter)';
 $L['forums_explaindefault'] = 'Reset onderwerp naar standaard waarde';
 $L['forums_explaindelete'] = 'Verwijder onderwerp';
+
+$L['forums_confirm_delete_topic'] = 'Weet u zeker dat u dit topic wilt verwijderen?';
+$L['forums_confirm_delete_post'] = 'Weet u zeker dat u dit bericht wilt verwijderen?';
 
 /**
  * Unused?

@@ -23,6 +23,7 @@ $L['adm_polls_msg916_deleted'] = 'Succesvol verwijderd!';
 $L['adm_polls_msg916_reset'] = 'Reset succesvol';
 $L['adm_polls_polltopic'] = 'Poll onderwerp';
 $L['adm_polls_nopolls'] = 'Er zijn momenteel geen polls';
+$L['adm_polls_bump'] = 'Bump';
 
 $L['poll'] = 'Poll';
 $L['polls_alreadyvoted'] = 'U heeft al op deze poll gestemd.';
@@ -44,11 +45,11 @@ $L['polls_votes'] = 'Stemmen';
 /**
  * Config
  */
-$L['cfg_del_dup_options'] = array('Forceer verwijdering dubbele opties', ' Verwijder dubbele opties ook al zijn ze aanwezig in de database');
-$L['cfg_ip_id_polls'] = array('Stem tel methode', '');
+$L['cfg_del_dup_options'] = array('Forceer het verwijderen van dubbele opties', ' Verwijder dubbele opties ook al zijn ze aanwezig in de database');
+$L['cfg_ip_id_polls'] = array('Methode voor het tellen van stemmen', '');
 $L['cfg_max_options_polls'] = array('Max. aantal opties', 'Opties boven deze limiet worden automatisch verwijderd');
 $L['cfg_maxpolls'] = array('Aantal polls op de index');
-$L['cfg_mode'] = array('Poll display modus op index', '&quot;Recente polls&quot; geef laatste poll(s) weer<br />&quot;Willekeurige polls&quot; geeft willekeurige poll(s) weer');
+$L['cfg_mode'] = array('Poll weergave modus op de index', '&quot;Recente polls&quot; geeft laatste poll(s) weer<br />&quot;Willekeurige polls&quot; geeft willekeurige poll(s) weer');
 $L['cfg_mode_params'] = array('Recente polls', 'Willekeurige polls');
 
 $L['info_desc'] = 'Laat de gebruiker op 1 of meer opties stemmen';

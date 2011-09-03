@@ -16,7 +16,6 @@ defined('COT_CODE') or die('Wrong URL.');
  */
 
 $L['cfg_disableactivitystats'] = array('Geen statistieken weergeven voor de laatste 7 dagen', '(weergegeven op de administratie hoofdpagina)');
-$L['cfg_disabledbstats'] = array('Geen database statistieken weergeven', '(weergegeven op de administratie hoofdpagina)');
 $L['cfg_hit_precision'] = array('Geoptimaliseerde precisie hits teller', '');
 
 $L['info_desc'] = 'Simpele hit statistieken. Alleen aanbevolen voor kleine websites.';
