@@ -3,7 +3,7 @@
  * Dutch Language File for RecentItems Plugin (recentitems.nl.lang.php)
  *
  * @package recentitems
- * @version 0.7.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD

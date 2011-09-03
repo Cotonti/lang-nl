@@ -3,7 +3,7 @@
  * Dutch Language File for Trashcan (trashcan.nl.lang.php)
  *
  * @package Trashcan
- * @version 0.9.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD

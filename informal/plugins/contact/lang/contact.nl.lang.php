@@ -2,7 +2,7 @@
 
 /**
  * Dutch Language File for Contact Plugin (contact.nl.lang.php)
- * @version 2.00
+ * @version 0.9.4
  * @author Cotonti Team
  * @copyright (c) 2008-2011 Cotonti Team
  * @license BSD

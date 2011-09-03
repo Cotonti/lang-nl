@@ -3,7 +3,7 @@
  * Dutch Language File for Hiddengroups Plugin (hiddengroups.nl.lang.php)
  *
  * @package hiddengroups
- * @version 1.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD

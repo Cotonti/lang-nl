@@ -3,7 +3,7 @@
  * Dutch Language File for Referers (referers.nl.lang.php)
  *
  * @package Referers
- * @version 0.7.0
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD

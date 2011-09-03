@@ -3,7 +3,7 @@
  * Dutch Language File for Userimages (userimages.nl.lang.php)
  *
  * @package Userimages
- * @version 
+ * @version 0.9.4
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2011
  * @license BSD
