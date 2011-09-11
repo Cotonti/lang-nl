@@ -95,6 +95,6 @@ $L['pfs_insertaslink'] = 'Invoegen als link naar bestand';
 $L['pfs_dimensions'] = 'Dimensies';
 
 $L['pfs_confirm_delete_file'] = 'Weet u zeker dat u dit bestand wilt verwijderen?';
-$L['pfs_confirm_delete_file'] = 'Weet u zeker dat u deze map met alle inhoud wilt verwijderen?';
+$L['pfs_confirm_delete_folder'] = 'Weet u zeker dat u deze map met alle inhoud wilt verwijderen?';
 
 ?>
