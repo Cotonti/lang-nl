@@ -31,7 +31,7 @@ $L['adm_pm_totalsent'] = 'Totaal aantal verzonden priv&eacute;berichten';
  * Main
  */
 
-$L['pmsend_title'] = 'Stuur nieuwe privébericht';
+$L['pmsend_title'] = 'Stuur nieuw privébericht';
 $L['pmsend_subtitle'] = 'Nieuw privébericht formulier';
 
 $L['pm_bodytoolong'] = 'Inhoud van het privébericht is te lang, '.$cfg['pm']['pm_maxsize'].' is het maximale aantal karakters';
@@ -39,10 +39,10 @@ $L['pm_bodytooshort'] = 'Inhoud van het privébericht is te kort';
 $L['pm_inbox'] = 'Inbox';
 $L['pm_inboxsubtitle'] = 'Privéberichten, nieuwste bericht staat bovenaan';
 $L['pm_norecipient'] = 'Geen ontvanger gespecificeerd';
-$L['pm_notifytitle'] = 'Nieuwe privébericht';
+$L['pm_notifytitle'] = 'Nieuw privébericht';
 $Ls['Privatemessages'] = array('Nieuwe privéberichten','nieuw privébericht');
 $L['pm_replyto'] = 'Reageer op deze gebruiker';
-$L['pm_sendnew'] = 'Stuur nieuwe privébericht';
+$L['pm_sendnew'] = 'Stuur nieuw privébericht';
 $L['pm_sentbox'] = 'Outbox';
 $L['pm_sentboxsubtitle'] = 'Verzonden berichten';
 $L['pm_titletooshort'] = 'Titel is te kort';
