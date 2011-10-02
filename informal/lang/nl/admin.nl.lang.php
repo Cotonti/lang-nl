@@ -108,6 +108,7 @@ $L['cfg_defaulttimezone'] = array('Standaard tijdzone', 'Voor gasten en nieuwe l
 
 $L['cfg_adminemail'] = array('Administrator\'s e-mail', 'Verplicht');
 $L['cfg_clustermode'] = array('Cluster van servers', 'Ja, voor een load balanced setup.');
+$L['cfg_confirmlinks'] = array('Bevestig potentieel gevaarlijke acties');
 $L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
 $L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
 $L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
