@@ -93,6 +93,18 @@ $L['page_formhint'] = 'Zodra uw inzending klaar is zal de pagina in een validati
 $L['page_pageid'] = 'Pagina ID';
 $L['page_deletepage'] = 'Pagina verwijderen?';
 
+$L['page_savedasdraft'] = 'Pagina opgeslagen als concept';
+
+/**
+ * Page statuses
+ */
+
+$L['page_status_draft'] = 'Concept';
+$L['page_status_pending'] = 'Wachtende';
+$L['page_status_approved'] = 'Goedgekeurd';
+$L['page_status_published'] = 'Gepubliceerd';
+$L['page_status_expired'] = 'Verlopen';
+
 /**
  * Moved from theme.lang
  */
