@@ -256,6 +256,7 @@ $L['Resynced'] = 'Resynced';
 $L['Right'] = 'Recht';
 $L['Rights'] = 'Rechten';
 $L['RSS_Feeds'] = 'RSS Feeds';
+$L['Saveasdraft'] = 'Opslaan als concept';
 $L['Scheme'] = 'Kleurschema';
 $L['Schemes'] = 'Kleurschema\'s';
 $L['Search'] = 'Zoeken';
