@@ -496,5 +496,6 @@ $L['pagenav_next'] = '&gt;';
 $L['pagenav_last'] = '&gt;&gt;';
 
 $L['ajaxSenderror'] = 'Er heeft zich een fout voor gedaan bij het verwerken van uw aanvraag. Neem contact op met de administrator.';
+$L['shield_protect'] = 'Schild protectie geactiveerd, probeer het nogmaals in {$sec} seconden...<br />Na deze pauze kan u de huidige pagina vernieuwen om door te gaan.<br />Laatste actie was: {$action}';
 
 ?>
