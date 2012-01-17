@@ -16,8 +16,8 @@ defined('COT_CODE') or die('Wrong URL.');
  * Common words
  */
 
-$L['Extension'] = 'Extension';
-$L['Extensions'] = 'Extensions';
+$L['Extension'] = 'Extensie';
+$L['Extensions'] = 'Extensies';
 $L['Structure'] = 'Structuur';
 
 /**

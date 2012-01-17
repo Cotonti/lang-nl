@@ -25,6 +25,7 @@ $L['Structure'] = 'Structuur';
  */
  
 $L['home_installable_error'] = 'Verwijder install.php tot de volgende update of zorg ervoor dat install.php niet schrijfbaar is';
+
 $L['home_newusers'] = 'Nieuwe leden';
 $L['home_newpages'] = 'Nieuwe pagina\'s';
 $L['home_newtopics'] = 'Nieuwe onderwerpen';
