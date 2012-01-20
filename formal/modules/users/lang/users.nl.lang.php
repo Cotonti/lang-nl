@@ -5,7 +5,7 @@
  * @package users
  * @version 0.9.4
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2011
+ * @copyright Copyright (c) Cotonti Team 2013
  * @license BSD
  */
 

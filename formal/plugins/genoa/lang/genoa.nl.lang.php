@@ -5,7 +5,7 @@
  * @package genoa
  * @version 0.9.4
  * @author Trustmaster, Cotonti Team
- * @copyright Copyright (c) Cotonti Team 2009-2011
+ * @copyright Copyright (c) Cotonti Team 2009-2012
  * @license BSD
  */
 

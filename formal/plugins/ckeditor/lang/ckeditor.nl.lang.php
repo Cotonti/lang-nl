@@ -5,7 +5,7 @@
  * @package ckeditor
  * @version 0.9.4
  * @author Trustmaster
- * @copyright Copyright (c) Cotonti Team 2010-2011
+ * @copyright Copyright (c) Cotonti Team 2010-2012
  * @license BSD
  */
 

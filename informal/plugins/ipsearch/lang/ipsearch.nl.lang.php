@@ -5,7 +5,7 @@
  * @package Ipsearch
  * @version 0.9.4
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2011
+ * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
  */
 
