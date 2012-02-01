@@ -240,6 +240,7 @@ $L['ext_config_struct_error'] = 'Installatie configuratie structuur mislukt';
 $L['ext_config_struct_installed'] = 'Configuratie structuur geinstalleerd';
 $L['ext_config_struct_updated'] = 'Configuratie structuur bijgewerkt';
 $L['ext_dependency_error'] = '{$dep_type} &quot;{$dep_name}&quot; vereist door {$type} &quot;{$name}&quot; is niet geinstalleerd en/of niet geselecteerd voor installatie';
+$L['ext_dependency_uninstall_error'] = '{$type} &quot;{$name}&quot; vereist deze extensie en dient eerst gedeïnstalleerd te worden';
 $L['ext_executed_php'] = 'PHP handler part: {$ret} uitgevoerd';
 $L['ext_executed_sql'] = 'SQL handler part: {$ret} uitgevoerd';
 $L['ext_installing'] = '{$type} &quot;{$name}&quot; wordt geinstalleerd..';
@@ -247,6 +248,10 @@ $L['ext_invalid_format'] = 'Dit is geen geldige Cotonti >= 0.9 extensie. Neem co
 $L['ext_old_format'] = 'Dit is een oude Genoa/Seditio plugin. De plugin functioneert misschien niet volledig.';
 $L['ext_patch_applied'] = 'Patch uitgevoerd {$f}: {$msg}';
 $L['ext_patch_error'] = 'Fout bij uitvoeren patch {$f}: {$msg}';
+$L['ext_requires_modules'] = 'Vereist modules';
+$L['ext_requires_plugins'] = 'Vereist plugins';
+$L['ext_recommends_modules'] = 'Aanbevolen modules';
+$L['ext_recommends_plugins'] = 'Aanbevolen plugins';
 $L['ext_setup_not_found'] = 'Installatie bestand niet gevonden: {$path}';
 $L['ext_uninstall_confirm'] = 'Wil je de extensie deinstalleren? Data van de extensie wordt verwijderd.<br/><a href="{$url}">Ja, deinstalleer en verwijder data.</a>';
 

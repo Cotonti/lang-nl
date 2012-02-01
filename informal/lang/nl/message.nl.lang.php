@@ -89,6 +89,8 @@ $L['msg404_body'] = 'De pagina kon niet worden gevonden.';
 
 $L['msg500_title'] = '500 Interne server fout';
 $L['msg500_body'] = 'Er heeft zich een fout voor gedaan bij het verwerken van je aanvraag. Neem contact op met de administrator.';
+$L['msg503_title'] = '503 Dienst niet beschikbaar';
+$L['msg503_body'] = 'De pagina die je hebt opgevraagd is tijdelijk niet beschikbaar.<br />Probeer het later nog eens of neem contact op met de administrator.';
 
 /**
  * Forum Messages

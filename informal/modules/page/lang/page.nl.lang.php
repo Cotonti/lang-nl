@@ -21,6 +21,9 @@ $L['cfg_maxlistsperpage'] = array('Max. aantal lijsten per page', ' ');
 $L['cfg_order'] = array('Sortering kolommen');
 $L['cfg_title_page'] = array('Pagina titel tag format', 'Opties: {TITLE}, {CATEGORY}');
 $L['cfg_way'] = array('Sorteer richting');
+$L['cfg_truncatetext'] = array('Maximale lengte voor ingekorte tekst', '0 om deze functie uit te schakelen');
+$L['cfg_allowemptytext'] = array('Lege pagina toestaan');
+$L['cfg_keywords'] = array('Keywords');
 
 $L['info_desc'] = 'Uit te breiden content management functionaliteit: pagina\'s\ en pagina categorieën.';
 
@@ -70,6 +73,7 @@ $L['page_addsubtitle'] = 'Vul de vereiste velden in';
 $L['page_edittitle'] = 'Pagina eigenschappen';
 $L['page_editsubtitle'] = 'Bewerk de vereiste velden';
 
+$L['page_aliascharacters'] = 'De karakters \'+\', \'/\', \'?\', \'%\', \'#\', \'&\' zijn niet toegestaan in aliases';
 $L['page_catmissing'] = 'De categorie code is niet ingevuld';
 $L['page_confirm_delete'] = 'Weet je zeker dat je deze pagina wilt verwijderen?';
 $L['page_confirm_validate'] = 'Wil je deze pagina valideren?';

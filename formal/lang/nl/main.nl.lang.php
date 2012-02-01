@@ -195,6 +195,7 @@ $L['Notes'] = 'Notities';
 $L['No_items'] = 'Geen items gevonden';
 $L['Occupation'] = 'Beroep';
 $L['Of'] = 'van';
+$L['Offline'] = 'Offline';
 $L['Online'] = 'Online';
 $L['Onpage'] = 'Op pagina';
 $L['Ontop'] = 'Top';
