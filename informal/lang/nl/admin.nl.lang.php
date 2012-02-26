@@ -270,6 +270,7 @@ $L['adm_tpl_mode'] = 'Template modus';
 $L['adm_tpl_empty'] = 'Standaard';
 $L['adm_tpl_forced'] = 'Zelfde als';
 $L['adm_tpl_parent'] = 'Zelfde als moeder categorie';
+$L['adm_tpl_quickcat'] = 'Aangepaste categorie code';
 $L['adm_tpl_resyncalltitle'] = 'Resync alle pagina tellers';
 $L['adm_tpl_resynctitle'] = 'Resync categorie pagina teller';
 $L['adm_help_structure'] = 'De pagina\'s die behoren tot de categorie &quot;system&quot; worden niet getoond in de publieke lijst, dit is voor het maken van standalone pagina\'s.';
