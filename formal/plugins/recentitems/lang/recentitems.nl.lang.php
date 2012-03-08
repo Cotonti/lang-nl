@@ -29,6 +29,8 @@ $L['cfg_recentpagestitle'] = array('Recente pagina\'s titel lengte limiet', 'Dit
 $L['cfg_recentpagestext'] = array('Recente pagina\'s text lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
 $L['cfg_recentforumstitle'] = array('Recente forums title lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
 $L['cfg_newpagestext'] = array('Nieuwe pagina\'s tekst lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
+$L['cfg_whitelist'] = array('Witte lijst voor categorieën', '1 code per regel. Alleen deze categorieën worden getoond indien ze niet leeg zijn.');
+$L['cfg_blacklist'] = array('Zwarte lijst voor categorieën', '1 code per regel. Alleen deze categorieën worden gefilterd indien ze niet leeg zijn.');
 
 $L['info_desc'] = 'Geef recente site toevoegingen weer (pagina\'s, onderwerpen) op index.';
 
