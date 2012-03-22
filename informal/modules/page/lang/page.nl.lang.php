@@ -54,6 +54,7 @@ $L['adm_help_pages_extrafield'] = '<p><em>Base HTML</em> automatisch geslecteerd
 $L['adm_queue_deleted'] = 'Pagina is verwijderd en in de prullenbak geplaatst';
 $L['adm_valqueue'] = 'In de wacht voor validatie';
 $L['adm_validated'] = 'Al gevalideerd';
+$L['adm_expired'] = 'Verlopen';
 $L['adm_structure'] = 'Structuur van pagina\'s (categorieën)';
 $L['adm_sort'] = 'Sorteer';
 $L['adm_sortingorder'] = 'Stel een standaard sorteer methode in voor categorieën';

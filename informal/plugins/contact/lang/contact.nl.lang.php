@@ -16,7 +16,11 @@ defined('COT_CODE') or die('Wrong URL');
 
 $L['cfg_email'] = array('E-mail', '(leeg laten om administrator e-mail adres te gebruiken');
 $L['cfg_minchars'] = array('Min. aantal karakters in bericht');
-
+$L['cfg_map'] = array('Map');
+$L['cfg_about'] = array('Over');
+$L['cfg_save'] = array('Opslag methode');
+$L['cfg_save_params'] = array('e-mail', 'database', 'e-mail + database');
+$L['cfg_template'] = array('E-mail template', 'Gebruikt variabelen: {$sitetitle}, {$siteurl}, {$author}, {$email}, {$subject}, {$text}, {$extra}, {$extraXXXX}, {$extraXXXX_title}');
 $L['info_desc'] = 'Contact e-mail formulier voor reacties van bezoekers';
 
 /**
