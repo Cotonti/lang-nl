@@ -498,4 +498,6 @@ $L['pagenav_last'] = '&gt;&gt;';
 
 $L['ajaxSenderror'] = 'Er heeft zich een fout voor gedaan bij het verwerken van uw aanvraag. Neem contact op met de administrator.';
 
+$L['captcha_verification_failed'] = 'Verkeerde bot beveiligings code';
+
 ?>

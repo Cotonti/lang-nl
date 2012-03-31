@@ -75,6 +75,7 @@ $L['core_plug'] = &$L['Plugins'];
 $L['core_pm'] = &$L['Privéberichten'];
 $L['core_polls'] = &$L['Polls'];
 $L['core_rss'] = &$L['RSS_Feeds'];
+$L['core_security'] = &$L['Beveiliging'];
 $L['core_structure'] = &$L['Categorieën'];
 $L['core_theme'] = &$L['Thema\'s'];
 $L['core_time'] = 'Tijd en datum';
@@ -165,6 +166,17 @@ $L['cfg_jquery_cdn'] = array('Gebruik jQuery via CDN URL', 'Voorbeeld: https://a
 
 /**
  * Config Section
+ * Security Subsection
+ */
+
+$L['cfg_captchamain'] = array('Hoofd captcha');
+$L['cfg_captcharandom'] = array('Willekeurige captcha');
+$L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
+$L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
+$L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
+
+/**
+ * Config Section
  * Themes Subsection
  */
 
@@ -206,7 +218,7 @@ $L['cfg_usertextimg'] = array('Sta afbeeldingen en HTML toe in handtekeningen', 
  */
 $L['cfg_css'] = array('Activeer module/plugin CSS');
 $L['cfg_editor'] = array('Rich text editor', '');
-$L['cfg_markup'] = array('Activeer markup', 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op het systeem');
+$L['cfg_markup'] = array('Activeer opmaak', 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op het systeem');
 
 /**
  * Extension management
@@ -246,6 +258,29 @@ $L['ext_up2date'] = '{$type} &quot;{$name}&quot; is up to date';
 $L['ext_update_error'] = 'Bijwerken {$type} &quot;{$name}&quot; mislukt';
 $L['ext_updated'] = '{$type} &quot;{$name}&quot; is bijgewerkt naar versie {$ver}';
 $L['ext_updating'] = '{$type} &quot;{$name}&quot; wordt bijgewerkt';
+
+/**
+ * Extension categories 
+ */
+$L['ext_cat']['administration-management'] = 'Administratie &amp; Management';
+$L['ext_cat']['commerce'] = 'Commerce &amp; Shopping';
+$L['ext_cat']['community-social'] = 'Community &amp; Social';
+$L['ext_cat']['customization-i18n'] = 'Customization &amp; I18n';
+$L['ext_cat']['data-apis'] = 'Data Feeds &amp; APIs';
+$L['ext_cat']['development-maintenance'] = 'Ontwikkeling &amp; Onderhoud';
+$L['ext_cat']['editor-parser'] = 'Editors &amp; Opmaak';
+$L['ext_cat']['files-media'] = 'Bestanden &amp; Media';
+$L['ext_cat']['forms-feedback'] = 'Formulieren &amp; Feedback';
+$L['ext_cat']['gaming-clans'] = 'Gaming &amp; Clans';
+$L['ext_cat']['intranet-groupware'] = 'Intranet &amp; Groupware';
+$L['ext_cat']['misc-ext'] = 'Overig';
+$L['ext_cat']['mobile-geolocation'] = 'Mobiel &amp; Geolocatie';
+$L['ext_cat']['navigation-structure'] = 'Navigatie &amp; Structuur';
+$L['ext_cat']['performance-seo'] = 'Performance &amp; SEO';
+$L['ext_cat']['publications-events'] = 'Publicaties &amp; Evenementen';
+$L['ext_cat']['security-authentication'] = 'Beveiliging &amp; Authenticatie';
+$L['ext_cat']['utilities-tools'] = 'Utilities &amp; Tools';
+$L['ext_cat']['post-install'] = 'Na-installatie Scripts';
 
 /**
   * Structure Section
@@ -344,6 +379,9 @@ $L['adm_opt_unpauseall'] = 'Pauze opheffen voor alle delen';
 $L['adm_opt_unpauseall_explain'] = 'Pauze opheffen voor alle delen van de extensie';
 
 $L['adm_opt_setup_missing'] = 'Fout: installatie bestanden niet gevonden!';
+
+$L['adm_sort_alphabet'] = 'Alfabetisch';
+$L['adm_sort_category'] = 'Categorie weergave';
 
 /**
  * Tools Section
