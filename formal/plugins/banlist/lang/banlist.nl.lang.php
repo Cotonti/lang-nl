@@ -3,7 +3,7 @@
  * Dutch formal Language File for Banlist (banlist.nl.lang.php)
  *
  * @package Banlist
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD

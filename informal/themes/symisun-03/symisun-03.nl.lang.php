@@ -3,7 +3,7 @@
  * User Dutch Language File for SymiSun-03 Skin (symisun-03.nl.lang.php)
  *
  * @package Cotonti
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD

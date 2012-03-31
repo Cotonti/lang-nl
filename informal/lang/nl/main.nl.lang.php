@@ -3,7 +3,7 @@
  * Dutch Language File (main.nl.lang.php)
  *
  * @package Cotonti
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
@@ -474,7 +474,7 @@ $L['hea_youarenotlogged'] = 'Je bent niet ingelogd';
  */
 
 $L['foo_poweredby'] = 'Powered by';
-$L['foo_created'] = 'Pagina gecreeërd in';
+$L['foo_created'] = 'Pagina gecreëerd in';
 $L['foo_sqlqueries'] = 'SQL queries';
 $L['foo_sqltotal'] = 'SQL totale tijd';
 $L['foo_sqlaverage'] = 'Gemiddelde SQL tijd';
@@ -497,6 +497,5 @@ $L['pagenav_next'] = '&gt;';
 $L['pagenav_last'] = '&gt;&gt;';
 
 $L['ajaxSenderror'] = 'Er heeft zich een fout voor gedaan bij het verwerken van je aanvraag. Neem contact op met de administrator.';
-$L['shield_protect'] = 'Schild protectie geactiveerd, probeer het nogmaals in {$sec} seconden...<br />Na deze pauze kan je de huidige pagina vernieuwen om door te gaan.<br />Laatste actie was: {$action}';
 
 ?>

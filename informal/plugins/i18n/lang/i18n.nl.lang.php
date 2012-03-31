@@ -3,7 +3,7 @@
  * Dutch Language File for Content Internationalization Plugin (i18n.lang.php)
  *
  * @package i18n
- * @version 0.9.4
+ * @version 0.9.0
  * @author Trustmaster
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD

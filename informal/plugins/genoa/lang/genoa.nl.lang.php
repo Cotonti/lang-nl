@@ -3,7 +3,7 @@
  * Dutch language file (genoa.nl.lang.php
  *
  * @package genoa
- * @version 0.9.4
+ * @version 0.9.0
  * @author Trustmaster, Cotonti Team
  * @copyright Copyright (c) Cotonti Team 2009-2012
  * @license BSD

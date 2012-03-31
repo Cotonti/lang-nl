@@ -4,7 +4,7 @@
  * Dutch Language File for the Admin Module (admin.nl.lang.php)
  *
  * @package Cotonti
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
@@ -122,9 +122,6 @@ $L['cfg_maxrowsperpage'] = array('Maximale aantal items per pagina', 'standaard 
 $L['cfg_parser'] = array('Markup parser', 'standaard is: plain text');
 $L['cfg_redirbkonlogin'] = array('Terugsturen na inloggen', 'Stuur de gebruiker terug naar de locatie van voor het inloggen');
 $L['cfg_redirbkonlogout'] = array('Terugsturen na uitloggen', 'Stuur de gebruiker terug naar de locatie van voor het uitloggen');
-$L['cfg_shieldenabled'] = array('Activeer schild', 'Anti-spamming en anti-hammering');
-$L['cfg_shieldtadjust'] = array('Stel schild timers bij (in %)', 'Hogere waarde is harder te spammen');
-$L['cfg_shieldzhammer'] = array('Anti-hammer na * snelle hits', 'Hoe lager de waarde, hoe sneller de 3 minuten auto-ban geactiveerd wordt');
 $L['cfg_turnajax'] = array('Activeer AJAX', 'Werkt alleen wanneer jQuery geactiveerd is');
 
 /**
@@ -200,20 +197,9 @@ $L['cfg_body_mail'] = array('E-mail titel', 'Opties: {SITE_TITLE}, {SITE_DESCRIP
  * Config Section
  * Users Subsection
  */
-
-$L['cfg_disablewhosonline'] = array('Deactiveer Wie is online', 'Automatisch gedeactiveerd wanneer shield actief is');
-
-
 $L['cfg_forcerememberme'] = array('Forceer &quot;onthoud mij&quot;', 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen');
 $L['cfg_timedout'] = array('Idle vertraging, in seconden', 'De gebruiker is afwezig na deze vertraging');
 $L['cfg_usertextimg'] = array('Sta afbeeldingen en HTML toe in handtekeningen', '\'Nee\' aanbevolen om veiligheidsredenen');
-
-
-
-
-
-
-
 /**
  * Config Section
  * Common strings
@@ -350,8 +336,8 @@ $L['adm_opt_pauseall_explain'] = 'Pauzeer alle delen van de extensie';
 $L['adm_opt_update'] = 'Bijwerken';
 $L['adm_opt_update_explain'] = 'Werkt de extensie bij wanneer de extensie bestanden op de server bijgewerkt zijn';
 
-$L['adm_opt_uninstall'] = 'Deinstalleren';
-$L['adm_opt_uninstall_explain'] = 'Deinstalleer de extensie volledig. Extensie bestanden zelf worden niet verwijderd';
+$L['adm_opt_uninstall'] = 'De-installeren';
+$L['adm_opt_uninstall_explain'] = 'De-installeer de extensie volledig. Extensie bestanden zelf worden niet verwijderd';
 
 $L['adm_opt_unpause'] = 'Pauze opheffen';
 $L['adm_opt_unpauseall'] = 'Pauze opheffen voor alle delen';

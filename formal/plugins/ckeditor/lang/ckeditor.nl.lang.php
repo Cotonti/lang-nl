@@ -3,7 +3,7 @@
  * Dutch formal language file (ckdeditor.nl.lang.php)
  *
  * @package ckeditor
- * @version 0.9.4
+ * @version 0.9.0
  * @author Trustmaster
  * @copyright Copyright (c) Cotonti Team 2010-2012
  * @license BSD

@@ -1,9 +1,9 @@
 <?php
 /**
- * English formal File for WhosOnline Plugin (whosonline.nl.lang.php)
+ * Dutch formal Language File for WhosOnline Plugin (whosonline.nl.lang.php)
  *
  * @package whosonline
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD
@@ -11,7 +11,8 @@
 
 defined('COT_CODE') or die('Wrong URL.');
 
-$L['info_desc'] = 'Geef een lijst weer met gebruikers die online zijn.';
+$L['info_desc'] = 'Geef een lijst weer met gebruikers die online zijn. Activeert gebruikers activiteit tracking.';
+
 
 /**
  * Plugin Title & Subtitle

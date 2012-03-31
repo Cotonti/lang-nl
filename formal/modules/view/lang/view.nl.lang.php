@@ -3,7 +3,7 @@
  * Dutch formal Language File for the View Module (view.nl.lang.php)
  *
  * @package view
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2008-2012
  * @license BSD

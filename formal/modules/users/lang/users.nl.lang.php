@@ -3,7 +3,7 @@
  * Dutch Language File for the Users Module
  *
  * @package users
- * @version 0.9.4
+ * @version 0.9.0
  * @author Cotonti Translators Team
  * @copyright Copyright (c) Cotonti Team 2013
  * @license BSD
