@@ -367,21 +367,21 @@ $Ls['Tebibytes'] = array('TiB', 'TiB');
  * Date / Time formats
  */
 
-$Ldt['date_full'] = 'Y-m-d';
-$Ldt['date_medium'] = 'Y-m';
-$Ldt['date_short'] = 'm-d';
-$Ldt['date_text'] = 'F d, Y';
-$Ldt['date_fulltext'] = 'l, F d, Y';
+$Ldt['date_full'] = 'd-m-Y';
+$Ldt['date_medium'] = 'm-Y';
+$Ldt['date_short'] = 'd-m';
+$Ldt['date_text'] = 'j F Y';
+$Ldt['date_fulltext'] = 'l, j F Y';
 $Ldt['time_full'] = 'H:i:s';
 $Ldt['time_medium'] = 'G:i';
 $Ldt['time_short'] = 'i:s';
 $Ldt['time_text'] = 'g:i A';
 $Ldt['time_fulltext'] = 'g:i:s A';
-$Ldt['datetime_full'] = 'Y-m-d H:i:s';
-$Ldt['datetime_medium'] = 'Y-m-d H:i';
-$Ldt['datetime_short'] = 'm-d H:i';
-$Ldt['datetime_text'] = 'F d, Y H:i';
-$Ldt['datetime_fulltext'] = 'l, F d, Y H:i';
+$Ldt['datetime_full'] = 'd-m-Y H:i:s';
+$Ldt['datetime_medium'] = 'd-m-Y H:i';
+$Ldt['datetime_short'] = 'd-m H:i';
+$Ldt['datetime_text'] = 'j F Y H:i';
+$Ldt['datetime_fulltext'] = 'l, j F Y H:i';
 $Ldt['week_full'] = 'o-\WW';
 $Ldt['week_medium'] = '\WW';
 $Ldt['week_short'] = '\WW-N';
