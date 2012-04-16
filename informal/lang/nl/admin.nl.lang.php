@@ -113,6 +113,12 @@ $L['cfg_confirmlinks'] = array('Bevestig potentieel gevaarlijke acties');
 $L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
 $L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
 $L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
+
+$L['cfg_referercheck'] = array('Referer check voor formulieren', 'Preventie voor cross-domein posting');
+$L['cfg_shieldenabled'] = array('Activeer schild', 'Anti-spamming en anti-hammering');
+$L['cfg_shieldtadjust'] = array('Stel schild timers bij (in %)', 'Hogere waarde is harder te spammen');
+$L['cfg_shieldzhammer'] = array('Anti-hammer na * snelle hits', 'Hoe lager de waarde, hoe sneller de 3 minuten auto-ban geactiveerd wordt');
+
 $L['cfg_devmode'] = array('Debugging mode', 'Niet aan laten in live modus');
 $L['cfg_easypagenav'] = array('Gebruiksvriendelijke paginering', 'Gebruikt paginanummers in URLs inplaats van DB offsets');
 $L['cfg_hostip'] = array('Server IP', 'IP van de server, optioneel.');

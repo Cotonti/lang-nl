@@ -28,6 +28,7 @@ var L = {
 	li:			'Lijst item',
 	link:		'Link',
 	link_text:	'Tekst voor link hier..',
+	more:    'Inkorten met &quot;Lees meer...&quot;',	
 	ol:			'Genummerde lijst',
 	orange:		'Oranje',
 	paragraph:	'Paragraaf',

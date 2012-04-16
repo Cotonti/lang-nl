@@ -500,4 +500,8 @@ $L['ajaxSenderror'] = 'Er heeft zich een fout voor gedaan bij het verwerken van 
 
 $L['captcha_verification_failed'] = 'Verkeerde bot beveiligings code';
 
+
+$L['shield_title'] = 'Anti-hammering protectie';
+$L['shield_protect'] = 'Schild protectie actief, probeer het nogmaals in {$sec} seconden...<br />Na deze pauze kunt u de huidige pagina vernieuwen om door te gaan.<br />Laatste actie was: {$action}';
+
 ?>
