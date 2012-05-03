@@ -15,7 +15,6 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_part'] = array('Deel van waar de recente items opgeroepen moeten worden.');
 $L['cfg_recentpages'] = array('Recente pagina\'s op index');
 $L['cfg_maxpages'] = array('Recente pagina\'s weergegeven');
 $L['cfg_recentforums'] = array('Recente forums op index');
