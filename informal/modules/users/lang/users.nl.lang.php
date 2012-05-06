@@ -18,7 +18,7 @@ $L['cfg_maxusersperpage'] = array('Maximale aantal regels in ledenlijst', '');
 $L['cfg_regnoactivation'] = array('Skip e-mail check voor nieuwe leden', '\'Nee\' aanbevolen wegens beveiligings redenen');
 $L['cfg_regrequireadmin'] = array('Administratoren moeten nieuwe gebruikers valideren', '');
 $L['cfg_user_email_noprotection'] = array('Schakel wachtwoord beveiliging uit bij e-mail wijziging', '\'Nee\' aanbevolen wegens beveiligings redenen');
-$L['cfg_useremailchange'] = array('Sta gebruikers toe wachtwoord te wijzigen', '\'Nee\' aanbevolen wegens beveiligings redenen');
+$L['cfg_useremailchange'] = array('Sta gebruikers toe e-mail adres te wijzigen', '\'Nee\' aanbevolen wegens beveiligings redenen');
 $L['cfg_usertextmax'] = array('Maximale lengte voor gebruikers handtekening', '');
 
 ?>
