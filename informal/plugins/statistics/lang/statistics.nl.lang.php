@@ -17,6 +17,7 @@ $L['info_desc'] = 'Simpele website statistieken';
  * Plugin Title & Subtitle
  */
 
+$L['plu_title'] = 'Statistieken';
 $L['Statistics'] = 'Statistieken';
 
 /**
