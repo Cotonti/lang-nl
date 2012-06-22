@@ -90,6 +90,7 @@ $L['pro_passtoshort'] = 'Het wachtwoord moet minimaal 4 tekens bevatten.';
 $L['pro_subtitle'] = 'Uw account';
 $L['pro_title'] = 'Profiel';
 $L['pro_wrongpass'] = 'U heeft uw huidige wachtwoord niet correct ingevoerd.';
+$L['pro_invalidbirthdate'] = 'Geboortedatum is niet correct.';
 
 $L['useed_accountactivated'] = 'Account geactiveerd';
 $L['useed_email'] = 'Uw account is succesvol geactiveerd door een administrator. U kunt nu inloggen met uw eigen gebruikersnaam en wachtwoord.';
