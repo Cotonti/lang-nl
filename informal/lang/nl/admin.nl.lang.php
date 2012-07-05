@@ -165,7 +165,7 @@ $L['cfg_menu9'] = array('Menu slot #9<br />{PHP.cfg.menu9} in alle tpl bestanden
  * Performance Subsection
  */
 
-$L['cfg_gzip'] = array('Gzip', 'Gzip compressie op de HTML output');
+$L['cfg_gzip'] = array('Gzip', 'Gzip compressie van de HTML output. Activeer dit niet wanneer de server dit al uitvoert. Gebruik de volgende tool om dit te testen: <a href="http://www.whatsmyip.org/http-compression-test/">HTTP Compression Test</a>');
 $L['cfg_headrc_consolidate'] = array('Consolideer header en footer resources (JS/CSS)');
 $L['cfg_headrc_minify'] = array('Verklein geconsolideerde JS/CSS');
 $L['cfg_jquery_cdn'] = array('Gebruik jQuery via CDN URL', 'Voorbeeld: https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js');
