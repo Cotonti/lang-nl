@@ -135,6 +135,7 @@ $L['Ipsearch'] = 'IP zoeken';
 $L['IRC'] = 'IRC';
 $L['Item'] = 'Item';
 $L['Items'] = 'Items';
+$L['JustNow'] = 'Nu net';
 $L['kb'] = 'KB';
 $L['Key'] = 'Sleutel';
 $L['Keywords'] = 'Keywords';

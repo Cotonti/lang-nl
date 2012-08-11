@@ -113,6 +113,7 @@ $L['cfg_confirmlinks'] = array('Bevestig potentieel gevaarlijke acties');
 $L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
 $L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
 $L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
+$L['cfg_hashfunc'] = array('Standaard hash functie', 'Voor wachtwoord hash');
 
 $L['cfg_referercheck'] = array('Referer check voor formulieren', 'Preventie voor cross-domein posting');
 $L['cfg_shieldenabled'] = array('Activeer schild', 'Anti-spamming en anti-hammering');
@@ -292,7 +293,10 @@ $L['ext_cat']['post-install'] = 'Na-installatie Scripts';
 /**
   * Structure Section
  */
-
+$L['adm_structure_code_reserved'] = "Structure code 'all' is gereserveerd.";	
+$L['adm_structure_code_required'] = 'Vereist veld ontbreekt: Code';	
+$L['adm_structure_path_required'] = 'Vereist veld ontbreekt: Pad';	
+$L['adm_structure_title_required'] = 'Vereist veld ontbreekt: Titel';
 $L['adm_cat_exists'] = 'Een categorie met deze code bestaat al';
 $L['adm_tpl_mode'] = 'Template modus';
 $L['adm_tpl_empty'] = 'Standaard';
@@ -312,7 +316,7 @@ $L['adm_extrafields_desc'] = 'Voeg toe/bewerk extra velden';
 $L['adm_extrafields_all'] = 'Geef alle database tabellen weer';
 $L['adm_extrafields_table'] = 'Tabel';
 
-$L['adm_help_structure_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
+$L['adm_help_structure_extrafield'] = '<b>Base HTML</b> automatisch geselecteerd indien blank<br /><br />
 <b>Nieuwe tags in tpl bestanden:</b><br /><br />
 <u>list.tpl:</u><br /><br />
 &nbsp;&nbsp;&nbsp;{LIST_XXXXX}, {LIST_XXXXX_TITLE}<br /><br />

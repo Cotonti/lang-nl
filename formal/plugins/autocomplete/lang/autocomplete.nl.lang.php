@@ -17,5 +17,6 @@ defined('COT_CODE') or die('Wrong URL.');
 
 $L['plu_title'] = 'Autocomplete';
 $L['cfg_autocomplete'] = array('Minimaal aantal karakters voor autocomplete', '0 - autocomplete uitschakelen');
+$L['cfg_css'] = 'Gebruik plugin CSS';
 
 ?>
