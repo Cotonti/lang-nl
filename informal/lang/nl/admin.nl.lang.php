@@ -394,6 +394,8 @@ $L['adm_opt_setup_missing'] = 'Fout: installatie bestanden niet gevonden!';
 $L['adm_sort_alphabet'] = 'Alfabetisch';
 $L['adm_sort_category'] = 'Categorie weergave';
 
+$L['adm_only_installed'] = 'Geinstalleerd';
+
 /**
  * Tools Section
  */
