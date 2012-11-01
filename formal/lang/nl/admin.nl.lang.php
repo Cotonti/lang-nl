@@ -64,24 +64,25 @@ $L['home_update_revision'] = 'Huidige versie: <span style="color:#C00;font-weigh
  */
 
 $L['core_forums'] = &$L['Forums'];
-$L['core_locale'] = &$L['Locatie'];
+$L['core_locale'] = &$L['Locale'];
 $L['core_main'] = 'Hoofdinstellingen';
-$L['core_menus'] = &$L['Menu\'s'];
-$L['core_page'] = &$L['pagina\'s'];
+$L['core_menus'] = &$L['Menus'];
+$L['core_page'] = &$L['Pages'];
 $L['core_parser'] = &$L['Parser'];
-$L['core_performance'] = 'Performance';
+$L['core_performance'] = 'Prestaties';
 $L['core_pfs'] = &$L['PFS'];
 $L['core_plug'] = &$L['Plugins'];
-$L['core_pm'] = &$L['Privéberichten'];
+$L['core_pm'] = &$L['Private_Messages'];
 $L['core_polls'] = &$L['Polls'];
 $L['core_rss'] = &$L['RSS_Feeds'];
-$L['core_security'] = &$L['Beveiliging'];
-$L['core_structure'] = &$L['Categorieën'];
-$L['core_theme'] = &$L['Thema\'s'];
+$L['core_security'] = &$L['Security'];
+$L['core_sessions'] = 'Sessies';
+$L['core_structure'] = &$L['Categories'];
+$L['core_theme'] = &$L['Themes'];
 $L['core_time'] = 'Tijd en datum';
-$L['core_title'] = 'Titels en meta\'s';
-$L['core_users'] = &$L['Gebruikers'];
-$L['cfg_struct_defaults'] = 'Structuur standaard';
+$L['core_title'] = 'Titels en metadata';
+
+$L['cfg_struct_defaults'] = 'Standaardinstellingen voor structuur';
 
 /**
  * Shortcuts
