@@ -23,7 +23,7 @@ $L['Structure'] = 'Structuur';
 /**
  * Home Section
  */
- 
+
 $L['home_installable_error'] = 'Verwijder install.php tot de volgende update of zorg ervoor dat install.php niet schrijfbaar is';
 
 $L['home_newusers'] = 'Nieuwe leden';
@@ -269,7 +269,7 @@ $L['ext_updated'] = '{$type} &quot;{$name}&quot; is bijgewerkt naar versie {$ver
 $L['ext_updating'] = '{$type} &quot;{$name}&quot; wordt bijgewerkt';
 
 /**
- * Extension categories 
+ * Extension categories
  */
 $L['ext_cat']['administration-management'] = 'Administratie &amp; Management';
 $L['ext_cat']['commerce'] = 'Commerce &amp; Shopping';
@@ -294,9 +294,9 @@ $L['ext_cat']['post-install'] = 'Na-installatie Scripts';
 /**
   * Structure Section
  */
-$L['adm_structure_code_reserved'] = "Structure code 'all' is gereserveerd.";	
-$L['adm_structure_code_required'] = 'Vereist veld ontbreekt: Code';	
-$L['adm_structure_path_required'] = 'Vereist veld ontbreekt: Pad';	
+$L['adm_structure_code_reserved'] = "Structure code 'all' is gereserveerd.";
+$L['adm_structure_code_required'] = 'Vereist veld ontbreekt: Code';
+$L['adm_structure_path_required'] = 'Vereist veld ontbreekt: Pad';
 $L['adm_structure_title_required'] = 'Vereist veld ontbreekt: Titel';
 $L['adm_cat_exists'] = 'Een categorie met deze code bestaat al';
 $L['adm_tpl_mode'] = 'Template modus';
@@ -427,6 +427,7 @@ $L['adm_checktheme'] = 'Controleer TPL bestanden voor het thema';
 $L['adm_checkingtheme'] = 'Thema wordt gecontroleerd..';
 $L['adm_check_ok'] = 'Oke';
 $L['adm_check_missing'] = 'Niet aanwezig';
+$L['adm_ref_prune'] = 'Opgeruimd';
 
 /**
  * Other Section
