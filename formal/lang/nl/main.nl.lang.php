@@ -307,6 +307,7 @@ $L['Today'] = 'Vandaag';
 $L['Tool'] = 'Tool';
 $L['Tools'] = 'Tools';
 $L['Total'] = 'Totaal';
+$L['Topic'] = 'Topic';
 $L['TPL'] = 'TPL';
 $L['Type'] = 'Type';
 $L['Unfold'] = 'Uitvouwen';
