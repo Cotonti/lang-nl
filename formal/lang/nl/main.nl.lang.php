@@ -5,7 +5,7 @@
  * @package Cotonti
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -145,6 +145,7 @@ $L['Languages'] = 'Talen';
 $L['Lastlogged'] = 'Laatst ingelogd';
 $L['Lastpost'] = 'Laatste bericht';
 $L['Left']	= 'Links';
+$L['LessThan'] = 'Minder dan';
 $L['Level']	= 'Level';
 $L['Levels']	= 'Levels';
 $L['Link']	= 'Link';
@@ -290,6 +291,7 @@ $L['Subforum'] = 'Subforum';
 $L['Subforums'] = 'Subforums';
 $L['Subject'] = 'Onderwerp';
 $L['Submit'] = 'Toevoegen';
+$L['Submitforapproval'] = 'Insturen voor goedkeuring';
 $L['Submitnew'] = 'Nieuwe pagina toevoegen';
 $L['Submittedby'] = 'Toegevoegd door';
 $L['Summary'] = 'Overzicht';
@@ -405,7 +407,7 @@ $L['Sunday'] = 'Zondag';
 $L['Monday_s'] = 'Ma';
 $L['Tuesday_s'] = 'Di';
 $L['Wednesday_s'] = 'Wo';
-$L['Thursdayv'] = 'Do';
+$L['Thursday_s'] = 'Do';
 $L['Friday_s'] = 'Vr';
 $L['Saturday_s'] = 'Za';
 $L['Sunday_s'] = 'Zo';
@@ -460,6 +462,7 @@ $L['Gender_U'] = 'Onbekend';
 
 $L['com_themefail'] = 'Waarschuwing - laden van thema is mislukt. Controleer uw profiel.';
 $L['com_schemefail'] = 'Waarschuwing - laden van kleurenschema voor het thema is mislukt. Controleer uw profiel.';
+$L['com_defthemefail'] = 'Waarschuwing, standaard thema niet gevonden, controleer de thema\'s folder';
 
 /**
  * Header

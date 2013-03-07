@@ -6,7 +6,7 @@
  * @package Cotonti
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -298,6 +298,7 @@ $L['adm_structure_code_reserved'] = "Structure code 'all' is gereserveerd.";
 $L['adm_structure_code_required'] = 'Vereist veld ontbreekt: Code';
 $L['adm_structure_path_required'] = 'Vereist veld ontbreekt: Pad';
 $L['adm_structure_title_required'] = 'Vereist veld ontbreekt: Titel';
+$L['adm_structure_somenotupdated'] = 'Attentie! Sommige waardes zijn niet aangepast.';
 $L['adm_cat_exists'] = 'Een categorie met deze code bestaat al';
 $L['adm_tpl_mode'] = 'Template modus';
 $L['adm_tpl_empty'] = 'Standaard';
@@ -316,17 +317,16 @@ $L['adm_help_structure'] = 'De pagina\'s die behoren tot de categorie &quot;syst
 $L['adm_extrafields_desc'] = 'Voeg toe/bewerk extra velden';
 $L['adm_extrafields_all'] = 'Geef alle database tabellen weer';
 $L['adm_extrafields_table'] = 'Tabel';
+$L['adm_extrafields_help_notused'] = 'Niet in gebruik';
 
-$L['adm_help_structure_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
-<b>Nieuwe tags in tpl bestanden:</b><br /><br />
-<u>list.tpl:</u><br /><br />
-&nbsp;&nbsp;&nbsp;{LIST_XXXXX}, {LIST_XXXXX_TITLE}<br /><br />
-<u>list.group.tpl:</u><br /><br />
-&nbsp;&nbsp;&nbsp;{LIST_XXXXX}, {LIST_XXXXX_TITLE}<br /><br />
-<u>admin.structure.inc.tpl :</u><br /><br />
-&nbsp;&nbsp;&nbsp;&lt;!-- BEGIN: OPTIONS --&gt; {ADMIN_STRUCTURE_XXXXX}, {ADMIN_STRUCTURE_XXXXX_TITLE} &lt;!-- END: OPTIONS --&gt;<br /><br />
-&nbsp;&nbsp;&nbsp;&lt;!-- BEGIN: DEFULT --&gt; {ADMIN_STRUCTURE_FORMADD_XXXXX}, {ADMIN_STRUCTURE_FORMADD_XXXXX_TITLE} &lt;!-- END: DEFULT --&gt;<br /><br />
-<br />';
+$L['adm_extrafields_help_variants'] = '{variant1},{variant2},{variant3},...';
+$L['adm_extrafields_help_range'] = '{min_value},{max_value}';
+$L['adm_extrafields_help_data'] = '{min_year},{max_year},{date_format}. Wanneer leeg {date_format}, gebruikt stamp';
+$L['adm_extrafields_help_regex'] = 'Regex voor controleren';
+$L['adm_extrafields_help_file'] = 'Upload directory';
+$L['adm_extrafields_help_separator'] = 'Waarde splitser';
+$L['adm_help_info'] = '<b>Base HTML</b> automatisch ingesteld wanneer leeg';
+$L['adm_help_newtags'] = '<br /><br /><b>Nieuwe tags in TPL bestanden:</b>';
 
 /**
  * Users Section
@@ -337,6 +337,9 @@ $L['adm_maxsizesingle'] = 'Maximale grootte voor een los bestand in '.$L['PFS'].
 $L['adm_maxsizeallpfs'] = 'Maximale grootte voor alle bestanden samen in '.$L['PFS'].' (KB)';
 $L['adm_copyrightsfrom'] = 'Zelfde rechten als groep instellen';
 $L['adm_rights_maintenance'] = 'Toegang tot website in onderhoudsmodus';
+$L['adm_skiprights'] = 'Verzuim rechten voor deze groep';
+$L['adm_groups_name_empty'] = 'Groepsnaam mag niet leeg zijn';
+$L['adm_groups_title_empty'] = 'Groepslid titel mag niet leeg zijn';
 
 /**
  * Users Section

@@ -5,7 +5,7 @@
  * @package page
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -92,6 +92,9 @@ $L['page_filesize'] = 'Bestandsgrootte in kB';
 $L['page_filesizehint'] = '(Grootte van het bestand)';
 $L['page_filehitcount'] = 'Download hits';
 $L['page_filehitcounthint'] = '(Aantal hits voor download)';
+$L['page_metakeywords'] = 'Meta keywords';
+$L['page_metatitle'] = 'Meta titel';
+$L['page_metadesc'] = 'Meta beschrijving';
 
 $L['page_formhint'] = 'Zodra je inzending klaar is zal de pagina in een validatie lijst gezet worden. Een administrator zal de inzending controleren en publiceren wanneer de inhoud goedgekeurd is. Zorg dat je alle vereiste velden ingevuld hebt om een langere wachttijd te voorkomen.';
 
@@ -116,5 +119,8 @@ $L['page_status_expired'] = 'Verlopen';
 
 $L['pag_linesperpage'] = 'Regels per pagina';
 $L['pag_linesinthissection'] = 'Regels in deze sectie';
+
+$Ls['pages'] = array('pagina\s', 'pagina');
+$Ls['unvalidated_pages'] = array('ongevalideerde pagina\s', 'ongevalideerde pagina');
 
 ?>

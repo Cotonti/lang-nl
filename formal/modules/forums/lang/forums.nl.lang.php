@@ -5,7 +5,7 @@
  * @package forums
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -48,7 +48,7 @@ $L['forums_post'] = 'Bericht';
 $L['forums_posts'] = 'Berichten';
 $L['forums_topic'] = 'Onderwerp';
 $L['forums_topics'] = 'Onderwerpen';
- 
+
 $L['forums_antibump'] = 'The anti-bump protectie staat aan, u kunt niet 2 keer achter elkaar posten.';
 $L['forums_keepmovedlink'] = 'Bewaar onderwerp-verplaats link';
 $L['forums_markallasread'] = 'Markeer alle berichten gelezen';
@@ -61,6 +61,7 @@ $L['forums_topiclocked'] = 'Dit onderwerp is gesloten, nieuwe berichten zijn nie
 $L['forums_topicoptions'] = 'Onderwerp opties';
 $L['forums_updatedby'] = '<br /><em>Dit bericht is bewerkt door %1$s (%2$s, %3$s ago)</em>';
 $L['forums_postedby'] = 'Geplaatst door';
+$L['forums_edittimeoutnote'] = 'Timeout voor het bewerken of verwijderen van eigen bericht is ';
 
 $L['forums_privatetopic1'] = 'Markeer dit onderwerp als privé';
 $L['forums_privatetopic2'] = 'Alleen forum moderators en de starter van dit onderwerp (jij) hebben rechten om dit onderwerp te lezen en te reageren';

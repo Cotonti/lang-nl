@@ -5,7 +5,7 @@
  * @package Ipsearch
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -22,7 +22,7 @@ $L['ipsearch_dnsrecord'] = 'DNS record voor dit adres';
 $L['ipsearch_searchthisuser'] = 'Zoek dit IP in de database';
 
 $L['ipsearch_found1'] = 'Gevonden';
-$L['ipsearch_found2'] = 'Overkomsten voor';
+$L['ipsearch_found2'] = 'Overeenkomsten voor';
 
 $L['ipsearch_help'] = 'Geen help beschikbaar voor deze plugin.';
 

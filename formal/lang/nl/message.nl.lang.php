@@ -5,7 +5,7 @@
  * @package Cotonti
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -56,6 +56,9 @@ $L['msg152_body'] = 'Uw account is geregistreerd maar nog niet actief.';
 
 $L['msg153_title'] = 'Inloggen mislukt';
 $L['msg153_body'] = 'Uw account is gebanned.';
+
+$L['msg154_title'] = 'Wachtwoord aanvragen mislukt (e-mail niet gevonden)';
+$L['msg154_body'] = 'Fout, het e-mail adres staat niet in de database.';
 
 $L['msg157_title'] = 'Validatie URL incorrect';
 $L['msg157_body'] = 'De validatie URL is niet correct.';

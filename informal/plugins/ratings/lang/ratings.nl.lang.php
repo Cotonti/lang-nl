@@ -5,7 +5,7 @@
  * @package ratings
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -36,10 +36,15 @@ $L['adm_help_ratings'] = 'Om een beoordeling te resetten kunt u deze verwijderen
  */
 
 $L['rat_choice1'] = 'Erg slecht';
-$L['rat_choice2'] = 'Matig';
-$L['rat_choice3'] = 'Gemiddeld';
-$L['rat_choice4'] = 'Goed';
-$L['rat_choice5'] = 'Uitstekend';
+$L['rat_choice2'] = 'Slecht';
+$L['rat_choice3'] = 'Niet slecht';
+$L['rat_choice4'] = 'Netjes';
+$L['rat_choice5'] = 'Gemiddeld';
+$L['rat_choice6'] = 'Bijna goed';
+$L['rat_choice7'] = 'Goed';
+$L['rat_choice8'] = 'Zeer goed';
+$L['rat_choice9'] = 'Uitstekend';
+$L['rat_choice10'] = 'Perfect';
 $L['rat_votecasted'] = 'Stem is succesvol ontvangen!';
 $L['rat_since'] = 'sinds';
 $L['rat_notyetrated'] = 'Nog niet beoordeeld';

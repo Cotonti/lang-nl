@@ -5,7 +5,7 @@
  * @package bbcode
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -14,6 +14,8 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['adm_bbcode'] = 'BBCode';
 $L['adm_bbcodes'] = 'BBCodes';
 $L['adm_bbcodes_added'] = 'Nieuwe bbcode succesvol toegevoegd.';
+$L['adm_bbcodes_notadded'] = 'BBCode niet toegevoegd.';
+$L['adm_bbcodes_notallfields'] = 'Sommige vereiste velden zijn niet ingevuld.';
 $L['adm_bbcodes_clearcache'] = 'Wis HTML cache';
 $L['adm_bbcodes_clearcache_confirm'] = 'Dit zal de cache voor alle pagina\'s en berichten wissen, doorgaan?';
 $L['adm_bbcodes_clearcache_done'] = 'HTML cache is gewist.';
@@ -33,8 +35,10 @@ $L['adm_bbcodes_pattern'] = 'Patroon';
 $L['adm_bbcodes_postrender'] = 'Post-render';
 $L['adm_bbcodes_priority'] = 'Prioriteit';
 $L['adm_bbcodes_removed'] = 'bbcode succesvol verwijderd';
+$L['adm_bbcodes_notremoved'] = 'BBCode niet verwijderd';
 $L['adm_bbcodes_replacement'] = 'Vervanging';
-$L['adm_bbcodes_updated'] = 'bbcode succesvol bijgewerkt';
+$L['adm_bbcodes_notupdated'] = 'Sommige BBCode\'s niet bijgewerkt.';
+$L['adm_bbcodes_fieldrequired'] = 'Vereist veld niet ingevuld voor sommige BBCode\'s;
 $L['adm_help_bbcodes'] = <<<HTM
 <ul>
 <li><strong>Name</strong> - BBcode naam (alleen alfanumeriek en liggend streepje)</li>

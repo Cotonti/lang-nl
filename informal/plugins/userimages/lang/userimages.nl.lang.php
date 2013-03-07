@@ -5,12 +5,13 @@
  * @package Userimages
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
 defined('COT_CODE') or die('Wrong URL.');
 
+$L['userimages_title'] = 'Gebruikers plaatjes';
 $L['info_desc'] = 'Avatars, foto\'s en handtekening afbeeldingen voor gebruikers';
 
 $L['userimages_width'] = 'Breedte';
@@ -25,6 +26,7 @@ $L['userimages_avatarschoose'] = 'Klik op de afbeelding om het als avatar in te 
 $L['userimages_avatarspreset'] = 'of klik hier om een galerij van bestaande avatars weer te geven.';
 $L['userimages_avatarsupload'] = 'Avatar uploaden';
 $L['userimages_avataruploadfailed'] = 'Upload mislukt, verwijder het oude avatar eerst!';
+$L['userimages_emptycode'] = 'Code mag niet leeg zijn';
 $L['userimages_photonotvalid'] = 'Deze foto is geen geldige %1$s afbeelding.';
 $L['userimages_photoupload'] = 'Upload een foto';
 $L['userimages_sigotvalid'] = 'Deze handtekening is geen geldige %1$s afbeelding.';

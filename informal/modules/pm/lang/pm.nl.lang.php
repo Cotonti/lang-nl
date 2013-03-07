@@ -5,7 +5,7 @@
  * @package pm
  * @version 0.9.0
  * @author Cotonti Translators Team
- * @copyright Copyright (c) Cotonti Team 2008-2012
+ * @copyright Copyright (c) Cotonti Team 2008-2013
  * @license BSD
  */
 
@@ -48,7 +48,7 @@ $L['pm_sentboxsubtitle'] = 'Verzonden berichten';
 $L['pm_titletooshort'] = 'Titel is te kort';
 $L['pm_toomanyrecipients'] = '%1$s is het maximale aantal ontvangers';
 $L['pm_wrongname'] = 'Een ontvanger was onjuist, deze is van de lijst verwijderd.';
-$L['pm_messageshistory'] = 'Berichten geschiedenis';
+$L['pm_messagehistory'] = 'Berichten geschiedenis';
 $L['pm_notmovetosentbox'] = 'Niet in outbox plaatsen"';
 
 $L['pm_filter'] = 'Filter';
@@ -59,7 +59,7 @@ $L['pm_deletefromstarred'] = 'Verwijder uit gemarkeerd';
 $L['pm_putinstarred'] = 'Voeg toe aan gemarkeerd';
 $L['pm_read'] = 'Lezen';
 $L['pm_selected'] = 'Geselecteerd';
-	
+
 /**
  * Private messages: notification
  */

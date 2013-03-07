@@ -1,6 +1,6 @@
 <?php
 /**
- * Dutch formal Language File for the Index Module (index.nl.lang.php)
+ * Dutch informal Language File for the Index Module (index.nl.lang.php)
  *
  * @package index
  * @version 0.9.0
