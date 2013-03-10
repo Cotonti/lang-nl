@@ -59,7 +59,7 @@ $L['forums_newpoll'] = 'Nieuwe poll';
 $L['forums_titletooshort'] = 'Onderwerp titel is te kort';
 $L['forums_topiclocked'] = 'Dit onderwerp is gesloten, nieuwe berichten zijn niet toegestaan.';
 $L['forums_topicoptions'] = 'Onderwerp opties';
-$L['forums_updatedby'] = '<br /><em>Dit bericht is bewerkt door %1$s (%2$s, %3$s ago)</em>';
+$L['forums_updatedby'] = '<br /><em>Dit bericht is bewerkt door %1$s (%2$s, %3$s geleden)</em>';
 $L['forums_postedby'] = 'Geplaatst door';
 $L['forums_edittimeoutnote'] = 'Timeout voor het bewerken of verwijderen van eigen bericht is ';
 
