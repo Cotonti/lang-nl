@@ -270,25 +270,25 @@ $L['ext_updating'] = '{$type} &quot;{$name}&quot; wordt bijgewerkt';
 /**
  * Extension categories
  */
-$L['ext_cat']['administration-management'] = 'Administratie &amp; Management';
-$L['ext_cat']['commerce'] = 'Commerce &amp; Shopping';
-$L['ext_cat']['community-social'] = 'Community &amp; Social';
-$L['ext_cat']['customization-i18n'] = 'Customization &amp; I18n';
-$L['ext_cat']['data-apis'] = 'Data Feeds &amp; APIs';
-$L['ext_cat']['development-maintenance'] = 'Ontwikkeling &amp; Onderhoud';
-$L['ext_cat']['editor-parser'] = 'Editors &amp; Opmaak';
-$L['ext_cat']['files-media'] = 'Bestanden &amp; Media';
-$L['ext_cat']['forms-feedback'] = 'Formulieren &amp; Feedback';
-$L['ext_cat']['gaming-clans'] = 'Gaming &amp; Clans';
-$L['ext_cat']['intranet-groupware'] = 'Intranet &amp; Groupware';
-$L['ext_cat']['misc-ext'] = 'Overig';
-$L['ext_cat']['mobile-geolocation'] = 'Mobiel &amp; Geolocatie';
-$L['ext_cat']['navigation-structure'] = 'Navigatie &amp; Structuur';
-$L['ext_cat']['performance-seo'] = 'Performance &amp; SEO';
-$L['ext_cat']['publications-events'] = 'Publicaties &amp; Evenementen';
-$L['ext_cat']['security-authentication'] = 'Beveiliging &amp; Authenticatie';
-$L['ext_cat']['utilities-tools'] = 'Utilities &amp; Tools';
-$L['ext_cat']['post-install'] = 'Na-installatie Scripts';
+$Lext['administration-management'] = 'Administratie &amp; Management';
+$Lext['commerce'] = 'Commerce &amp; Shopping';
+$Lext['community-social'] = 'Community &amp; Social';
+$Lext['customization-i18n'] = 'Customization &amp; I18n';
+$Lext['data-apis'] = 'Data Feeds &amp; APIs';
+$Lext['development-maintenance'] = 'Ontwikkeling &amp; Onderhoud';
+$Lext['editor-parser'] = 'Editors &amp; Opmaak';
+$Lext['files-media'] = 'Bestanden &amp; Media';
+$Lext['forms-feedback'] = 'Formulieren &amp; Feedback';
+$Lext['gaming-clans'] = 'Gaming &amp; Clans';
+$Lext['intranet-groupware'] = 'Intranet &amp; Groupware';
+$Lext['misc-ext'] = 'Overig';
+$Lext['mobile-geolocation'] = 'Mobiel &amp; Geolocatie';
+$Lext['navigation-structure'] = 'Navigatie &amp; Structuur';
+$Lext['performance-seo'] = 'Performance &amp; SEO';
+$Lext['publications-events'] = 'Publicaties &amp; Evenementen';
+$Lext['security-authentication'] = 'Beveiliging &amp; Authenticatie';
+$Lext['utilities-tools'] = 'Utilities &amp; Tools';
+$Lext['post-install'] = 'Na-installatie Scripts';
 
 /**
   * Structure Section
