@@ -143,8 +143,8 @@ $L['users_deleteuser'] = 'Verwijder gebruiker';
  * Moved from theme.lang
  */
 
-$themelang['usersprofile']['Emailpassword'] = 'Je huidig wachtwoord';
-$themelang['usersprofile']['Emailnotes'] = '<p><b>E-mail transitie (Wanneer e-mail transitie beschikbaar is en e-mail adres validatie vereist is.):</b></p>
+$themelang['usersprofile_Emailpassword'] = 'Je huidig wachtwoord';
+$themelang['usersprofile_Emailnotes'] = '<p><b>E-mail transitie (Wanneer e-mail transitie beschikbaar is en e-mail adres validatie vereist is.):</b></p>
 <ol>
 	<li>Huidig e-mail adres kan niet worden gebruikt</li>
 	<li>Wegens beveiligings redenen ben je verplicht je huidig wachtwoord in te voeren</li>

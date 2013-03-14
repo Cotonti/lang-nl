@@ -20,12 +20,18 @@ $L['core_trash'] = &$L['Prullenbak'];
  * Trash Subsection
  */
 
-$L['cfg_trash_forum'] = array('Gebruik prullenbak voor de forums', '');
-$L['cfg_trash_page'] = array('Gebruik prullenbak voor de pagina\'s', '');
-$L['cfg_trash_pm'] = array('Gebruik prullenbak voor privéberichten', '');
-$L['cfg_trash_prunedelay'] = array('Verwijder de items in de prullenbak na * dagen (0 om altijd te behouden)', '');
-$L['cfg_trash_user'] = array('Gebruik prullenbak voor gebruikers', '');
-$L['cfg_trash_comment'] = array('Gebruik prullenbak voor reacties', '');
+$L['cfg_trash_forum'] = 'Gebruik prullenbak voor de forums';
+$L['cfg_trash_forum_hint'] = '';
+$L['cfg_trash_page'] = 'Gebruik prullenbak voor de pagina\'s';
+$L['cfg_trash_page_hint'] = '';
+$L['cfg_trash_pm'] = 'Gebruik prullenbak voor privéberichten';
+$L['cfg_trash_pm_hint'] = '';
+$L['cfg_trash_prunedelay'] = 'Verwijder de items in de prullenbak na * dagen (0 om altijd te behouden)';
+$L['cfg_trash_prunedelay_hint'] = '';
+$L['cfg_trash_user'] = 'Gebruik prullenbak voor gebruikers';
+$L['cfg_trash_user_hint'] = '';
+$L['cfg_trash_comment'] = 'Gebruik prullenbak voor reacties';
+$L['cfg_trash_comment_hint'] = '';
 
 $L['info_desc'] = 'Bewaard verwijderde items uit te prullenbak voor een tijd zodat deze herstelt kunnen worden indien nodig.';
 

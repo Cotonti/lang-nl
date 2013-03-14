@@ -15,9 +15,12 @@ defined('COT_CODE') or die('Wrong URL.');
  * Module Config
  */
 
-$L['cfg_allownotifications'] = array('Sta privébericht notificaties toe via e-mail', '');
-$L['cfg_maxsize'] = array('Maximale lengte voor bericht', '');
-$L['cfg_maxpmperpage'] = array('Max. aantal berichten per pagina', ' ');
+$L['cfg_allownotifications'] = 'Sta privébericht notificaties toe via e-mail';
+$L['cfg_allownotifications_hint'] = '';
+$L['cfg_maxsize'] = 'Maximale lengte voor bericht';
+$L['cfg_maxsize_hint'] = '';
+$L['cfg_maxpmperpage'] = 'Max. aantal berichten per pagina';
+$L['cfg_maxpmperpage_hint'] = ' ';
 $L['info_desc'] = 'Privéberichten bieden je de mogelijkheid om binnen de website te communiceren met andere gebruikers';
 
 /**
@@ -40,7 +43,7 @@ $L['pm_inbox'] = 'Inbox';
 $L['pm_inboxsubtitle'] = 'Privéberichten, nieuwste bericht staat bovenaan';
 $L['pm_norecipient'] = 'Geen ontvanger gespecificeerd';
 $L['pm_notifytitle'] = 'Nieuw privébericht';
-$Ls['Privatemessages'] = array('Nieuwe privéberichten','nieuw privébericht');
+$Ls['Privatemessages'] = "Nieuwe privéberichten,nieuw privébericht";
 $L['pm_replyto'] = 'Reageer op deze gebruiker';
 $L['pm_sendnew'] = 'Stuur nieuw privébericht';
 $L['pm_sentbox'] = 'Outbox';

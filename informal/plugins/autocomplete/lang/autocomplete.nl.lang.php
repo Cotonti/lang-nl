@@ -21,7 +21,8 @@ $L['info_desc'] = 'Autocomplete for gebruikersnamen in formulieren';
  * Plugin Config
  */
 
-$L['cfg_autocomplete'] = array('Minimaal aantal karakters voor autocomplete', '0 - autocomplete uitschakelen');
+$L['cfg_autocomplete'] = 'Minimaal aantal karakters voor autocomplete';
+$L['cfg_autocomplete_hint'] = '0 - autocomplete uitschakelen';
 $L['cfg_css'] = 'Gebruik plugin CSS';
 
 /**

@@ -44,16 +44,16 @@ $L['tags_Tag_cloud_none'] = 'Geen tags';
  * Plugin Config
  */
 
-$L['cfg_forums'] = array('Activeer tags in forums');
-$L['cfg_index'] = array('Index pagina tag cloud locatie');
-$L['cfg_limit'] = array('Max. aantal tags per item, 0 voor ongelimiteerd');
-$L['cfg_lim_forums'] = array('Tag limiet voor forums tag cloud, 0 voor ongelimiteerd');
-$L['cfg_lim_index'] = array('Tag limiet voor index (homepage) tag cloud, 0 voor ongelimiteerd');
-$L['cfg_lim_pages'] = array('Tag limiet voor pagina\'s tag cloud, 0 voor ongelimiteerd');
-$L['cfg_more'] = array('Geef &quot;alle tags&quot; link weer in tag clouds');
-$L['cfg_order'] = array('Cloud output volgorde &mdash; alfabetisch, aflopend of willekeurig');
-$L['cfg_pages'] = array('Activeer tags in pagina\'s');
-$L['cfg_perpage'] = array('Tags weergeven per pagina in standalone cloud, 0 is alles tegelijk');
+$L['cfg_forums'] = 'Activeer tags in forums';
+$L['cfg_index'] = 'Index pagina tag cloud locatie';
+$L['cfg_limit'] = 'Max. aantal tags per item, 0 voor ongelimiteerd';
+$L['cfg_lim_forums'] = 'Tag limiet voor forums tag cloud, 0 voor ongelimiteerd';
+$L['cfg_lim_index'] = 'Tag limiet voor index (homepage) tag cloud, 0 voor ongelimiteerd';
+$L['cfg_lim_pages'] = 'Tag limiet voor pagina\'s tag cloud, 0 voor ongelimiteerd';
+$L['cfg_more'] = 'Geef &quot;alle tags&quot; link weer in tag clouds';
+$L['cfg_order'] = 'Cloud output volgorde &mdash; alfabetisch, aflopend of willekeurig';
+$L['cfg_pages'] = 'Activeer tags in pagina\'s';
+$L['cfg_perpage'] = 'Tags weergeven per pagina in standalone cloud, 0 is alles tegelijk';
 $L['cfg_sort'] = 'Standaard sorteer kolom voor tag zoekresultaten';
 $L['cfg_sort_params'] = array(
     'ID'       => 'ID',
@@ -61,8 +61,8 @@ $L['cfg_sort_params'] = array(
     'Date'     => 'Datum',
     'Category' => 'Categorie'
 );
-$L['cfg_title'] = array('Kapitaliseer de eerste letters van het keyword');
-$L['cfg_translit'] = array('Zet tags om in URLs');
+$L['cfg_title'] = 'Kapitaliseer de eerste letters van het keyword';
+$L['cfg_translit'] = 'Zet tags om in URLs';
 $L['cfg_css'] = 'Gebruik plugin\'s CSS';
 
 ?>

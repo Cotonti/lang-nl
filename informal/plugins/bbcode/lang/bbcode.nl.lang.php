@@ -52,7 +52,8 @@ $L['adm_help_bbcodes'] = <<<HTM
 </ul>
 HTM;
 
-$L['cfg_smilies'] = array('Smilies activeren', '');
+$L['cfg_smilies'] = 'Smilies activeren';
+$L['cfg_smilies_hint'] = '';
 
 $L['info_desc'] = 'Activeer BBCode parsing ondersteuning. Administrator kan bbcodes aanpassen via de admin tool. Voegt ook ondersteuning voor smilie codes en smilie sets toe.';
 

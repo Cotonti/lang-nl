@@ -15,8 +15,10 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_disableactivitystats'] = array('Geen statistieken weergeven voor de laatste 7 dagen', '(weergegeven op de administratie hoofdpagina)');
-$L['cfg_hit_precision'] = array('Geoptimaliseerde precisie hits teller', '');
+$L['cfg_disableactivitystats'] = 'Geen statistieken weergeven voor de laatste 7 dagen';
+$L['cfg_disableactivitystats_hint'] = '(weergegeven op de administratie hoofdpagina)';
+$L['cfg_hit_precision'] = 'Geoptimaliseerde precisie hits teller';
+$L['cfg_hit_precision_hint'] = '';
 
 $L['info_desc'] = 'Simpele hit statistieken. Alleen aanbevolen voor kleine websites.';
 
