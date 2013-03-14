@@ -413,19 +413,6 @@ $L['adm_groups_name_empty'] = 'Groepsnaam mag niet leeg zijn';
 $L['adm_groups_title_empty'] = 'Groepslid titel mag niet leeg zijn';
 
 /**
- * Users Section
- * Extrafields Subsection
- */
-
-$L['adm_help_users_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
-<b>New tags in tpl files:</b><br /><br />
-users.profile.tpl: {USERS_PROFILE_XXXXX}, {USERS_PROFILE_XXXXX_TITLE}<br /><br />
-users.edit.tpl: {USERS_EDIT_XXXXX}, {USERS_EDIT_XXXXX_TITLE}<br /><br />
-users.details.tpl: {USERS_DETAILS_XXXXX}, {USERS_DETAILS_XXXXX_TITLE}<br /><br />
-user.register.tpl: {USERS_REGISTER_XXXXX}, {USERS_REGISTER_XXXXX_TITLE}<br /><br />
-forums.posts.tpl: {FORUMS_POSTS_ROW_USERXXXXX}, {FORUMS_POSTS_ROW_USERXXXXX_TITLE}<br />';
-
-/**
  * Plug Section
  */
 
@@ -521,11 +508,7 @@ $L['adm_time1'] = '#1: Raw server time';
 $L['adm_time2'] = '#2: GMT time van de server';
 $L['adm_time3'] = '#3: GMT time + server afwijking (Cotonti referentie)';
 $L['adm_time4'] = '#4: Jouw lokale tijdzone, aangepast via je profiel';
-$L['adm_help_versions'] = 'Stel de server tijdzone in zodat klok #3 correct is<br />
-Klok #4 is afhankelijk van de tijdzone in je profiel.<br />
-Klok #1 en #2 worden niet gebruikt door Cotonti.';
-
-
+$L['adm_help_versions'] = 'Stel de server tijdzone in zodat klok #3 correct is<br />Klok #4 is afhankelijk van de tijdzone in je profiel.<br />Klok #1 en #2 worden niet gebruikt door Cotonti.';
 
 /**
  * Common Entries

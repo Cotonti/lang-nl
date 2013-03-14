@@ -17,8 +17,9 @@ defined('COT_CODE') or die('Wrong URL.');
 
 $L['cfg_maxpfsperpage'] = 'Max. aantal elementen per pagina';
 $L['cfg_maxpfsperpage_hint'] = ' ';
-$L['cfg_pfsfilecheck'] = array('Bestands check', 'Wanneer dit actief is zullen de geuploade bestanden gecontroleerd worden via het '.$L['PFS'].' of via afbeeldingen in het profiel.
-Dit is om te controleren dat de bestanden geldig zijn. &quot;Ja&quot; is aanbevolen om veiligheids redenen.');
+$L['cfg_pfsfilecheck'] = 'Bestandscheck';
+$L['cfg_pfsfilecheck_hint'] = 'Wanneer dit actief is zullen de geuploade bestanden gecontroleerd worden via het '.$L['PFS'].' of via afbeeldingen in het profiel. Dit is om te controleren dat de bestanden geldig zijn. &quot;Ja&quot; is aanbevolen om veiligheids redenen.';
+
 $L['cfg_pfsmaxuploads'] = 'Max. aantal concurrerende uploads tegelijkertijd';
 $L['cfg_pfsmaxuploads_hint'] = '';
 $L['cfg_pfsnomimepass'] = 'Geen Mimetype Pass';
@@ -57,7 +58,7 @@ $L['cfg_th_y_hint'] = 'Standaard: 84 pixel, advies: Breedte x 0.75';
  */
 
 $L['adm_gd'] = 'GD graphical library';
-$L['adm_allpfs'] = 'Alle '.$L['PFS'];
+$L['adm_allpfs'] = 'Alle PFS';
 $L['adm_allfiles'] = 'Alle bestanden';
 $L['adm_thumbnails'] = 'Thumbnails';
 $L['adm_orphandbentries'] = 'Vrijstaande DB entries';

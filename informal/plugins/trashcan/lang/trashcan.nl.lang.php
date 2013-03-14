@@ -39,12 +39,7 @@ $L['info_desc'] = 'Bewaard verwijderde items uit te prullenbak voor een tijd zod
   * TrashCan Section
  */
 
-$L['adm_help_trashcan'] = 'Dit is een lijst met items die recent naar de prullenbak zijn verplaatst door administratoren en moderators.<br />
-Prullenbak legen: verwijder items definitief<br />
-Herstellen: zet items terug in database<br />
-<b>Note</b>:<br />
-- Herstellen van een forum onderwerp herstelt ook alle reacties op dat onderwerp.<br />
-- Herstellen van een bericht in aan verwijderd topic herstelt het gehele onderwerp indien mogelijk.<br />';
+$L['adm_help_trashcan'] = 'Dit is een lijst met items die recent naar de prullenbak zijn verplaatst door administratoren en moderators.<br />Prullenbak legen: verwijder items definitief<br />Herstellen: zet items terug in database<br /><b>Note</b>:<br />- Herstellen van een forum onderwerp herstelt ook alle reacties op dat onderwerp.<br />- Herstellen van een bericht in aan verwijderd topic herstelt het gehele onderwerp indien mogelijk.<br />';
 $L['adm_trashcan_deleted'] = 'Item verwijderd';
 $L['adm_trashcan_prune'] = 'Prullenbak geleegd';
 $L['adm_trashcan_restored'] = 'Item hersteld';

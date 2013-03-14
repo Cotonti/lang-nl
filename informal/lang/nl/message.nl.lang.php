@@ -45,8 +45,7 @@ $L['msg117_title'] = 'Registratie uitgeschakeld';
 $L['msg117_body'] = 'Registreren is niet mogelijk.';
 
 $L['msg118_title'] = 'Registratie bijna voltooid';
-$L['msg118_body'] = 'De administrator is op de hoogte gebracht van je registratie.<br />
-Je ontvangt een e-mail wanneer je registratie is geaccepteerd.';
+$L['msg118_body'] = 'De administrator is op de hoogte gebracht van je registratie.<br />Je ontvangt een e-mail wanneer je registratie is geaccepteerd.';
 
 $L['msg151_title'] = 'Inloggen mislukt';
 $L['msg151_body'] = 'Je inlog gegevens zijn niet correct.';
