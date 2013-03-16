@@ -15,28 +15,39 @@ defined('COT_CODE') or die('Wrong URL.');
  * Forums Config
  */
 
-$L['cfg_antibumpforums'] = array('Anti-bump protectie', 'Vermijdt dubbele berichten van gebruikers');
-$L['cfg_hideprivateforums'] = array('Privé forums niet weergeven', '');
-$L['cfg_hottopictrigger'] = array('Aantal berichten voordat een onderwerp \'hot\' is', '');
-$L['cfg_maxpostsperpage'] = array('Max. aantal berichten per pagina', ' ');
-$L['cfg_maxtopicsperpage'] = array('Max. aantal onderwerpen per pagina', '');
-$L['cfg_mergeforumposts'] = array('Berichten samenvoegen', 'Voegt berichten van gebruiker samen, anti-bump op \'uit\' is vereist');
-$L['cfg_mergetimeout'] = array('Bericht samenvoegen tijdslimiet', 'Berichten worden niet meer samengevoegd wanneer tijdslimiet (in uren) is bereikt, bericht samenvoeg functie moet op \'aan\'(0 om de functie uit te schakelen)');
-$L['cfg_minpostlength'] = array('Min. bericht lengte', ' ');
-$L['cfg_mintitlelength'] = array('Min. onderwerp titel lengte', ' ');
-$L['cfg_title_posts'] = array('Forum bericht titel format', 'Opties: {FORUM}, {SECTION}, {TITLE}');
-$L['cfg_title_topics'] = array('Forum onderwerp titel format', 'Opties: {FORUM}, {SECTION}');
+$L['cfg_antibumpforums'] = 'Anti-bump protectie';
+$L['cfg_antibumpforums_hint'] = 'Vermijdt dubbele berichten van gebruikers';
+$L['cfg_hideprivateforums'] = 'Privé forums niet weergeven';
+$L['cfg_hideprivateforums_hint'] = '';
+$L['cfg_hottopictrigger'] = 'Aantal berichten voordat een onderwerp \'hot\' is';
+$L['cfg_hottopictrigger_hint'] = '';
+$L['cfg_maxpostsperpage'] = 'Max. aantal berichten per pagina';
+$L['cfg_maxpostsperpage_hint'] = ' ';
+$L['cfg_maxtopicsperpage'] = 'Max. aantal onderwerpen per pagina';
+$L['cfg_maxtopicsperpage_hint'] = '';
+$L['cfg_mergeforumposts'] = 'Berichten samenvoegen';
+$L['cfg_mergeforumposts_hint'] = 'Voegt berichten van gebruiker samen, anti-bump op \'uit\' is vereist';
+$L['cfg_mergetimeout'] = 'Bericht samenvoegen tijdslimiet';
+$L['cfg_mergetimeout_hint'] = 'Berichten worden niet meer samengevoegd wanneer tijdslimiet (in uren) is bereikt, bericht samenvoeg functie moet op \'aan\'(0 om de functie uit te schakelen)';
+$L['cfg_minpostlength'] = 'Min. bericht lengte';
+$L['cfg_minpostlength_hint'] = ' ';
+$L['cfg_mintitlelength'] = 'Min. onderwerp titel lengte';
+$L['cfg_mintitlelength_hint'] = ' ';
+$L['cfg_title_posts'] = 'Forum bericht titel format';
+$L['cfg_title_posts_hint'] = 'Opties: {FORUM}, {SECTION}, {TITLE}';
+$L['cfg_title_topics'] = 'Forum onderwerp titel format';
+$L['cfg_title_topics_hint'] = 'Opties: {FORUM}, {SECTION}';
 
-$L['cfg_allowusertext'] = array('Geef handtekeningen weer');
-$L['cfg_allowbbcodes'] = array('Activeer BBcodes');
-$L['cfg_allowsmilies'] = array('Activeer smilies');
-$L['cfg_allowprvtopics'] = array('Sta privé onderwerpen toe');
-$L['cfg_allowviewers'] = array('Sta bezoekers toe');
-$L['cfg_allowpolls'] = array('Activeer polls');
-$L['cfg_countposts'] = array('Tel berichten');
-$L['cfg_autoprune'] = array('Auto-trim onderwerpen na * dagen');
-$L['cfg_defstate'] = array('Standaard toestand');
-$L['cfg_defstate_params'] = array('Ingevouwen', 'Uitgevouwen');
+$L['cfg_allowusertext'] = 'Geef handtekeningen weer';
+$L['cfg_allowbbcodes'] = 'Activeer BBcodes';
+$L['cfg_allowsmilies'] = 'Activeer smilies';
+$L['cfg_allowprvtopics'] = 'Sta privé onderwerpen toe';
+$L['cfg_allowviewers'] = 'Sta bezoekers toe';
+$L['cfg_allowpolls'] = 'Activeer polls';
+$L['cfg_countposts'] = 'Tel berichten';
+$L['cfg_autoprune'] = 'Auto-trim onderwerpen na * dagen';
+$L['cfg_defstate'] = 'Standaard toestand';
+$L['cfg_defstate_params'] = 'Ingevouwen,Uitgevouwen';
 
 $L['info_desc'] = 'Cotonti Bulletin Board Module: secties, subsecties, onderwerpen, berichten. Simpel forum voor community websites.';
 

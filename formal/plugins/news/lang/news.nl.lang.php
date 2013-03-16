@@ -15,9 +15,10 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_category'] = array('Nieuws categorieën', 'Nieuws categorie codes scheiden met komma\'s.<br />Gebruik {INDEX_NEWS} in index.tpl om de nieuws categorie weer te geven op de homepage.<br />Additionele nieuws categorieën kunnen worden weergegeven op de homepage doormiddel van de <strong>{INDEX_NEWS_CATEGORYCODE}</strong> tag in index.tpl.<br />Gebruik <strong>news.categorycode.tpl</strong> template(s) om de layout van nieuws categorieën te wijzigen.');
-$L['cfg_maxpages'] = array('Aantal weer te geven recente pagina\'s');
-$L['cfg_syncpagination'] = array('Sync paginering');
+$L['cfg_category'] = 'Nieuws categorieën';
+$L['cfg_category_hint'] = 'Nieuws categorie codes scheiden met komma\'s.<br />Gebruik {INDEX_NEWS} in index.tpl om de nieuws categorie weer te geven op de homepage.<br />Additionele nieuws categorieën kunnen worden weergegeven op de homepage doormiddel van de <strong>{INDEX_NEWS_CATEGORYCODE}</strong> tag in index.tpl.<br />Gebruik <strong>news.categorycode.tpl</strong> template(s) om de layout van nieuws categorieën te wijzigen.';
+$L['cfg_maxpages'] = 'Aantal weer te geven recente pagina\'s';
+$L['cfg_syncpagination'] = 'Sync paginering';
 
 $L['info_desc'] = 'Gebruik pagina\'s van een categorie en geef de laatste items weer op de homepage.';
 

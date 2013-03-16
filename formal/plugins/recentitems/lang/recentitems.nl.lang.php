@@ -15,21 +15,27 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_recentpages'] = array('Recente pagina\'s op index');
-$L['cfg_maxpages'] = array('Recente pagina\'s weergegeven');
-$L['cfg_recentforums'] = array('Recente forums op index');
-$L['cfg_maxtopics'] = array('Recente onderwerpen in forum weergegeven');
-$L['cfg_newpages'] = array('Recente pagina\'s in standalone module');
-$L['cfg_newforums'] = array('Recente forums in standalone module');
-$L['cfg_newadditional'] = array('Additionele modules in standalone module');
-$L['cfg_itemsperpage'] = array('Elementen per pagina in standalone module');
-$L['cfg_rightscan'] = array('Activeer prescanning categorie rechten');
-$L['cfg_recentpagestitle'] = array('Recente pagina\'s titel lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld.');
-$L['cfg_recentpagestext'] = array('Recente pagina\'s text lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
-$L['cfg_recentforumstitle'] = array('Recente forums title lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
-$L['cfg_newpagestext'] = array('Nieuwe pagina\'s tekst lengte limiet', 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld');
-$L['cfg_whitelist'] = array('Witte lijst voor categorieën', '1 code per regel. Alleen deze categorieën worden getoond indien ze niet leeg zijn.');
-$L['cfg_blacklist'] = array('Zwarte lijst voor categorieën', '1 code per regel. Alleen deze categorieën worden gefilterd indien ze niet leeg zijn.');
+$L['cfg_recentpages'] = 'Recente pagina\'s op index';
+$L['cfg_maxpages'] = 'Recente pagina\'s weergegeven';
+$L['cfg_recentforums'] = 'Recente forums op index';
+$L['cfg_maxtopics'] = 'Recente onderwerpen in forum weergegeven';
+$L['cfg_newpages'] = 'Recente pagina\'s in standalone module';
+$L['cfg_newforums'] = 'Recente forums in standalone module';
+$L['cfg_newadditional'] = 'Additionele modules in standalone module';
+$L['cfg_itemsperpage'] = 'Elementen per pagina in standalone module';
+$L['cfg_rightscan'] = 'Activeer prescanning categorie rechten';
+$L['cfg_recentpagestitle'] = 'Recente pagina\'s titel lengte limiet';
+$L['cfg_recentpagestitle_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld.';
+$L['cfg_recentpagestext'] = 'Recente pagina\'s text lengte limiet';
+$L['cfg_recentpagestext_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld';
+$L['cfg_recentforumstitle'] = 'Recente forums title lengte limiet';
+$L['cfg_recentforumstitle_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld';
+$L['cfg_newpagestext'] = 'Nieuwe pagina\'s tekst lengte limiet';
+$L['cfg_newpagestext_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld';
+$L['cfg_whitelist'] = 'Witte lijst voor categorieÃ«n';
+$L['cfg_whitelist_hint'] = '1 code per regel. Alleen deze categorieÃ«n worden getoond indien ze niet leeg zijn.';
+$L['cfg_blacklist'] = 'Zwarte lijst voor categorieÃ«n';
+$L['cfg_blacklist_hint'] = '1 code per regel. Alleen deze categorieÃ«n worden gefilterd indien ze niet leeg zijn.';
 
 $L['info_desc'] = 'Geef recente site toevoegingen weer (pagina\'s, onderwerpen) op index.';
 

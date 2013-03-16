@@ -94,16 +94,18 @@ $L['plu_last_date'] = 'Laatst bijgewerkt';
  * Plugin Config
  */
 
-$L['cfg_maxwords']= array('Max. aantal woorden in zoekterm');
-$L['cfg_maxsigns']= array('Max. aantal letters in zoekterm');
-$L['cfg_maxitems']= array('Max. items in zoekresultaten');
-$L['cfg_minsigns'] = array('Min. aantal karakters in zoekterm');
-$L['cfg_pagesearch'] = array('Activeer pagina zoekfunctie');
-$L['cfg_forumsearch'] = array('Activeer forums zoekfunctie');
-$L['cfg_searchurl'] = array('Soort forumbericht link om te gebruiken', 'Single gebruikt single bericht view, terwijl Normaal de traditionele onderwerp/spring-naar link gebruikt');
+$L['cfg_maxwords'] = 'Max. aantal woorden in zoekterm';
+$L['cfg_maxsigns'] = 'Max. aantal letters in zoekterm';
+$L['cfg_maxitems'] = 'Max. items in zoekresultaten';
+$L['cfg_minsigns'] = 'Min. aantal karakters in zoekterm';
+$L['cfg_pagesearch'] = 'Activeer pagina zoekfunctie';
+$L['cfg_forumsearch'] = 'Activeer forums zoekfunctie';
+$L['cfg_searchurl'] = 'Soort forumbericht link om te gebruiken';
+$L['cfg_searchurl_hint'] = 'Single gebruikt single bericht view, terwijl Normaal de traditionele onderwerp/spring-naar link gebruikt';
 
-$L['cfg_addfields']= array('Additionele pagina velden voor zoeken, gescheiden met komma\'s', '"Voorbeeld page_extra1,page_extra2,page_key"');
+$L['cfg_addfields'] = 'Additionele pagina velden voor zoeken, gescheiden met komma\'s';
+$L['cfg_addfields_hint'] = '"Voorbeeld page_extra1,page_extra2,page_key"';
 
-$L['cfg_extrafilters']= array('Geef extra filters weer op de zoekpagina');
+$L['cfg_extrafilters'] = 'Geef extra filters weer op de zoekpagina';
 
 $L['info_desc'] = 'Zoek in pagina\'s, forums en andere afdelingen van de website met geavanceerde opties';

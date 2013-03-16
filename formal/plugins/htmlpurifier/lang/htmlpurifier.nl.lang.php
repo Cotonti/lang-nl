@@ -11,8 +11,10 @@
 
 defined('COT_CODE') or die('Wrong URL');
 
-$L['cfg_doctype'] = array('Doctype');
-$L['cfg_rel2abs'] = array('Relatieve links naar absoluut', 'Indien ingeschakeld zal alle URLS naar absoluut omzetten gebaseerd op de host en domein.');
-$L['cfg_tidylevel'] = array('Tidy niveau', 'Hoe intensief de HTML purifier markup fouten moet corrigeren');
+$L['cfg_doctype'] = 'Doctype';
+$L['cfg_rel2abs'] = 'Relatieve links naar absoluut';
+$L['cfg_rel2abs_hint'] = 'Indien ingeschakeld zal alle URLS naar absoluut omzetten gebaseerd op de host en domein.';
+$L['cfg_tidylevel'] = 'Tidy niveau';
+$L['cfg_tidylevel_hint'] = 'Hoe intensief de HTML purifier markup fouten moet corrigeren';
 
 $L['info_desc'] = 'Zorgt dat de HTML content geldig, veilig en netjes is.';

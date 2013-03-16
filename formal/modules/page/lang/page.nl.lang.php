@@ -15,15 +15,20 @@ defined('COT_CODE') or die('Wrong URL.');
  * Module Config
  */
 
-$L['cfg_autovalidate'] = array('Valideer pagina automatisch', 'Automatisch pagina valideren wanneer auteur administratie rechten heeft voor de categorie');
-$L['cfg_count_admin'] = array('Tel administrator hits', '');
-$L['cfg_maxlistsperpage'] = array('Max. aantal lijsten per page', ' ');
-$L['cfg_order'] = array('Sortering kolommen');
-$L['cfg_title_page'] = array('Pagina titel tag format', 'Opties: {TITLE}, {CATEGORY}');
-$L['cfg_way'] = array('Sorteer richting');
-$L['cfg_truncatetext'] = array('Maximale lengte voor ingekorte tekst', '0 om deze functie uit te schakelen');
-$L['cfg_allowemptytext'] = array('Lege pagina toestaan');
-$L['cfg_keywords'] = array('Keywords');
+$L['cfg_autovalidate'] = 'Valideer pagina automatisch';
+$L['cfg_autovalidate_hint'] = 'Automatisch pagina valideren wanneer auteur administratie rechten heeft voor de categorie';
+$L['cfg_count_admin'] = 'Tel administrator hits';
+$L['cfg_count_admin_hint'] = '';
+$L['cfg_maxlistsperpage'] = 'Max. aantal lijsten per page';
+$L['cfg_maxlistsperpage_hint'] = ' ';
+$L['cfg_order'] = 'Sortering kolommen';
+$L['cfg_title_page'] = 'Pagina titel tag format';
+$L['cfg_title_page_hint'] = 'Opties: {TITLE}, {CATEGORY}';
+$L['cfg_way'] = 'Sorteer richting';
+$L['cfg_truncatetext'] = 'Maximale lengte voor ingekorte tekst';
+$L['cfg_truncatetext_hint'] = '0 om deze functie uit te schakelen';
+$L['cfg_allowemptytext'] = 'Lege pagina toestaan';
+$L['cfg_keywords'] = 'Keywords';
 
 $L['info_desc'] = 'Uit te breiden content management functionaliteit: pagina\'s\ en pagina categorieën.';
 
@@ -120,5 +125,5 @@ $L['page_status_expired'] = 'Verlopen';
 $L['pag_linesperpage'] = 'Regels per pagina';
 $L['pag_linesinthissection'] = 'Regels in deze sectie';
 
-$Ls['pages'] = array('pagina\s', 'pagina');
-$Ls['unvalidated_pages'] = array('ongevalideerde pagina\s', 'ongevalideerde pagina');
+$Ls['pages'] = "pagina\s,pagina";
+$Ls['unvalidated_pages'] = "ongevalideerde pagina\s,ongevalideerde pagina";

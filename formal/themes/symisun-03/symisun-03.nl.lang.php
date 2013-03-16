@@ -1,6 +1,6 @@
 <?php
 /**
- * User Dutch formal Language File for SymiSun-03 Skin (symisun-03.nl.lang.php)
+ * Dutch formal Language File for SymiSun-03 Skin (symisun-03.nl.lang.php)
  *
  * @package Cotonti
  * @version 0.9.0
@@ -19,122 +19,122 @@ defined('COT_CODE') or die('Wrong URL.');
  * forums.posts.tpl
  */
 
-$themelang['forumspost']['to'] = 'naar';
-$themelang['forumspost']['post'] = 'Reageer';
-$themelang['forumspost']['jump'] = 'Jumpbox';
+$themelang['forumspost_to'] = 'naar';
+$themelang['forumspost_post'] = 'Reageer';
+$themelang['forumspost_jump'] = 'Jumpbox';
 
 /**
  * forums.topics.tpl
  */
-$themelang['forumstopics']['Legend'] = 'Legenda';
-$themelang['forumstopics']['Start'] = 'Start nieuw onderwerp';
+$themelang['forumstopics_Legend'] = 'Legenda';
+$themelang['forumstopics_Start'] = 'Start nieuw onderwerp';
 
 /**
  * header.tpl
  */
 
-$themelang['header']['user'] = 'Gebruikerspaneel';
+$themelang['header_user'] = 'Gebruikerspaneel';
 
 /**
  * footer.tpl
  */
 
-$themelang['footer']['top'] = 'Top van pagina';
+$themelang['footer_top'] = 'Top van pagina';
 
 /**
  * index.tpl
  */
-$themelang['index']['by'] = 'Door';
-$themelang['index']['Newinforums'] = 'Recente <strong>forum berichten</strong>';
-$themelang['index']['Recentadditions'] = 'Recente <strong>pagina\'s</strong>';
-$themelang['index']['Recentcomments'] = 'Recente <strong>reacties</strong>';
+$themelang['index_by'] = 'Door';
+$themelang['index_Newinforums'] = 'Recente <strong>forum berichten</strong>';
+$themelang['index_Recentadditions'] = 'Recente <strong>pagina\'s</strong>';
+$themelang['index_Recentcomments'] = 'Recente <strong>reacties</strong>';
 
 /**
  * page.list.tpl
  */
 
-$themelang['list']['sort'] = 'Sorteer op';
-$themelang['list']['asc'] = 'Oplopend';
-$themelang['list']['desc'] = 'Aflopend';
-$themelang['list']['bread'] = 'U bent hier';
-$themelang['list']['none'] = 'Er zijn hier nog geen items';
-$themelang['list']['rss'] = 'Abonneer via RSS';
-$themelang['list']['all'] = 'Alle items';
+$themelang['list_sort'] = 'Sorteer op';
+$themelang['list_asc'] = 'Oplopend';
+$themelang['list_desc'] = 'Aflopend';
+$themelang['list_bread'] = 'U bent hier';
+$themelang['list_none'] = 'Er zijn hier nog geen items';
+$themelang['list_rss'] = 'Abonneer via RSS';
+$themelang['list_all'] = 'Alle items';
 
 /**
  * page.add.tpl
  */
 
-$themelang['pageadd']['save'] = 'Opslaan..';
-$themelang['pageadd']['basic'] = 'Basis info';
-$themelang['pageadd']['adv'] = 'Geavanceerd';
-$themelang['pageadd']['dates'] = 'Data';
-$themelang['pageadd']['down'] = 'Te downloaden';
+$themelang['pageadd_save'] = 'Opslaan..';
+$themelang['pageadd_basic'] = 'Basis info';
+$themelang['pageadd_adv'] = 'Geavanceerd';
+$themelang['pageadd_dates'] = 'Data';
+$themelang['pageadd_down'] = 'Te downloaden';
 
 /**
  * page.edit.tpl
  */
 
-$themelang['pageedit']['del'] = 'Prullenbak';
+$themelang['pageedit_del'] = 'Prullenbak';
 
 /**
  * pm.send.tpl
  */
 
-$themelang['pmsend']['Sendmessagetohint'] = 'Maximaal 10 ontvangers, gescheiden met komma\'s';
+$themelang['pmsend_Sendmessagetohint'] = 'Maximaal 10 ontvangers, gescheiden met komma\'s';
 
 /**
  * pm.tpl
  */
 
-$themelang['pm']['pm'] = 'Priv�bericht';
-$themelang['pm']['to'] = 'Naar';
-$themelang['pm']['Selectall'] = 'Selecteer alles';
-$themelang['pm']['Unselectall'] = 'Deselecteer alles';
+$themelang['pm_pm'] = 'Privébericht';
+$themelang['pm_to'] = 'Naar';
+$themelang['pm_Selectall'] = 'Selecteer alles';
+$themelang['pm_Unselectall'] = 'Deselecteer alles';
 
 /**
  * users.tpl
  */
 
-$themelang['users']['login'] = 'Login op uw account';
+$themelang['users_login'] = 'Login op uw account';
 
 /**
  * users.auth.tpl
  */
-$themelang['usersauth']['already'] = 'U bent al ingelogd!';
-$themelang['usersauth']['goto'] = 'Ga naar uw account';
-$themelang['usersauth']['Maintenancereason'] = 'Reden';
+$themelang['usersauth_already'] = 'U bent al ingelogd!';
+$themelang['usersauth_goto'] = 'Ga naar uw account';
+$themelang['usersauth_Maintenancereason'] = 'Reden';
 
 /**
  * users.edit.tpl
  */
 
-$themelang['usersedit']['info'] = 'Snelle info';
+$themelang['usersedit_info'] = 'Snelle info';
 
 /**
  * users.details.tpl
  */
 
-$themelang['usersdetails']['posts'] = 'Totaal aantal berichten';
-$themelang['usersdetails']['years'] = 'jaar oud';
+$themelang['usersdetails_posts'] = 'Totaal aantal berichten';
+$themelang['usersdetails_years'] = 'jaar oud';
 
 /**
  * users.profile.tpl
  */
 
-$themelang['usersprofile']['characters'] = 'karakter limiet';
-$themelang['usersprofile']['privacy'] = 'Privacy';
-$themelang['usersprofile']['settings'] = 'Site instellingen';
-$themelang['usersprofile']['personal'] = 'Persoonlijke informatie';
-$themelang['usersprofile']['contact'] = 'Contact informatie';
-$themelang['usersprofile']['current'] = 'Huidig';
+$themelang['usersprofile_characters'] = 'karakter limiet';
+$themelang['usersprofile_privacy'] = 'Privacy';
+$themelang['usersprofile_settings'] = 'Site instellingen';
+$themelang['usersprofile_personal'] = 'Persoonlijke informatie';
+$themelang['usersprofile_contact'] = 'Contact informatie';
+$themelang['usersprofile_current'] = 'Huidig';
 
 /**
  * users.register.tpl
  */
 
-$themelang['usersregister']['Generalhint'] = 'Alle velden zijn verplicht';
-$themelang['usersregister']['Usernamehint'] = 'Gebruikersnaam moet minimaal uit 2 karakters bestaan.';
+$themelang['usersregister_Generalhint'] = 'Alle velden zijn verplicht';
+$themelang['usersregister_Usernamehint'] = 'Gebruikersnaam moet minimaal uit 2 karakters bestaan.';
 
 
-$themelang['search']['Generalhint'] = 'U kunt specifieker zoeken doormiddel van het selecteren van de gewenste categorieën en zoekopties. U kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'
+$themelang['search_Generalhint'] = 'U kunt specifieker zoeken doormiddel van het selecteren van de gewenste categorieÃ«n en zoekopties. U kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'

@@ -15,8 +15,8 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_autorefresh'] = array('Activeer voorbeeld auto-refresh');
-$L['cfg_chili'] = array('Activeer Chili tags');
-$L['cfg_skin'] = array('Skin (plugins/markitup/skins/SKIN_NAME)');
+$L['cfg_autorefresh'] = 'Activeer voorbeeld auto-refresh';
+$L['cfg_chili'] = 'Activeer Chili tags';
+$L['cfg_skin'] = 'Skin (plugins/markitup/skins/SKIN_NAME)';
 
 $L['info_desc'] = 'BBcode/HTML content source editor met jQuery. Activeer niet meer dan 1 editor om problemen te voorkomen.';

@@ -45,12 +45,16 @@ $L['polls_votes'] = 'Stemmen';
 /**
  * Config
  */
-$L['cfg_del_dup_options'] = array('Forceer het verwijderen van dubbele opties', ' Verwijder dubbele opties ook al zijn ze aanwezig in de database');
-$L['cfg_ip_id_polls'] = array('Methode voor het tellen van stemmen', '');
-$L['cfg_max_options_polls'] = array('Max. aantal opties', 'Opties boven deze limiet worden automatisch verwijderd');
-$L['cfg_maxpolls'] = array('Aantal polls op de index');
-$L['cfg_mode'] = array('Poll weergave modus op de index', '&quot;Recente polls&quot; geeft laatste poll(s) weer<br />&quot;Willekeurige polls&quot; geeft willekeurige poll(s) weer');
-$L['cfg_mode_params'] = array('Recente polls', 'Willekeurige polls');
+$L['cfg_del_dup_options'] = 'Forceer het verwijderen van dubbele opties';
+$L['cfg_del_dup_options_hint'] = ' Verwijder dubbele opties ook al zijn ze aanwezig in de database';
+$L['cfg_ip_id_polls'] = 'Methode voor het tellen van stemmen';
+$L['cfg_ip_id_polls_hint'] = '';
+$L['cfg_max_options_polls'] = 'Max. aantal opties';
+$L['cfg_max_options_polls_hint'] = 'Opties boven de limiet worden automatisch verwijderd';
+$L['cfg_maxpolls'] = 'Aantal polls op de index';
+$L['cfg_mode'] = 'Poll weergave modus op de index';
+$L['cfg_mode_hint'] = '&quot;Recente polls&quot; geeft laatste poll(s) weer<br />&quot;Willekeurige polls&quot; geeft willekeurige poll(s) weer';
+$L['cfg_mode_params'] = 'Recente polls,Willekeurige polls';
 
 $L['info_desc'] = 'Laat de gebruiker op 1 of meer opties stemmen';
 

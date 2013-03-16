@@ -15,26 +15,42 @@ defined('COT_CODE') or die('Wrong URL.');
  * Module Config
  */
 
-$L['cfg_maxpfsperpage'] = array('Max. aantal elementen per pagina', ' ');
+$L['cfg_maxpfsperpage'] = 'Max. aantal elementen per pagina';
+$L['cfg_maxpfsperpage_hint'] = ' ';
 $L['cfg_pfsfilecheck'] = array('Bestands check', 'Wanneer dit actief is zullen de geuploade bestanden gecontroleerd worden via het '.$L['PFS'].' of via afbeeldingen in het profiel.
 Dit is om te controleren dat de bestanden geldig zijn. &quot;Ja&quot; is aanbevolen om veiligheids redenen.');
-$L['cfg_pfsmaxuploads'] = array('Max. aantal concurrerende uploads tegelijkertijd', '');
-$L['cfg_pfsnomimepass'] = array('Geen Mimetype Pass', 'Wanneer actief worden de geuploade bestanden geaccepteerd, ook wanneer er geen mimetype aanwezig is in de config.');
-$L['cfg_pfstimename'] = array('Time-based bestandsnamen', 'Genereer bestandsnamen gebaseerd op een tijdstempel. Standaard wordt de originele bestandsnaam gebruikt in combinatie met vereiste karakter conversies.');
-$L['cfg_pfsuserfolder'] = array('Map opslag modus', 'Wanneer actief, bestanden zullen worden opgeslagen in submappen zoals /datas/users/USERID/mapnaam/... Dit moet ingesteld worden bij de eerste configuratie van de website. Zodra bestanden al geupload zijn is dit niet meer mogelijk.');
-$L['cfg_flashupload'] = array('Gebruik Flash uploader', 'Sta het uploaden van meerdere bestanden tegelijk toe.'); // New in 1.0.0
-$L['cfg_pfs_winclose'] = array('Sluit popup scherm na invoegen bbcode.');
-$L['cfg_th_amode'] = array('Thumbnail generator', '');
-$L['cfg_th_border'] = array('Thumbnail, bordergrootte', 'Standaard: 4 pixels');
-$L['cfg_th_colorbg'] = array('Thumbnail, borderkleur', 'Standaard: 000000, hex kleuren code');
-$L['cfg_th_colortext'] = array('Thumbnails, tekstkleur', 'Standaard: FFFFFF, hex kleuren code');
-$L['cfg_th_dimpriority'] = array('Thumbnail, resize dimensie prioriteit', '');
-$L['cfg_th_jpeg_quality'] = array('Thumbnail, Jpeg kwaliteit', 'Standaard: 85');
-$L['cfg_th_keepratio'] = array('Thumbnail, behoudt verhouding?', '');
+$L['cfg_pfsmaxuploads'] = 'Max. aantal concurrerende uploads tegelijkertijd';
+$L['cfg_pfsmaxuploads_hint'] = '';
+$L['cfg_pfsnomimepass'] = 'Geen Mimetype Pass';
+$L['cfg_pfsnomimepass_hint'] = 'Wanneer actief worden de geuploade bestanden geaccepteerd, ook wanneer er geen mimetype aanwezig is in de config.';
+$L['cfg_pfstimename'] = 'Time-based bestandsnamen';
+$L['cfg_pfstimename_hint'] = 'Genereer bestandsnamen gebaseerd op een tijdstempel. Standaard wordt de originele bestandsnaam gebruikt in combinatie met vereiste karakter conversies.';
+$L['cfg_pfsuserfolder'] = 'Map opslag modus';
+$L['cfg_pfsuserfolder_hint'] = 'Wanneer actief, bestanden zullen worden opgeslagen in submappen zoals /datas/users/USERID/mapnaam/... Dit moet ingesteld worden bij de eerste configuratie van de website. Zodra bestanden al geupload zijn is dit niet meer mogelijk.';
+$L['cfg_flashupload'] = 'Gebruik Flash uploader';
+$L['cfg_flashupload_hint'] = 'Sta het uploaden van meerdere bestanden tegelijk toe.';
+$L['cfg_pfs_winclose'] = 'Sluit popup scherm na invoegen bbcode.';
+$L['cfg_th_amode'] = 'Thumbnail generator';
+$L['cfg_th_amode_hint'] = '';
+$L['cfg_th_border'] = 'Thumbnail, bordergrootte';
+$L['cfg_th_border_hint'] = 'Standaard: 4 pixels';
+$L['cfg_th_colorbg'] = 'Thumbnail, borderkleur';
+$L['cfg_th_colorbg_hint'] = 'Standaard: 000000, hex kleuren code';
+$L['cfg_th_colortext'] = 'Thumbnails, tekstkleur';
+$L['cfg_th_colortext_hint'] = 'Standaard: FFFFFF, hex kleuren code';
+$L['cfg_th_dimpriority'] = 'Thumbnail, resize dimensie prioriteit';
+$L['cfg_th_dimpriority_hint'] = '';
+$L['cfg_th_jpeg_quality'] = 'Thumbnail, Jpeg kwaliteit';
+$L['cfg_th_jpeg_quality_hint'] = 'Standaard: 85';
+$L['cfg_th_keepratio'] = 'Thumbnail, behoudt verhouding?';
+$L['cfg_th_keepratio_hint'] = '';
 $L['cfg_th_separator'] = 'Thumbnail opties';
-$L['cfg_th_textsize'] = array('Thumbnail, tekstgrootte', '');
-$L['cfg_th_x'] = array('Thumbnail, breedte', 'Standaard: 112 pixels');
-$L['cfg_th_y'] = array('Thumbnail, hoogte', 'Standaard: 84 pixel, advies: Breedte x 0.75');
+$L['cfg_th_textsize'] = 'Thumbnail, tekstgrootte';
+$L['cfg_th_textsize_hint'] = '';
+$L['cfg_th_x'] = 'Thumbnail, breedte';
+$L['cfg_th_x_hint'] = 'Standaard: 112 pixels';
+$L['cfg_th_y'] = 'Thumbnail, hoogte';
+$L['cfg_th_y_hint'] = 'Standaard: 84 pixel, advies: Breedte x 0.75';
 
 /**
  * Other

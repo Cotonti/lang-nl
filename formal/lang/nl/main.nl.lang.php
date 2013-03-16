@@ -348,25 +348,25 @@ $L['YIM'] = 'Yahoo Messenger';
  * cot_declension arrays
  */
 
-$Ls['Guests'] = array('gasten','gast');
-$Ls['Members'] = array('leden','lid');
-$Ls['Pages'] = array('pagina\'s','pagina');
-$Ls['Times'] = array('tijden','tijd');
+$Ls['Guests'] = "gasten,gast";
+$Ls['Members'] = "leden,lid";
+$Ls['Pages'] = "pagina\'s,pagina";
+$Ls['Times'] = "tijden,tijd";
 
-$Ls['Milliseconds'] = array('ms', 'ms');
-$Ls['Seconds'] = array('seconden','seconde');
-$Ls['Minutes'] = array('minuten','minuut');
-$Ls['Hours'] = array('uren','uur');
-$Ls['Days'] = array('dagen','dag');
-$Ls['Weeks'] = array('weken','week');
-$Ls['Months'] = array('maanden','maand');
-$Ls['Years'] = array('jaren','jaar');
+$Ls['Milliseconds'] = "ms,ms";
+$Ls['Seconds'] = "seconden,seconde";
+$Ls['Minutes'] = "minuten,minuut";
+$Ls['Hours'] = "uren,uur";
+$Ls['Days'] = "dagen,dag";
+$Ls['Weeks'] = "weken,week";
+$Ls['Months'] = "maanden,maand";
+$Ls['Years'] = "jaren,jaar";
 
-$Ls['Bytes'] = array('B', 'B');
-$Ls['Kibibytes'] = array('KiB', 'KiB');
-$Ls['Mebibytes'] = array('MiB', 'MiB');
-$Ls['Gibibytes'] = array('GiB', 'GiB');
-$Ls['Tebibytes'] = array('TiB', 'TiB');
+$Ls['Bytes'] = "B,B";
+$Ls['Kibibytes'] = "KiB,KiB";
+$Ls['Mebibytes'] = "MiB,MiB";
+$Ls['Gibibytes'] = "GiB,GiB";
+$Ls['Tebibytes'] = "TiB,TiB";
 
 /**
  * Date / Time formats

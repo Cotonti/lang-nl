@@ -15,21 +15,30 @@ defined('COT_CODE') or die('Wrong URL.');
  * Plugin Config
  */
 
-$L['cfg_enable_comments'] = array('Activeer reacties');
-$L['cfg_mail'] = array('Notificaties via e-mail bij nieuwe reacties');
-$L['cfg_markitup'] = array('Gebruik markitup');
-$L['cfg_markup'] = array('Activeer markup in reacties');
-$L['cfg_minsize'] = array('Min. reactie lengte');
-$L['cfg_time'] = array('Tijd voor aanpasbare reacties', 'in minuten');
-$L['cfg_rss_commentmaxsymbols'] = array('Reacties. Knip beschrijving wanneer langer dan x aantal karakters', 'Standaard uitgeschakeld');
-$L['cfg_expand_comments'] = array('Reacties uitvouwen', 'Laat reacties standaard uitgevouwen zien');
-$L['cfg_maxcommentsperpage'] = array('Max. aantal reacties op pagina', ' ');
-$L['cfg_commentsize'] = array('Max. grootte voor reacties, bytes', '0 voor ongelimiteerd');
-$L['cfg_countcomments'] = array('Tel reacties', 'Laat aantal reacties zien naast icoon');
-$L['cfg_order'] = array('Sorteer volgorde', 'chronologisch of laatste eerst');
-$L['cfg_order_params'] = array('Chronologisch', 'Recent');
-$L['cfg_parsebbcodecom'] = array('Parse BBcodes in reacties', '');
-$L['cfg_parsesmiliescom'] = array('Parse smilies in reacties', '');
+$L['cfg_enable_comments'] = 'Activeer reacties';
+$L['cfg_mail'] = 'Notificaties via e-mail bij nieuwe reacties';
+$L['cfg_markitup'] = 'Gebruik markitup';
+$L['cfg_markup'] = 'Activeer markup in reacties';
+$L['cfg_minsize'] = 'Min. reactie lengte';
+$L['cfg_time'] = 'Tijd voor aanpasbare reacties';
+$L['cfg_time_hint'] = 'in minuten';
+$L['cfg_rss_commentmaxsymbols'] = 'Reacties. Knip beschrijving wanneer langer dan x karakters';
+$L['cfg_rss_commentmaxsymbols_hint'] = 'Standaard uitgeschakeld';
+$L['cfg_expand_comments'] = 'Reacties uitvouwen';
+$L['cfg_expand_comments_hint'] = 'Laat reacties standaard uitgevouwen zien';
+$L['cfg_maxcommentsperpage'] = 'Max. aantal reacties op pagina';
+$L['cfg_maxcommentsperpage_hint'] = ' ';
+$L['cfg_commentsize'] = 'Max. grootte voor reacties, bytes';
+$L['cfg_commentsize_hint'] = '0 voor ongelimiteerd';
+$L['cfg_countcomments'] = 'Tel reacties';
+$L['cfg_countcomments_hint'] = 'Laat aantal reacties zien naast icoon';
+$L['cfg_order'] = 'Sorteer volgorde';
+$L['cfg_order_hint'] = 'chronologisch of laatste eerst';
+$L['cfg_order_params'] = 'Chronologisch,Recent';
+$L['cfg_parsebbcodecom'] = 'Parse BBcodes in reacties';
+$L['cfg_parsebbcodecom_hint'] = '';
+$L['cfg_parsesmiliescom'] = 'Parse smilies in reacties';
+$L['cfg_parsesmiliescom_hint'] = '';
 
 $L['info_desc'] = 'Reactie systeem voor Cotonti met API en integratie in pagina\'s, lijsten, polls, RSS feeds, en andere extensies.';
 
@@ -76,7 +85,7 @@ $L['adm_comm_already_del'] = 'Reactie verwijderd';
  * cot_declension Arrays
  */
 
-$Ls['Comments'] = array('reacties','reactie');
+$Ls['Comments'] = "reacties,reactie";
 
 /**
  * Comedit

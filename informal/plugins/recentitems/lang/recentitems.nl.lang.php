@@ -32,10 +32,10 @@ $L['cfg_recentforumstitle'] = 'Recente forums title lengte limiet';
 $L['cfg_recentforumstitle_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld';
 $L['cfg_newpagestext'] = 'Nieuwe pagina\'s tekst lengte limiet';
 $L['cfg_newpagestext_hint'] = 'Dit geeft alleen een specifiek aantal karakters weer vanaf het begin. Standaard is deze optie uitgeschakeld';
-$L['cfg_whitelist'] = 'Witte lijst voor categorieën';
-$L['cfg_whitelist_hint'] = '1 code per regel. Alleen deze categorieën worden getoond indien ze niet leeg zijn.';
-$L['cfg_blacklist'] = 'Zwarte lijst voor categorieën';
-$L['cfg_blacklist_hint'] = '1 code per regel. Alleen deze categorieën worden gefilterd indien ze niet leeg zijn.';
+$L['cfg_whitelist'] = 'Witte lijst voor categorieÃ«n';
+$L['cfg_whitelist_hint'] = '1 code per regel. Alleen deze categorieÃ«n worden getoond indien ze niet leeg zijn.';
+$L['cfg_blacklist'] = 'Zwarte lijst voor categorieÃ«n';
+$L['cfg_blacklist_hint'] = '1 code per regel. Alleen deze categorieÃ«n worden gefilterd indien ze niet leeg zijn.';
 
 $L['info_desc'] = 'Geef recente site toevoegingen weer (pagina\'s, onderwerpen) op index.';
 

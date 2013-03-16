@@ -100,134 +100,204 @@ $L['short_struct'] = 'Struct';
  * Locale Subsection
  */
 
-$L['cfg_forcedefaultlang'] = array('Forceer de standaard taal voor alle gebruikers', '');
-$L['cfg_defaulttimezone'] = array('Standaard tijdzone', 'Voor gasten en nieuwe leden, van -12 to +12');
+$L['cfg_forcedefaultlang'] = 'Forceer de standaard taal voor alle gebruikers';
+$L['cfg_forcedefaultlang_hint'] = '';
+$L['cfg_defaulttimezone'] = 'Standaard tijdzone';
+$L['cfg_defaulttimezone_hint'] = 'Voor gasten en nieuwe leden, van -12 to +12';
 
 /**
  * Config Section
  * Main Subsection
  */
 
-$L['cfg_adminemail'] = array('Administrator\'s e-mail', 'Verplicht');
-$L['cfg_clustermode'] = array('Cluster van servers', 'Ja, voor een load balanced setup.');
-$L['cfg_confirmlinks'] = array('Bevestig potentieel gevaarlijke acties');
-$L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
-$L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
-$L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
-$L['cfg_hashfunc'] = array('Standaard hash functie', 'Voor wachtwoord hash');
+$L['cfg_adminemail'] = 'Administrator\'s e-mail';
+$L['cfg_adminemail_hint'] = 'Verplicht';
+$L['cfg_clustermode'] = 'Cluster van servers';
+$L['cfg_clustermode_hint'] = 'Ja, voor een load balanced setup.';
+$L['cfg_confirmlinks'] = 'Bevestig potentieel gevaarlijke acties';
+$L['cfg_cookiedomain'] = 'Domein voor cookies';
+$L['cfg_cookiedomain_hint'] = 'Standaard: leeg';
+$L['cfg_cookielifetime'] = 'Maximale cookie levensduur';
+$L['cfg_cookielifetime_hint'] = 'In seconden';
+$L['cfg_cookiepath'] = 'Pad voor cookies';
+$L['cfg_cookiepath_hint'] = 'Standaard: leeg';
+$L['cfg_hashfunc'] = 'Standaard hash functie';
+$L['cfg_hashfunc_hint'] = 'Voor wachtwoord hash';
 
-$L['cfg_referercheck'] = array('Referer check voor formulieren', 'Preventie voor cross-domein posting');
-$L['cfg_shieldenabled'] = array('Activeer schild', 'Anti-spamming en anti-hammering');
-$L['cfg_shieldtadjust'] = array('Stel schild timers bij (in %)', 'Hogere waarde is harder te spammen');
-$L['cfg_shieldzhammer'] = array('Anti-hammer na * snelle hits', 'Hoe lager de waarde, hoe sneller de 3 minuten auto-ban geactiveerd wordt');
+$L['cfg_referercheck'] = 'Referer check voor formulieren';
+$L['cfg_referercheck_hint'] = 'Preventie voor cross-domein posting';
+$L['cfg_shieldenabled'] = 'Activeer schild';
+$L['cfg_shieldenabled_hint'] = 'Anti-spamming en anti-hammering';
+$L['cfg_shieldtadjust'] = 'Stel schild timers bij (in %)';
+$L['cfg_shieldtadjust_hint'] = 'Hogere waarde is harder te spammen';
+$L['cfg_shieldzhammer'] = 'Anti-hammer na * snelle hits';
+$L['cfg_shieldzhammer_hint'] = 'Hoe lager de waarde, hoe sneller de 3 minuten auto-ban geactiveerd wordt';
 
-$L['cfg_devmode'] = array('Debugging mode', 'Niet aan laten in live modus');
-$L['cfg_easypagenav'] = array('Gebruiksvriendelijke paginering', 'Gebruikt paginanummers in URLs inplaats van DB offsets');
-$L['cfg_hostip'] = array('Server IP', 'IP van de server, optioneel.');
-$L['cfg_jquery'] = array('Activeer jQuery', '');
-$L['cfg_maintenance'] = array('Onderhoudsmodus', 'Laat alleen bevoegd personeel toe');
-$L['cfg_maintenancereason'] = array('Verklaring voor onderhoud', 'Optioneel, korte beschrijving');
-$L['cfg_maxrowsperpage'] = array('Maximale aantal items per pagina', 'standaard item limiet voor paginering');
-$L['cfg_parser'] = array('Markup parser', 'standaard is: plain text');
-$L['cfg_redirbkonlogin'] = array('Terugsturen na inloggen', 'Stuur de gebruiker terug naar de locatie van voor het inloggen');
-$L['cfg_redirbkonlogout'] = array('Terugsturen na uitloggen', 'Stuur de gebruiker terug naar de locatie van voor het uitloggen');
-
-$L['cfg_turnajax'] = array('Activeer AJAX', 'Werkt alleen wanneer jQuery actief is');
-
+$L['cfg_devmode'] = 'Debugging mode';
+$L['cfg_devmode_hint'] = 'Niet aan laten in live modus';
+$L['cfg_easypagenav'] = 'Gebruiksvriendelijke paginering';
+$L['cfg_easypagenav_hint'] = 'Gebruikt paginanummers in URLs inplaats van DB offsets';
+$L['cfg_hostip'] = 'Server IP';
+$L['cfg_hostip_hint'] = 'IP van de server, optioneel.';
+$L['cfg_jquery'] = 'Activeer jQuery';
+$L['cfg_jquery_hint'] = '';
+$L['cfg_maintenance'] = 'Onderhoudsmodus';
+$L['cfg_maintenance_hint'] = 'Laat alleen bevoegd personeel toe';
+$L['cfg_maintenancereason'] = 'Verklaring voor onderhoud';
+$L['cfg_maintenancereason_hint'] = 'Optioneel, korte beschrijving';
+$L['cfg_maxrowsperpage'] = 'Maximale aantal items per pagina';
+$L['cfg_maxrowsperpage_hint'] = 'standaard item limiet voor paginering';
+$L['cfg_parser'] = 'Markup parser';
+$L['cfg_parser_hint'] = 'standaard is: plain text';
+$L['cfg_redirbkonlogin'] = 'Terugsturen na inloggen';
+$L['cfg_redirbkonlogin_hint'] = 'Stuur de gebruiker terug naar de locatie van voor het inloggen';
+$L['cfg_redirbkonlogout'] = 'Terugsturen na uitloggen';
+$L['cfg_redirbkonlogout_hint'] = 'Stuur de gebruiker terug naar de locatie van voor het uitloggen';
+$L['cfg_turnajax'] = 'Activeer AJAX';
+$L['cfg_turnajax_hint'] = 'Werkt alleen wanneer jQuery geactiveerd is';
 /**
  * Config Section
  * Menus Subsection
  */
 
-$L['cfg_banner'] = array('Banner<br />{HEADER_BANNER} in header.tpl', '');
-$L['cfg_bottomline'] = array('Bodem tekst<br />{FOOTER_BOTTOMLINE} in footer.tpl', '');
-$L['cfg_topline'] = array('Top tekst<br />{HEADER_TOPLINE} in header.tpl', '');
+$L['cfg_banner'] = 'Banner<br />{HEADER_BANNER} in header.tpl';
+$L['cfg_banner_hint'] = '';
+$L['cfg_bottomline'] = 'Bodem tekst<br />{FOOTER_BOTTOMLINE} in footer.tpl';
+$L['cfg_bottomline_hint'] = '';
+$L['cfg_topline'] = 'Top tekst<br />{HEADER_TOPLINE} in header.tpl';
+$L['cfg_topline_hint'] = '';
 
-$L['cfg_freetext1'] = array('Tekst slot #1<br />{PHP.cfg.freetext1} in alle tpl bestanden', '');
-$L['cfg_freetext2'] = array('Tekst slot #2<br />{PHP.cfg.freetext2} in alle tpl bestanden', '');
-$L['cfg_freetext3'] = array('Tekst slot #3<br />{PHP.cfg.freetext3} in alle tpl bestanden', '');
-$L['cfg_freetext4'] = array('Tekst slot #4<br />{PHP.cfg.freetext4} in alle tpl bestanden', '');
-$L['cfg_freetext5'] = array('Tekst slot #5<br />{PHP.cfg.freetext5} in alle tpl bestanden', '');
-$L['cfg_freetext6'] = array('Tekst slot #6<br />{PHP.cfg.freetext6} in alle tpl bestanden', '');
-$L['cfg_freetext7'] = array('Tekst slot #7<br />{PHP.cfg.freetext7} in alle tpl bestanden', '');
-$L['cfg_freetext8'] = array('Tekst slot #8<br />{PHP.cfg.freetext8} in alle tpl bestanden', '');
-$L['cfg_freetext9'] = array('Tekst slot #9<br />{PHP.cfg.freetext9} in alle tpl bestanden', '');
+$L['cfg_freetext1'] = 'Tekst slot #1<br />{PHP.cfg.freetext1} in alle tpl bestanden';
+$L['cfg_freetext1_hint'] = '';
+$L['cfg_freetext2'] = 'Tekst slot #2<br />{PHP.cfg.freetext2} in alle tpl bestanden';
+$L['cfg_freetext2_hint'] = '';
+$L['cfg_freetext3'] = 'Tekst slot #3<br />{PHP.cfg.freetext3} in alle tpl bestanden';
+$L['cfg_freetext3_hint'] = '';
+$L['cfg_freetext4'] = 'Tekst slot #4<br />{PHP.cfg.freetext4} in alle tpl bestanden';
+$L['cfg_freetext4_hint'] = '';
+$L['cfg_freetext5'] = 'Tekst slot #5<br />{PHP.cfg.freetext5} in alle tpl bestanden';
+$L['cfg_freetext5_hint'] = '';
+$L['cfg_freetext6'] = 'Tekst slot #6<br />{PHP.cfg.freetext6} in alle tpl bestanden';
+$L['cfg_freetext6_hint'] = '';
+$L['cfg_freetext7'] = 'Tekst slot #7<br />{PHP.cfg.freetext7} in alle tpl bestanden';
+$L['cfg_freetext7_hint'] = '';
+$L['cfg_freetext8'] = 'Tekst slot #8<br />{PHP.cfg.freetext8} in alle tpl bestanden';
+$L['cfg_freetext8_hint'] = '';
+$L['cfg_freetext9'] = 'Tekst slot #9<br />{PHP.cfg.freetext9} in alle tpl bestanden';
+$L['cfg_freetext9_hint'] = '';
 
-$L['cfg_menu1'] = array('Menu slot #1<br />{PHP.cfg.menu1} in alle tpl bestanden', '');
-$L['cfg_menu2'] = array('Menu slot #2<br />{PHP.cfg.menu2} in alle tpl bestanden', '');
-$L['cfg_menu3'] = array('Menu slot #3<br />{PHP.cfg.menu3} in alle tpl bestanden', '');
-$L['cfg_menu4'] = array('Menu slot #4<br />{PHP.cfg.menu4} in alle tpl bestanden', '');
-$L['cfg_menu5'] = array('Menu slot #5<br />{PHP.cfg.menu5} in alle tpl bestanden', '');
-$L['cfg_menu6'] = array('Menu slot #6<br />{PHP.cfg.menu6} in alle tpl bestanden', '');
-$L['cfg_menu7'] = array('Menu slot #7<br />{PHP.cfg.menu7} in alle tpl bestanden', '');
-$L['cfg_menu8'] = array('Menu slot #8<br />{PHP.cfg.menu8} in alle tpl bestanden', '');
-$L['cfg_menu9'] = array('Menu slot #9<br />{PHP.cfg.menu9} in alle tpl bestanden', '');
+$L['cfg_menu1'] = 'Menu slot #1<br />{PHP.cfg.menu1} in alle tpl bestanden';
+$L['cfg_menu1_hint'] = '';
+$L['cfg_menu2'] = 'Menu slot #2<br />{PHP.cfg.menu2} in alle tpl bestanden';
+$L['cfg_menu2_hint'] = '';
+$L['cfg_menu3'] = 'Menu slot #3<br />{PHP.cfg.menu3} in alle tpl bestanden';
+$L['cfg_menu3_hint'] = '';
+$L['cfg_menu4'] = 'Menu slot #4<br />{PHP.cfg.menu4} in alle tpl bestanden';
+$L['cfg_menu4_hint'] = '';
+$L['cfg_menu5'] = 'Menu slot #5<br />{PHP.cfg.menu5} in alle tpl bestanden';
+$L['cfg_menu5_hint'] = '';
+$L['cfg_menu6'] = 'Menu slot #6<br />{PHP.cfg.menu6} in alle tpl bestanden';
+$L['cfg_menu6_hint'] = '';
+$L['cfg_menu7'] = 'Menu slot #7<br />{PHP.cfg.menu7} in alle tpl bestanden';
+$L['cfg_menu7_hint'] = '';
+$L['cfg_menu8'] = 'Menu slot #8<br />{PHP.cfg.menu8} in alle tpl bestanden';
+$L['cfg_menu8_hint'] = '';
+$L['cfg_menu9'] = 'Menu slot #9<br />{PHP.cfg.menu9} in alle tpl bestanden';
+$L['cfg_menu9_hint'] = '';
 
 /**
  * Config Section
  * Performance Subsection
  */
 
-$L['cfg_gzip'] = array('Gzip', 'Gzip compressie van de HTML output. Activeer dit niet wanneer de server dit al uitvoert. Gebruik de volgende tool om dit te testen: <a href="http://www.whatsmyip.org/http-compression-test/">HTTP Compression Test</a>');
-$L['cfg_headrc_consolidate'] = array('Consolideer header en footer resources (JS/CSS)');
-$L['cfg_headrc_minify'] = array('Verklein geconsolideerde JS/CSS');
-$L['cfg_jquery_cdn'] = array('Gebruik jQuery via CDN URL', 'Voorbeeld: https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js');
+$L['cfg_gzip'] = 'Gzip';
+$L['cfg_gzip_hint'] = 'Gzip compressie van de HTML output. Activeer dit niet wanneer de server dit al uitvoert. Gebruik de volgende tool om dit te testen: <a href="http://www.whatsmyip.org/http-compression-test/">HTTP Compression Test</a>';
+$L['cfg_headrc_consolidate'] = 'Consolideer header en footer resources (JS/CSS)';
+$L['cfg_headrc_minify'] = 'Verklein geconsolideerde JS/CSS';
+$L['cfg_jquery_cdn'] = 'Gebruik jQuery via CDN URL';
+$L['cfg_jquery_cdn_hint'] = 'Voorbeeld: https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js';
 
 /**
  * Config Section
  * Security Subsection
  */
 
-$L['cfg_captchamain'] = array('Hoofd captcha');
-$L['cfg_captcharandom'] = array('Willekeurige captcha');
-$L['cfg_cookiedomain'] = array('Domein voor cookies', 'Standaard: leeg');
-$L['cfg_cookielifetime'] = array('Maximale cookie levensduur', 'In seconden');
-$L['cfg_cookiepath'] = array('Pad voor cookies', 'Standaard: leeg');
+$L['cfg_captchamain'] = 'Hoofd captcha';
+$L['cfg_captcharandom'] = 'Willekeurige captcha';
+$L['cfg_cookiedomain'] = 'Domein voor cookies';
+$L['cfg_cookiedomain_hint'] = 'Standaard: leeg';
+$L['cfg_cookielifetime'] = 'Maximale cookie levensduur';
+$L['cfg_cookielifetime_hint'] = 'In seconden';
+$L['cfg_cookiepath'] = 'Pad voor cookies';
+$L['cfg_cookiepath_hint'] = 'Standaard: leeg';
 
 /**
  * Config Section
  * Themes Subsection
  */
 
-$L['cfg_charset'] = array('HTML charset', '');
-$L['cfg_disablesysinfos'] = array('Zet pagina creatie tijd uit', '(in footer.tpl)');
-$L['cfg_doctypeid'] = array('Document Type', '&lt;!DOCTYPE&gt; van de HTML layout');
-$L['cfg_forcedefaulttheme'] = array('Forceer het standaard thema voor alle gebruikers', '');
-$L['cfg_homebreadcrumb'] = array('Zet Home in kruimelpad', 'Zet link naar hoofdpagina in kruimelpad');
-$L['cfg_keepcrbottom'] = array('Zet copyright in de tag {FOOTER_BOTTOMLINE}', '(in footer.tpl)');
-$L['cfg_metakeywords'] = array('HTML Meta keywords', '(komma gescheiden)');
-$L['cfg_msg_separate'] = array('Laat berichten los zien voor elke bron', '');
-$L['cfg_separator'] = array('Algemene separator', '(gebruikt in kruimelpad etc)');
-$L['cfg_showsqlstats'] = array('Laat SQL queries statistieken zien', '(gebruikt in footer.tpl)');
+$L['cfg_charset'] = 'HTML charset';
+$L['cfg_charset_hint'] = '';
+$L['cfg_disablesysinfos'] = 'Zet pagina creatie tijd uit';
+$L['cfg_disablesysinfos_hint'] = '(in footer.tpl)';
+$L['cfg_doctypeid'] = 'Document Type';
+$L['cfg_doctypeid_hint'] = '&lt;!DOCTYPE&gt; van de HTML layout';
+$L['cfg_forcedefaulttheme'] = 'Forceer het standaard thema voor alle gebruikers';
+$L['cfg_forcedefaulttheme_hint'] = '';
+$L['cfg_homebreadcrumb'] = 'Zet Home in kruimelpad';
+$L['cfg_homebreadcrumb_hint'] = 'Zet link naar hoofdpagina in kruimelpad';
+$L['cfg_keepcrbottom'] = 'Zet copyright in de tag {FOOTER_BOTTOMLINE}';
+$L['cfg_keepcrbottom_hint'] = '(in footer.tpl)';
+$L['cfg_metakeywords'] = 'HTML Meta keywords';
+$L['cfg_metakeywords_hint'] = '(komma gescheiden)';
+$L['cfg_msg_separate'] = 'Laat berichten los zien voor elke bron';
+$L['cfg_msg_separate_hint'] = '';
+$L['cfg_separator'] = 'Algemene separator';
+$L['cfg_separator_hint'] = '(gebruikt in kruimelpad etc)';
+$L['cfg_showsqlstats'] = 'Laat SQL queries statistieken zien';
+$L['cfg_showsqlstats_hint'] = '(gebruikt in footer.tpl)';
 
 /**
  * Config Section
  * Title Subsection
  */
 
-$L['cfg_maintitle'] = array('Site titel', 'Hoofd titel voor de website, verplicht');
-$L['cfg_subtitle'] = array('Beschrijving', 'Optioneel, wordt na de titel geplaatst');
-$L['cfg_title_header'] = array('Header titel', 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}');
-$L['cfg_title_header_index'] = array('Header Index titel', 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}');
-$L['cfg_title_users_details'] = array('Gebruiker details titel', 'Opties: {USER}, {NAME}');
-$L['cfg_subject_mail'] = array('E-mail onderwerp', 'Opties: {SITE_TITLE}, {SITE_DESCRIPTION}, {MAIL_SUBJECT}');
-$L['cfg_body_mail'] = array('E-mail titel', 'Opties: {SITE_TITLE}, {SITE_DESCRIPTION}, {SITE_URL}, {ADMIN_EMAIL}, {MAIL_BODY}, {MAIL_SUBJECT}');
+$L['cfg_maintitle'] = 'Site titel';
+$L['cfg_maintitle_hint'] = 'Hoofd titel voor de website, verplicht';
+$L['cfg_subtitle'] = 'Beschrijving';
+$L['cfg_subtitle_hint'] = 'Optioneel, wordt na de titel geplaatst';
+
+$L['cfg_title_header'] = 'Header titel';
+$L['cfg_title_header_hint'] = 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}';
+$L['cfg_title_header_index'] = 'Header Index titel';
+$L['cfg_title_header_index_hint'] = 'Opties: {MAINTITLE}, {DESCRIPTION}, {SUBTITLE}';
+$L['cfg_title_users_details'] = 'Gebruiker details titel';
+$L['cfg_title_users_details_hint'] = 'Opties: {USER}, {NAME}';
+$L['cfg_subject_mail'] = 'E-mail onderwerp';
+$L['cfg_subject_mail_hint'] = 'Opties: {SITE_TITLE}, {SITE_DESCRIPTION}, {MAIL_SUBJECT}';
+$L['cfg_body_mail'] = 'E-mail titel';
+$L['cfg_body_mail_hint'] = 'Opties: {SITE_TITLE}, {SITE_DESCRIPTION}, {SITE_URL}, {ADMIN_EMAIL}, {MAIL_BODY}, {MAIL_SUBJECT}';
 
 /**
  * Config Section
  * Users Subsection
  */
-$L['cfg_forcerememberme'] = array('Forceer &quot;onthoud mij&quot;', 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen');
-$L['cfg_timedout'] = array('Idle vertraging, in seconden', 'De gebruiker is afwezig na deze vertraging');
-$L['cfg_usertextimg'] = array('Sta afbeeldingen en HTML toe in handtekeningen', '\'Nee\' aanbevolen om veiligheidsredenen');
+$L['cfg_forcerememberme'] = 'Forceer &quot;onthoud mij&quot;';
+$L['cfg_forcerememberme_hint'] = 'Te gebruiken op multi-domein websites om plotselinge logouts te voorkomen';
+$L['cfg_timedout'] = 'Idle vertraging, in seconden';
+$L['cfg_timedout_hint'] = 'De gebruiker is afwezig na deze vertraging';
+$L['cfg_usertextimg'] = 'Sta afbeeldingen en HTML toe in handtekeningen';
+$L['cfg_usertextimg_hint'] = '\'Nee\' aanbevolen om veiligheidsredenen';
 
 /**
  * Config Section
  * Common strings
  */
-$L['cfg_css'] = array('Activeer module/plugin CSS');
-$L['cfg_editor'] = array('Rich text editor', '');
-$L['cfg_markup'] = array('Activeer opmaak', 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op uw systeem');
+$L['cfg_css'] = 'Activeer module/plugin CSS';
+$L['cfg_editor'] = 'Rich text editor';
+$L['cfg_editor_hint'] = '';
+$L['cfg_markup'] = 'Activeer opmaak';
+$L['cfg_markup_hint'] = 'Activeert HTML/BBcode of andere parsing die geinstalleerd is op het systeem';
 
 /**
  * Extension management
@@ -340,19 +410,6 @@ $L['adm_rights_maintenance'] = 'Toegang tot website in onderhoudsmodus';
 $L['adm_skiprights'] = 'Verzuim rechten voor deze groep';
 $L['adm_groups_name_empty'] = 'Groepsnaam mag niet leeg zijn';
 $L['adm_groups_title_empty'] = 'Groepslid titel mag niet leeg zijn';
-
-/**
- * Users Section
- * Extrafields Subsection
- */
-
-$L['adm_help_users_extrafield'] = '<b>Base HTML</b> automatisch geslecteerd indien blank<br /><br />
-<b>New tags in tpl files:</b><br /><br />
-users.profile.tpl: {USERS_PROFILE_XXXXX}, {USERS_PROFILE_XXXXX_TITLE}<br /><br />
-users.edit.tpl: {USERS_EDIT_XXXXX}, {USERS_EDIT_XXXXX_TITLE}<br /><br />
-users.details.tpl: {USERS_DETAILS_XXXXX}, {USERS_DETAILS_XXXXX_TITLE}<br /><br />
-user.register.tpl: {USERS_REGISTER_XXXXX}, {USERS_REGISTER_XXXXX_TITLE}<br /><br />
-forums.posts.tpl: {FORUMS_POSTS_ROW_USERXXXXX}, {FORUMS_POSTS_ROW_USERXXXXX_TITLE}<br />';
 
 /**
  * Plug Section
