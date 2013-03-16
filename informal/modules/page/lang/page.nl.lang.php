@@ -113,5 +113,6 @@ $L['page_status_expired'] = 'Verlopen';
 $L['pag_linesperpage'] = 'Regels per pagina';
 $L['pag_linesinthissection'] = 'Regels in deze sectie';
 
-$Ls['pages'] = "pagina\s,pagina";
-$Ls['unvalidated_pages'] = "ongevalideerde pagina\s,ongevalideerde pagina";
+$Ls['pages'] = "pagina\'s,pagina";
+$Ls['unvalidated_pages'] = "ongevalideerde pagina\'s,ongevalideerde pagina";
+$Ls['pages_in_drafts'] = "pagina\'s in concepten,pagina in concepten";
