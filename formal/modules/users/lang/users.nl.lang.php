@@ -20,5 +20,3 @@ $L['cfg_regrequireadmin'] = array('Administratoren moeten nieuwe gebruikers vali
 $L['cfg_user_email_noprotection'] = array('Schakel wachtwoord beveiliging uit bij e-mail wijziging', '\'Nee\' aanbevolen wegens beveiligings redenen');
 $L['cfg_useremailchange'] = array('Sta gebruikers toe e-mail adres te wijzigen', '\'Nee\' aanbevolen wegens beveiligings redenen');
 $L['cfg_usertextmax'] = array('Maximale lengte voor gebruikers handtekening', '');
-
-?>

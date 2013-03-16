@@ -19,15 +19,15 @@ defined('COT_CODE') or die('Wrong URL.');
  * forums.posts.tpl
  */
 
-$themelang['forumspost']['to'] = 'naar';	
-$themelang['forumspost']['post'] = 'Reageer';	
-$themelang['forumspost']['jump'] = 'Jumpbox';	
+$themelang['forumspost']['to'] = 'naar';
+$themelang['forumspost']['post'] = 'Reageer';
+$themelang['forumspost']['jump'] = 'Jumpbox';
 
 /**
  * forums.topics.tpl
  */
 $themelang['forumstopics']['Legend'] = 'Legenda';
-$themelang['forumstopics']['Start'] = 'Start nieuw onderwerp';	
+$themelang['forumstopics']['Start'] = 'Start nieuw onderwerp';
 
 /**
  * header.tpl
@@ -74,15 +74,15 @@ $themelang['pageadd']['down'] = 'Te downloaden';
 /**
  * page.edit.tpl
  */
- 
+
 $themelang['pageedit']['del'] = 'Prullenbak';
- 
+
 /**
  * pm.send.tpl
  */
- 
+
 $themelang['pmsend']['Sendmessagetohint'] = 'Maximaal 10 ontvangers, gescheiden met komma\'s';
- 
+
 /**
  * pm.tpl
  */
@@ -138,5 +138,3 @@ $themelang['usersregister']['Usernamehint'] = 'Gebruikersnaam moet minimaal uit 
 
 
 $themelang['search']['Generalhint'] = 'U kunt specifieker zoeken doormiddel van het selecteren van de gewenste categorieën en zoekopties. U kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'
-
-?>

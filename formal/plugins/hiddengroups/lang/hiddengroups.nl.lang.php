@@ -18,5 +18,3 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['cfg_mode'] = array('Stealth modus', 'Verberg gebruikers in de gebruikerslijst/wieisonline plugin wanneer de hoofdgroep of subgroep verborgen is.');
 
 $L['info_desc'] = 'Maak geselecteerde groepen en desbetreffende gebruikers onzichtbaar op meerdere afdelingen van de website.';
-
-?>

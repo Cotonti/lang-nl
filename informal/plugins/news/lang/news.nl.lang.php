@@ -32,5 +32,3 @@ $L['Unsetadd']= 'Gebruik geen additionele categorie wanneer deze hetzelfde is al
 $L['Newsautocut']='Limiet voor bericht lengte.';
 $L['Newsautocutdesc']='Dit zal alleen een specifiek aantal karakters tonen vanaf het begin van het nieuwsbericht. Standaard is deze optie uitgeschakeld.';
 $L['news_help'] = '';
-
-?>

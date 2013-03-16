@@ -92,5 +92,3 @@ $Ls['Comments'] = "reacties,reactie";
  */
 
 $L['plu_title'] = 'Reactie aanpassen';
-
-?>

@@ -23,5 +23,3 @@ $L['cfg_refprune'] = array('Verwijder referers ouder dan', 'dagen (0 - uitschake
 $L['cfg_userprune'] = array('Verwijder inactieve gebruikeraccounts ouder dan', 'dagen (0 - uitschakelen)');
 
 $L['info_desc'] = 'Periodiek logs, privéberichten, referers en inactieve gebruikers opschonen';
-
-?>

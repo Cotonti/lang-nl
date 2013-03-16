@@ -50,5 +50,3 @@ $L['rat_since'] = 'sinds';
 $L['rat_notyetrated'] = 'Nog niet beoordeeld';
 $L['rat_alreadyvoted'] = 'U heeft al gestemd op dit item.';
 $L['rat_registeredonly'] = 'Alleen geregistreerde gebruikers kunnen beoordelingen plaatsen.';
-
-?>

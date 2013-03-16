@@ -18,5 +18,3 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['Contact'] = 'Contact';
 $L['Follow_Twitter'] = 'Volg ons op Twitter!';
 $L['Sitemap'] = 'Sitemap';
-
-?>

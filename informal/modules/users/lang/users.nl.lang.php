@@ -27,5 +27,3 @@ $L['cfg_useremailchange'] = 'Sta gebruikers toe e-mail adres te wijzigen';
 $L['cfg_useremailchange_hint'] = '\'Nee\' aanbevolen wegens beveiligings redenen';
 $L['cfg_usertextmax'] = 'Maximale lengte voor gebruikers handtekening';
 $L['cfg_usertextmax_hint'] = '';
-
-?>

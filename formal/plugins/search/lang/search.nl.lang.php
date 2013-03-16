@@ -107,5 +107,3 @@ $L['cfg_addfields']= array('Additionele pagina velden voor zoeken, gescheiden me
 $L['cfg_extrafilters']= array('Geef extra filters weer op de zoekpagina');
 
 $L['info_desc'] = 'Zoek in pagina\'s, forums en andere afdelingen van de website met geavanceerde opties';
-
-?>

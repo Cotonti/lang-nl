@@ -60,5 +60,3 @@ $L['info_desc'] = 'Laat de gebruiker op 1 of meer opties stemmen';
 
 $L['polls_voterssince'] = 'stemmen sinds';
 $L['polls_allpolls'] = 'Alle polls';
-
-?>

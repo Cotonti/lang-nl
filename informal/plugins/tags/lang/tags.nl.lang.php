@@ -60,5 +60,3 @@ $L['cfg_sort_params'] = 'ID: ID, Title: Titel, Date: Datum, Category: Categorie'
 $L['cfg_title'] = 'Kapitaliseer de eerste letters van het keyword';
 $L['cfg_translit'] = 'Zet tags om in URLs';
 $L['cfg_css'] = 'Gebruik plugin\'s CSS';
-
-?>

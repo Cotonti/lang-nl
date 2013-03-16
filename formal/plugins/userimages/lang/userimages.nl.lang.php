@@ -33,5 +33,3 @@ $L['userimages_sigotvalid'] = 'Deze handtekening is geen geldige %1$s afbeelding
 $L['userimages_sigupload'] = 'Upload een handtekening';
 
 $L['userimages_help'] = '';
-
-?>

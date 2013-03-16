@@ -1,6 +1,6 @@
 <?php
 /**
- * User Dutch Language File for Nemesis Skin (nemsis.nl.lang.php)
+ * Dutch Language File for Nemesis Skin (nemsis.nl.lang.php)
  *
  * @package Cotonti
  * @version 0.9.0
@@ -18,5 +18,3 @@ defined('COT_CODE') or die('Wrong URL.');
 $L['Contact'] = 'Contact';
 $L['Follow_Twitter'] = 'Volg ons op Twitter!';
 $L['Sitemap'] = 'Sitemap';
-
-?>

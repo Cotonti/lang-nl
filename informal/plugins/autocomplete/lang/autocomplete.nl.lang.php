@@ -30,5 +30,3 @@ $L['cfg_css'] = 'Gebruik plugin CSS';
  */
 
 $L['plu_title'] = 'Autocomplete';
-
-?>

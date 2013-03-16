@@ -83,5 +83,3 @@ $Ls['Comments'] = array('reacties','reactie');
  */
 
 $L['plu_title'] = 'Reactie aanpassen';
-
-?>

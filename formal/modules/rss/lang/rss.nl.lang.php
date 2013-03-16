@@ -30,5 +30,3 @@ $L['info_desc'] = 'Genereert RSS/Atom feeds voor uw website';
 $L['rss_allforums_item_title'] = 'Laatste forum berichten';
 $L['rss_title'] = 'RSS';
 $L['rss_topic_item_desc'] = 'Laatste forum onderwerpen';
-
-?>

@@ -1,6 +1,6 @@
 <?php
 /**
- * User Dutch Language File for SymiSun-03 Skin (symisun-03.nl.lang.php)
+ * Dutch Language File for SymiSun-03 Skin (symisun-03.nl.lang.php)
  *
  * @package Cotonti
  * @version 0.9.0
@@ -19,15 +19,15 @@ defined('COT_CODE') or die('Wrong URL.');
  * forums.posts.tpl
  */
 
-$themelang['forumspost_to'] = 'naar';	
-$themelang['forumspost_post'] = 'Reageer';	
-$themelang['forumspost_jump'] = 'Jumpbox';	
+$themelang['forumspost_to'] = 'naar';
+$themelang['forumspost_post'] = 'Reageer';
+$themelang['forumspost_jump'] = 'Jumpbox';
 
 /**
  * forums.topics.tpl
  */
 $themelang['forumstopics_Legend'] = 'Legenda';
-$themelang['forumstopics_Start'] = 'Start nieuw onderwerp';	
+$themelang['forumstopics_Start'] = 'Start nieuw onderwerp';
 
 /**
  * header.tpl
@@ -74,20 +74,20 @@ $themelang['pageadd_down'] = 'Te downloaden';
 /**
  * page.edit.tpl
  */
- 
+
 $themelang['pageedit_del'] = 'Prullenbak';
- 
+
 /**
  * pm.send.tpl
  */
- 
+
 $themelang['pmsend_Sendmessagetohint'] = 'Maximaal 10 ontvangers, gescheiden met komma\'s';
- 
+
 /**
  * pm.tpl
  */
 
-$themelang['pm_pm'] = 'Priv�bericht';
+$themelang['pm_pm'] = 'Privébericht';
 $themelang['pm_to'] = 'Naar';
 $themelang['pm_Selectall'] = 'Selecteer alles';
 $themelang['pm_Unselectall'] = 'Deselecteer alles';
@@ -96,13 +96,13 @@ $themelang['pm_Unselectall'] = 'Deselecteer alles';
  * users.tpl
  */
 
-$themelang['users_login'] = 'Login op uw account';
+$themelang['users_login'] = 'Login op je account';
 
 /**
  * users.auth.tpl
  */
 $themelang['usersauth_already'] = 'Je bent al ingelogd!';
-$themelang['usersauth_goto'] = 'Ga naar uw account';
+$themelang['usersauth_goto'] = 'Ga naar je account';
 $themelang['usersauth_Maintenancereason'] = 'Reden';
 
 /**
@@ -137,6 +137,4 @@ $themelang['usersregister_Generalhint'] = 'Alle velden zijn verplicht';
 $themelang['usersregister_Usernamehint'] = 'Gebruikersnaam moet minimaal uit 2 karakters bestaan.';
 
 
-$themelang['search_Generalhint'] = 'Je kan specifieker zoeken doormiddel van het selecteren van de gewenste categorieën en zoekopties. Je kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'
-
-?>
+$themelang['search_Generalhint'] = 'Je kan specifieker zoeken doormiddel van het selecteren van de gewenste categorieÃ«n en zoekopties. Je kunt ook meer opties per afdeling instellen door op "Forums" of "Pagina\'s" te klikken.'

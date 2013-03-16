@@ -122,5 +122,3 @@ $L['pag_linesinthissection'] = 'Regels in deze sectie';
 
 $Ls['pages'] = array('pagina\s', 'pagina');
 $Ls['unvalidated_pages'] = array('ongevalideerde pagina\s', 'ongevalideerde pagina');
-
-?>

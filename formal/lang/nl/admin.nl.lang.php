@@ -516,5 +516,3 @@ $L['adm_help_cache'] = 'Niet beschikbaar';
 $L['adm_help_check1'] = 'Niet beschikbaar';
 $L['adm_help_check2'] = 'Niet beschikbaar';
 $L['adm_help_config']= 'Niet beschikbaar';
-
-?>

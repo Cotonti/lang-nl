@@ -43,4 +43,3 @@ $L['adm_help_trashcan'] = 'Dit is een lijst met items die recent naar de prullen
 $L['adm_trashcan_deleted'] = 'Item verwijderd';
 $L['adm_trashcan_prune'] = 'Prullenbak geleegd';
 $L['adm_trashcan_restored'] = 'Item hersteld';
-?>

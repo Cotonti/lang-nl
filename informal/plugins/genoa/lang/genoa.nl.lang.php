@@ -12,5 +12,3 @@
 defined('COT_CODE') or die('Wrong URL.');
 
 $L['info_desc'] = 'Compatibiliteits layer voor Cotonti 0.6 Genoa plugins. Maakt het mogelijk om oudere plugins te gebruiken. Performance kan verminderen.';
-
-?>

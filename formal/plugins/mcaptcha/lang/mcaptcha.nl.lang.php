@@ -12,4 +12,3 @@ $L['info_desc'] = 'Wiskundig CAPTCHA. Beveiligd uw website tegen spambots met si
 
 $L['mcaptcha_error'] = '- Maximaal aantal pogigingen bereikt, probeer het later opnieuw.';
 $L['captcha_verification_failed'] = '- CAPTCHA code incorrect.';
-?>

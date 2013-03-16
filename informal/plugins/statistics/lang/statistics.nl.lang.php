@@ -54,5 +54,3 @@ $L['plu_notloggedin'] = 'Niet beschikbaar, je bent niet ingelogd';
 $L['plu_membersbycountry'] = 'Geregistreerde gebruikers per land';
 $L['plu_flag'] = 'Vlag';
 $L['plu_unknown'] = 'Niet ingesteld';
-
-?>

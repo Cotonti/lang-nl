@@ -64,5 +64,3 @@ $L['cfg_sort_params'] = array(
 $L['cfg_title'] = array('Kapitaliseer de eerste letters van het keyword');
 $L['cfg_translit'] = array('Zet tags om in URLs');
 $L['cfg_css'] = 'Gebruik plugin\'s CSS';
-
-?>

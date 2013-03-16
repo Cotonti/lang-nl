@@ -25,5 +25,3 @@ $L['ipsearch_found1'] = 'Gevonden';
 $L['ipsearch_found2'] = 'Overeenkomsten voor';
 
 $L['ipsearch_help'] = 'Geen help beschikbaar voor deze plugin.';
-
-?>

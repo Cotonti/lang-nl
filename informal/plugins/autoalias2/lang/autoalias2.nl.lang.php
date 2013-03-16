@@ -33,5 +33,3 @@ $L['cfg_lowercase'] =  'Alias in kleine letters';
 
 $L['aliases_written'] = 'Aliases aangemaakt';
 $L['create_aliases'] = 'Maak alias van titel indien alias niet aanwezig is.';
-
-?>

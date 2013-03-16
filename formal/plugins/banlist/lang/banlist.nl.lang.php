@@ -25,5 +25,3 @@ $L['banlist_duration'] = 'Duur';
 $L['banlist_neverexpire'] = 'Nooit verlopen';
 
 $L['banlist_help'] = 'Voorbeelden van IP masks: 194.31.13.41, 194.31.13.*, 194.31.*.*, 194.*.*.*<br />Voorbeelden voor e-mail masks: @hotmail.com, @yahoo (Wildcards worden niet ondersteund)<br />Een regel kan 1 IP mask en/of e-mail mask bevatten. <br />IP\'s worden gefiltered voor elke pagina die wordt weergegeven. E-mail masks worden toegepast bij registraties.';
-
-?>

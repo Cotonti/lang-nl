@@ -30,5 +30,3 @@ $L['LastSeen'] = 'Laatst gezien';
 $L['Location'] = 'Locatie';
 $L['IPaddress'] = 'IP adres';
 $L['Visitor'] = 'Bezoekers';
-
-?>

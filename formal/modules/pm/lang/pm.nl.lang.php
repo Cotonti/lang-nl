@@ -67,5 +67,3 @@ $L['pm_selected'] = 'Geselecteerd';
 $L['pm_notify'] = 'Hallo %1$s,
 U heeft een nieuw privébericht ontvangen van %2$s.
 Klik op de volgende link om het privébericht te lezen: %3$s.';
-
-?>

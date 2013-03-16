@@ -74,5 +74,3 @@ $L['install_ver_invalid'] = '{$ver} &mdash; ongeldig!';
 $L['install_ver_valid'] = '{$ver} &mdash; geldig!';
 $L['install_view_site'] = 'Bekijk de website';
 $L['install_writable'] = 'Schrijfbaar';
-
-?>

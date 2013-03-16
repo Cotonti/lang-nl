@@ -29,5 +29,3 @@ $L['cfg_userprune'] = 'Verwijder inactieve gebruikeraccounts ouder dan';
 $L['cfg_userprune_hint'] = 'dagen (0 - uitschakelen)';
 
 $L['info_desc'] = 'Periodiek logs, privéberichten, referers en inactieve gebruikers opschonen';
-
-?>

@@ -119,5 +119,3 @@ $L['forums_confirm_delete_post'] = 'Weet je zeker dat je dit bericht wilt verwij
 $L['forums_polltooshort'] = 'Poll opties moeten gelijk zijn, of groter dan 2';
 $L['for_onlinestatus0'] = 'Gebruiker is offline';
 $L['for_onlinestatus1'] = 'Gebruiker is online';
-
-?>

@@ -42,4 +42,3 @@ Herstellen: zet items terug in database<br />
 $L['adm_trashcan_deleted'] = 'Item verwijderd';
 $L['adm_trashcan_prune'] = 'Prullenbak geleegd';
 $L['adm_trashcan_restored'] = 'Item hersteld';
-?>

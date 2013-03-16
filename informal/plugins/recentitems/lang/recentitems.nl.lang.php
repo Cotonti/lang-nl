@@ -70,5 +70,3 @@ $L['recentitems_posts_new_locked'] = 'Nieuwe berichten(gesloten)';
 $L['recentitems_posts_sticky_locked'] = 'Aankondiging';
 $L['recentitems_posts_new_sticky_locked'] = 'Nieuwe aankondiging';
 $L['recentitems_posts_moved'] = 'Verplaats naar andere sectie';
-
-?>

@@ -153,5 +153,3 @@ $themelang['usersprofile']['Emailnotes'] = '<p><b>E-mail transitie (Wanneer e-ma
 	<li>Mocht u een typfout hebben gemaakt, neem dan contact op met een administrator</li>
 </ol>
 <p><b>Wanneer het valideren niet vereist is wordt uw account direct geactiveerd.</b></p>';
-
-?>

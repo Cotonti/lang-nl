@@ -30,5 +30,3 @@ $L['cfg_preset'] = 'URL Preset';
 $L['cfg_preset_params'] = 'Handy,Genoa/Seditio compatibel,Aangepast urltrans.dat,Gedeactiveerd';
 
 $L['info_desc'] = 'Met deze plugin kan je aangepaste regels maken voor URL transformatie in het administratie paneel.';
-
-?>

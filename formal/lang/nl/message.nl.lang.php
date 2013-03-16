@@ -142,5 +142,3 @@ $L['msg950_body'] = 'Er deed zich een fout voor. Incorrecte URL?';
 
 $L['msg951_title'] = 'Sessie afgelopen';
 $L['msg951_body'] = 'Uw sessie is afgelopen. Probeer opnieuw.';
-
-?>

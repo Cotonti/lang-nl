@@ -16,5 +16,3 @@ $L['cfg_rel2abs'] = array('Relatieve links naar absoluut', 'Indien ingeschakeld 
 $L['cfg_tidylevel'] = array('Tidy niveau', 'Hoe intensief de HTML purifier markup fouten moet corrigeren');
 
 $L['info_desc'] = 'Zorgt dat de HTML content geldig, veilig en netjes is.';
-
-?>

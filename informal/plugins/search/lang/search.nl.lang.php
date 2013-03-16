@@ -109,5 +109,3 @@ $L['cfg_addfields_hint'] = '"Voorbeeld page_extra1,page_extra2,page_key"';
 $L['cfg_extrafilters'] = 'Geef extra filters weer op de zoekpagina';
 
 $L['info_desc'] = 'Zoek in pagina\'s, forums en andere afdelingen van de website met geavanceerde opties';
-
-?>
