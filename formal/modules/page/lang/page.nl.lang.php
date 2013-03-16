@@ -40,19 +40,6 @@ $L['cfg_order_params'] = array(); // Redefined in cot_page_config_order()
 $L['cfg_way_params'] = array($L['Oplopend'], $L['Aflopend']);
 
 /**
- * Extrafields Subsection
- */
-
-$L['adm_help_pages_extrafield'] = '<p><em>Base HTML</em> automatisch geslecteerd indien blank</p>
-<p class="margintop10"><b>Nieuwe tags in tpl bestanden:</b></p>
-<ul class="follow">
-<li>page.tpl: {PAGE_XXXXX}, {PAGE_XXXXX_TITLE}</li>
-<li>page.add.tpl: {PAGEADD_FORM_XXXXX}, {PAGEADD_FORM_XXXXX_TITLE}</li>
-<li>page.edit.tpl: {PAGEEDIT_FORM_XXXXX}, {PAGEEDIT_FORM_XXXXX_TITLE}</li>
-<li>page.list.tpl: {LIST_ROW_XXXXX}, {LIST_TOP_XXXXX}</li>
-</ul>';
-
-/**
  * Admin Page Section
  */
 
@@ -84,7 +71,9 @@ $L['page_catmissing'] = 'De categorie code is niet ingevuld';
 $L['page_clone'] = 'Kloon page';
 $L['page_confirm_delete'] = 'Weet u zeker dat u deze pagina wilt verwijderen?';
 $L['page_confirm_validate'] = 'Wilt u deze pagina valideren?';
-$L['page_confirm_validate'] = 'Wilt u deze pagina valideren?';
+$L['page_confirm_unvalidate'] = 'Weet u zeker dat u deze pagina wilt terug zetten in de validatie rij?';
+$L['page_drafts'] = 'Concepten';
+$L['page_drafts_desc'] = 'Pagina\'s in uw concepten';
 $L['page_notavailable'] = 'Deze pagina wordt gepubliceerd in ';
 $L['page_textmissing'] = 'Pagina tekst mag niet leeg zijn';
 $L['page_titletooshort'] = 'De titel is te kort';
