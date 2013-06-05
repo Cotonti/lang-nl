@@ -50,13 +50,13 @@ $L['aut_usernametooshort']= 'De gebruikersnaam moet minstens 2 tekens bevatten.'
  * User registration: messages
  */
 
-$L['aut_regrequest'] = 'Hallo %1$s,<br />Je account is nog niet actief. Een administrator zal zo spoedig mogelijk je account activeren.<br />Je ontvangt een e-mail wanneer je account actief is.<br /><br /><br />Wanneer de activatie compleet is kun je inloggen met de volgende gegevens:<br /><br />Gebruikersnaam = %1$s<br />Wachtwoord = %2$s';
+$L['aut_regrequest'] = 'Hallo %1$s,\n\nJe account is nog niet actief. Een administrator zal zo spoedig mogelijk je account activeren.\n\nJe ontvangt een e-mail wanneer je account actief is.';
 
 $L['aut_regreqnotice'] = 'Je ontvangt deze e-mail omdat %1$s een nieuw account aangevraagd heeft. Je kunt het account pas gebruiken wanneer het op \'actief\' gezet is via de volgende link: %2$s';
 
-$L['aut_emailreg'] = 'Hallo %1$s,<br /><br />Om je account te kunnen gebruiken dien je het te activeren door op de volgende link te klikken:<br />%3$s<br />Je kunt inloggen met de volgende gegevens:Gebruikersnaam = %1$s<br />Wachtwoord = %2$s<br /><br />Om je account te annuleren klik je op de volgende link:%4$s';
+$L['aut_emailreg'] = 'Hallo %1$s,\n\nOm je account te kunnen gebruiken dien je het te activeren door op de volgende link te klikken:\n\n%3$s\n\nOm je account te annuleren klik je op de volgende link:%4$s';
 
-$L['aut_emailchange'] = 'Hallo %1$s,<br /><br />Om je gewijzigde e-mail adres te bevestigen klik je op de volgende link:<br />%2$s';
+$L['aut_emailchange'] = 'Hallo %1$s,\n\nOm je gewijzigde e-mail adres te bevestigen klik je op de volgende link:\n\n%2$s';
 
 /**
  * User list
