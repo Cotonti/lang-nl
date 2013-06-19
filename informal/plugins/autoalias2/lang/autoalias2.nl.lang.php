@@ -15,6 +15,7 @@ defined('COT_CODE') or die('Wrong URL');
  * Plugin Info
  */
 
+$L['AutoAlias2'] = 'AutoAlias 2';
 $L['info_desc'] = 'Genereert automatisch een alias indien alias veld leeg gelaten is.';
 
 /**
@@ -31,5 +32,5 @@ $L['cfg_lowercase'] =  'Alias in kleine letters';
  * Plugin Admin
  */
 
-$L['aliases_written'] = 'Aliases aangemaakt';
+$L['aliases_written'] = 'Aliases aangemaakt: {$count}';
 $L['create_aliases'] = 'Maak alias van titel indien alias niet aanwezig is.';
